@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Site de monitoramento dos resultados das votações no Senado">
+    <meta name="keywords" content="legislativo, senador, senadores, Senado, Senado Federal, votação, PEC, PL, MP, medida provisória, política, Michel Temer, presidente, governo, eleição, reforma, open data, transparency, government, social participation, democracy, visualization, Congress, politics, Brasil, Brazil, Brasília, brazilian, election, Planalto, Câmara, Câmara dos Deputados, Renan Calheiros, Eunício Oliveira, Aécio Neves, PMDB, PSDB, PT, Rede, PSB, PSD, PPS, PCdoB, PDT, PTC, DEM, Lava Jato, Sérgio Moro">
+    <meta name="author" content="Gabriela Caesar">
+
+    <title>plenário</title>
+
+	<link rel="shortcut icon" type="image/ico" href="imagens/faviconGeneratorOrg.ico"/>
+
+    <link href="style.css" rel="stylesheet">
+
+ 
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+
+<body>
+	
+	
+
+<!-- aqui começa a minha primeira dobra -->
+<header>
+	<section class="container">
+		<button id="hamburgerMenu">
+				<span class="row"></span>
+				<span class="row"></span>
+				<span class="row"></span>
+		</button>
+
+	<nav id="hamburgerList" class="responsivList">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="senadores.html">Senadores</a></li>
+			<li><a href="proposicoes.html">Proposições</a></li>
+			<li><a href="sobre.html">Sobre</a></li>
+		</ul>
+	</nav>
+
+	<nav id="mainMenu" class="flex">
+		<nav id="leftMenu">
+			<ul class="flex">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="senadores.html">Senadores</a></li>
+				<li><a href="proposicoes.html">Proposições</a></li>
+				<li><a href="sobre.html">Sobre</a></li>
+			</ul>
+		</nav>
+
+		<nav id="socialMedia" class="visivel">
+			<div id="socialTop">
+				<a href="#" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+				<a href="#" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+				<a href="#" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+				<a href="#" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a>
+				<a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+			</div>
+		</nav>
+	</nav>
+	</section>
+</header>
+
+<!-- aqui começa o menu lateral, durante o scroll -->
+
+<aside>
+	<nav id="socialMediaScroll">
+			<div id="socialScroll">
+				<a href="#" target="_blank"><i class="fa colorBlack fa-twitter-square" aria-hidden="true"></i></a>
+				<a href="#" target="_blank"><i class="fa colorBlack fa-facebook-square" aria-hidden="true"></i></a>
+				<a href="#" target="_blank"><i class="fa colorBlack fa-github" aria-hidden="true"></i></a>
+				<a href="#" target="_blank"><i class="fa colorBlack fa-medium" aria-hidden="true"></i></a>
+				<a href="#" target="_blank"><i class="fa colorBlack fa-instagram" aria-hidden="true"></i></a>
+			</div>
+		</nav>
+</aside>
+
+
+	<section class="container">
+		<div class="proposicaoIntro" alt="Foto: Ana Volpe/Agência Senado - 22.fev.2013">
+			<h1>proposições</h1>
+			<h2>propostas, medidas provisórias e projetos votados no Senado</h2>
+		</div>
+	</section>
+
+	<section class="container">
+		<a class="proposicaoLink" href="proposicao.html">
+			<div class="proposicaoBox">
+				<div class="boxChart"><!-- este aqui é o meu donut chart -->
+					<canvas id="myFirstChart"></canvas>
+				</div>
+				<div class="boxContent">
+					<div class="contentTitle"><!-- este aqui é o nome da proposição -->
+						<p>PEC do teto dos gastos públicos - 1º turno</p>
+					</div>
+					<div class="date">
+						<p>29 de novembro de 2016</p>
+					</div>
+					<div class="contentSubtitle"><!-- este aqui é a descrição da proposição -->
+						<p>A PEC 55 de 2016 altera o Ato das Disposições Constitucionais Transitórias, para instituir o Novo Regime Fiscal, e dá outras providências. A proposta já foi aprovada, em dois turnos, por mais de 3/5 de deputados e senadores. A promulgação da PEC ocorreu em 15 de dezembro de 2016.</p>
+					</div>
+					<div class="contentResult flex"><!-- este aqui é o resultado final da votação da proposição-->
+						<div class="resultLabel">
+							<table>
+								<tr>
+									<td>A favor</td>
+									<td>Contra</td>
+									<td>Abstenção</td>
+									<td>Ausência</td>
+								</tr>
+								<tr>
+									<td>61</td>
+									<td>14</td>
+									<td>0</td>
+									<td>5</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</a>
+	</section>
+
+	<section class="container">
+		<div class="proposicaoBox"><!-- este aqui é o meu donut chart -->
+			<div class="boxChart">
+				<canvas id="mySecondChart"></canvas>
+			</div>
+			<div class="boxContent">
+				<div class="contentTitle"><!-- este aqui é o nome da proposição -->
+					<p>PEC do teto dos gastos públicos - 2º turno</p>
+				</div>
+				<div class="date">
+					<p>13 de dezembro de 2016</p>
+				</div>
+				<div class="contentSubtitle"><!-- este aqui é a descrição da proposição -->
+					<p>A <a href="https://www25.senado.leg.br/web/atividade/materias/-/materia/127337" target="_blank">PEC 55 de 2016</a> altera o Ato das Disposições Constitucionais Transitórias, para instituir o Novo Regime Fiscal, e dá outras providências. A proposta já foi aprovada, em dois turnos, por mais de 3/5 de deputados e senadores. A promulgação da PEC ocorreu em 15 de dezembro de 2016.</p>
+				</div>
+				<div class="contentResult flex"><!-- este aqui é o resultado final da votação da proposição-->
+					<div class="resultLabel">
+						<table>
+							<tr>
+								<td>A favor</td>
+								<td>Contra</td>
+								<td>Abstenção</td>
+								<td>Ausência</td>
+							</tr>
+							<tr>
+								<td>53</td>
+								<td>16</td>
+								<td>1</td>
+								<td>1</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="container">
+		<div class="proposicaoBox"><!-- este aqui é o meu donut chart -->
+			<div class="boxChart">
+				<canvas id="myThirdChart"></canvas>
+			</div>
+			<div class="boxContent">
+				<div class="contentTitle"><!-- este aqui é o nome da proposição -->
+					<p>PEC do foro privilegiado - 1º turno</p>
+				</div>
+				<div class="date">
+					<p>26 de abril de 2017</p>
+				</div>
+				<div class="contentSubtitle"><!-- este aqui é a descrição da proposição -->
+					<p>A <a href="http://www25.senado.leg.br/web/atividade/materias/-/materia/111574" target="_blank">PEC 10 de 2013</a> altera os artigos 102, 105, 108 e 125 da Constituição Federal para extinguir o foro especial por prerrogativa de função nos casos de crimes comuns. A relatoria foi do senador Alvaro Dias (PV-PR). O texto ainda precisa ser votado em 2º turno no Senado para ir para a Câmara.</p>
+				</div>
+				<div class="contentResult flex"><!-- este aqui é o resultado final da votação da proposição-->
+					<div class="resultLabel">
+						<table>
+							<tr>
+								<td>A favor</td>
+								<td>Contra</td>
+								<td>Abstenção</td>
+								<td>Ausência</td>
+							</tr>
+							<tr>
+								<td>75</td>
+								<td>0</td>
+								<td>0</td>
+								<td>6</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="container">
+		<div class="proposicaoBox"><!-- este aqui é o meu donut chart -->
+			<div class="boxChart">
+				<canvas id="myFourthChart"></canvas>
+			</div>
+			<div class="boxContent">
+				<div class="contentTitle"><!-- este aqui é o nome da proposição -->
+					<p>Medida provisória do ensino médio</p>
+				</div>
+				<div class="date">
+					<p>8 de fevereiro de 2017</p>
+				</div>
+				<div class="contentSubtitle"><!-- este aqui é a descrição da proposição -->
+					<p>A <a href="https://www25.senado.leg.br/web/atividade/materias/-/materia/126992" target="_blank">MP 746 de 2016</a> instituiu a Política de Fomento à Implementação de Escolas de Ensino Médio em Tempo Integral e fez alterações na lei que regulamenta o Fundo de Manutenção e Desenvolvimento da Educação Básica e de Valorização dos Profissionais da Educação.</p>
+				</div>
+				<div class="contentResult flex"><!-- este aqui é o resultado final da votação da proposição-->
+					<div class="resultLabel">
+						<table>
+							<tr>
+								<td>A favor</td>
+								<td>Contra</td>
+								<td>Abstenção</td>
+								<td>Ausência</td>
+							</tr>
+							<tr>
+								<td>43</td>
+								<td>13</td>
+								<td>0</td>
+								<td>15</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="container">
+		<div class="proposicaoBox"><!-- este aqui é o meu donut chart -->
+			<div class="boxChart">
+				<canvas id="myFifthChart"></canvas>
+			</div>
+			<div class="boxContent">
+				<div class="contentTitle"><!-- este aqui é o nome da proposição -->
+					<p>Indicação de Alexandre de Moraes para o Supremo</p>
+				</div>
+				<div class="date">
+					<p>22 de fevereiro de 2017</p>
+				</div>
+				<div class="contentSubtitle"><!-- este aqui é a descrição da proposição -->
+					<p>Os senadores sabatinaram e aprovaram a <a href="http://www25.senado.leg.br/web/atividade/materias/-/materia/127970" target="_blank">indicação</a> do ex-ministro de Justiça Alexandre de Moraes para compor o STF (Supremo Tribunal Federal).</p>
+				</div>
+				<div class="contentResult flex"><!-- este aqui é o resultado final da votação da proposição-->
+					<div class="resultLabel">
+						<table>
+							<tr>
+								<td>A favor</td>
+								<td>Contra</td>
+								<td>Abstenção</td>
+								<td>Ausência</td>
+							</tr>
+							<tr>
+								<td>55</td>
+								<td>13</td>
+								<td>0</td>
+								<td>13</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="container">
+			<footer class="flex">
+				<p>Com <i class="fa fa-heart" aria-hidden="true"></i> por Gabriela Caesar</p>
+			</footer>
+	</section>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
+	<script src="script.js"></script>
+	<script src="mycharts.js"></script>
+</body>
+</html>
