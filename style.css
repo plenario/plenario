@@ -547,7 +547,7 @@ footer .fa {
 	align-items: center;
 }
 
-#myFirstChart, #mySecondChart, #myThirdChart, #myFourthChart, #myFifthChart {
+#pecTeto2Chart, #pecTeto1Chart, #dilma2Chart, #dilma1Chart, #reformaEnsinoMedioChart, #vaquejada1Chart, #vaquejada2Chart, #foroPrivilegiado1Chart, #abusoDeAutoridadeChart, #socorroAosEstadosChart, #foroPrivilegiado2Chart, #reformaTrabalhistaChart, #pecTeto1Chartv2 {
 	width: 30vw;
 	height: 30vh;
 	max-width: 100%;
@@ -586,20 +586,24 @@ footer .fa {
 	font-size: 20px;
 }
 
-.contentResult .resultLabel tr:first-child td:first-child {
+.contentResult .resultLabel .greenLine {
 	border-bottom: 3px green solid;
 }
 
-.contentResult .resultLabel tr:first-child td:nth-child(2){
+.contentResult .resultLabel .redLine {
 	border-bottom: 3px red solid;
 }
 
-.contentResult .resultLabel tr:first-child td:nth-child(3){
+.contentResult .resultLabel .orangeLine {
 	border-bottom: 3px orange solid;
 }
 
-.contentResult .resultLabel tr:first-child td:last-child{
-	border-bottom: 3px gray solid;
+.contentResult .resultLabel .purpleLine {
+	border-bottom: 3px purple solid;
+}
+
+.contentResult .resultLabel .grayLine {
+	border-bottom: 3px lightgray solid;
 }
 
 .resultLabelSenador.flex {
@@ -623,6 +627,21 @@ footer .fa {
 .resultLabelSenador.flex.contra {
 	border: 2px red solid;
 	background-color: red;
+}
+
+.resultLabelSenador.flex.naoVotou {
+	border: 2px orange solid;
+	background-color: orange;
+}
+
+.resultLabelSenador.flex.abstencao {
+	border: 2px purple solid;
+	background-color: purple;
+}
+
+.resultLabelSenador.flex.ausente {
+	border: 2px lightgray solid;
+	background-color: lightgray;
 }
 
 /* aqui começa a estilização do meu proposicao.html */
@@ -653,6 +672,10 @@ footer .fa {
 
 .red { 
 	background: red;
+}
+
+.purple {
+	background: purple;
 }
 
 .orange {
@@ -734,6 +757,21 @@ footer .fa {
 
 .senadoresBox.contra {
 	border: 5px solid red !important;
+	box-shadow: 5px solid #9E9E9E !important;
+}
+
+.senadoresBox.naoVotou {
+	border: 5px solid orange !important;
+	box-shadow: 5px solid #9E9E9E !important;
+}
+
+.senadoresBox.abstencao {
+	border: 5px solid purple !important;
+	box-shadow: 5px solid #9E9E9E !important;
+}
+
+.senadoresBox.ausente {
+	border: 5px solid lightgray !important;
 	box-shadow: 5px solid #9E9E9E !important;
 }
 
@@ -1333,7 +1371,7 @@ input.searchName {
 	justify-content: center;
 	}
 
-	.boxChart #myFirstChart, #mySecondChart, #myThirdChart, #myFourthChart, #myFifthChart {
+	#pecTeto2Chart, #pecTeto1Chart, #dilma2Chart, #dilma1Chart, #reformaEnsinoMedioChart, #vaquejada1Chart, #foroPrivilegiado1Chart, #abusoDeAutoridadeChart, #socorroAosEstadosChart, #foroPrivilegiado2Chart, #reformaTrabalhistaChart, #pecTeto1Chartv2 {
 	width: 40vw;
 	height: 40vh;
 	max-width: 100%;
