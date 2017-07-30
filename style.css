@@ -242,8 +242,10 @@ aside .fa:hover {
 	padding: 0 80px;
 }
 
-.description .items.content {
-	width: 60%;
+.description .items.content.flex {
+	width: 90%;
+	flex-direction: column;
+	align-items: center;
 }
 
 .item {
@@ -273,7 +275,7 @@ aside .fa:hover {
 	border-bottom: none;
 }
 
-.description #device {
+/*.description #device {
 	width: 40%;
 	opacity: 0.3;
 	text-align: center;
@@ -281,7 +283,7 @@ aside .fa:hover {
 
 #device img {
 	width: 400px;
-}
+}*/
 
 /* aqui começa a minha terceira dobra */
 
@@ -1038,10 +1040,10 @@ input.searchName {
 	font-size: 50px;
 	}
 
-	#device img {
+/*	#device img {
 	width: 400px;
 	object-fit: contain;
-	}
+	}*/
 
 	.cards .card .cardTitle {
 	}
@@ -1144,10 +1146,10 @@ input.searchName {
 	font-size: 20px;
 	}
 
-	#device img {
+/*	#device img {
 	display: none;
 	}
-
+*/
 	.cards {
 	height: auto;
 	}
