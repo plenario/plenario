@@ -1,9 +1,6 @@
 //read all the documentation on http://www.chartjs.org/
 //my chart about "PEC do teto dos gastos públicos - 2º turno" with chartjs code
 
-
-//my chart about "PEC do teto dos gastos públicos - 2º turno" with chartjs code
-
 var pecTeto2Chart;
 var data = [
   {
@@ -390,8 +387,8 @@ var options = {
 };
 
 //Get the context of the canvas element we want to select
-var ctx = document.getElementById("reformaTrabalhistaChart")
-                  .getContext("2d");
+var canvas = document.getElementById("canvas-id-here");
+var ctx = canvas && canvas.getContext("2d");
 
 reformaTrabalhistaChart = new Chart(ctx).Doughnut(data, options);
 
