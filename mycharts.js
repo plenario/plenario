@@ -25,10 +25,10 @@ var options = {
 };
 
 //Get the context of the canvas element we want to select
-var ctx = document.getElementById("pecTeto2Chart")
-                  .getContext("2d");
+var canvas = document.getElementById("pecTeto2Chart");
+var ctx = canvas && canvas.getContext("2d");
 
-pecTeto2Chart = new Chart(ctx).Doughnut(data, options);
+pecTeto2Chart = ctx && new Chart(ctx).Doughnut(data, options);
 
 
 
@@ -58,10 +58,10 @@ var options = {
 };
 
 //Get the context of the canvas element we want to select
-var ctx = document.getElementById("pecTeto1Chart")
-                  .getContext("2d");
+var canvas = document.getElementById("pecTeto1Chart");
+var ctx = canvas && canvas.getContext("2d");
 
-pecTeto1Chart = new Chart(ctx).Doughnut(data, options);
+pecTeto1Chart = ctx && new Chart(ctx).Doughnut(data, options);
 
 
 
@@ -88,10 +88,10 @@ var options = {
 };
 
 //Get the context of the canvas element we want to select
-var ctx = document.getElementById("dilma2Chart")
-                  .getContext("2d");
+var canvas = document.getElementById("dilma2Chart");
+var ctx = canvas && canvas.getContext("2d");
 
-dilma2Chart = new Chart(ctx).Doughnut(data, options);
+dilma2Chart = ctx && new Chart(ctx).Doughnut(data, options);
 
 
 
@@ -116,10 +116,10 @@ var options = {
 };
 
 //Get the context of the canvas element we want to select
-var ctx = document.getElementById("dilma1Chart")
-                  .getContext("2d");
+var canvas = document.getElementById("dilma1Chart");
+var ctx = canvas && canvas.getContext("2d");
 
-dilma1Chart = new Chart(ctx).Doughnut(data, options);
+dilma1Chart = ctx && new Chart(ctx).Doughnut(data, options);
 
 
 //my fourth chart with chartjs code
@@ -145,10 +145,10 @@ var options = {
 };
 
 //Get the context of the canvas element we want to select
-var ctx = document.getElementById("reformaEnsinoMedioChart")
-                  .getContext("2d");
+var canvas = document.getElementById("reformaEnsinoMedioChart");
+var ctx = canvas && canvas.getContext("2d");
 
-reformaEnsinoMedioChart = new Chart(ctx).Doughnut(data, options);
+reformaEnsinoMedioChart = ctx && new Chart(ctx).Doughnut(data, options);
 
 
 
@@ -182,10 +182,10 @@ var options = {
 };
 
 //Get the context of the canvas element we want to select
-var ctx = document.getElementById("vaquejada1Chart")
-                  .getContext("2d");
+var canvas = document.getElementById("vaquejada1Chart");
+var ctx = canvas && canvas.getContext("2d");
 
-vaquejada1Chart = new Chart(ctx).Doughnut(data, options);
+vaquejada1Chart = ctx && new Chart(ctx).Doughnut(data, options);
 
 
 //my chart about "PEC da vaquejada - 2º turno" with chartjs code
@@ -217,10 +217,10 @@ var options = {
 };
 
 //Get the context of the canvas element we want to select
-var ctx = document.getElementById("vaquejada2Chart")
-                  .getContext("2d");
+var canvas = document.getElementById("vaquejada2Chart");
+var ctx = canvas && canvas.getContext("2d");
 
-vaquejada2Chart = new Chart(ctx).Doughnut(data, options);
+vaquejada2Chart = ctx && new Chart(ctx).Doughnut(data, options);
 
 
 
@@ -244,10 +244,10 @@ var options = {
 };
 
 //Get the context of the canvas element we want to select
-var ctx = document.getElementById("foroPrivilegiado1Chart")
-                  .getContext("2d");
+var canvas = document.getElementById("foroPrivilegiado1Chart");
+var ctx = canvas && canvas.getContext("2d");
 
-foroPrivilegiado1Chart = new Chart(ctx).Doughnut(data, options);
+foroPrivilegiado1Chart = ctx && new Chart(ctx).Doughnut(data, options);
 
 
 
@@ -279,10 +279,10 @@ var options = {
 };
 
 //Get the context of the canvas element we want to select
-var ctx = document.getElementById("abusoDeAutoridadeChart")
-                  .getContext("2d");
+var canvas = document.getElementById("abusoDeAutoridadeChart");
+var ctx = canvas && canvas.getContext("2d");
 
-abusoDeAutoridadeChart = new Chart(ctx).Doughnut(data, options);
+abusoDeAutoridadeChart = ctx && new Chart(ctx).Doughnut(data, options);
 
 
 
@@ -315,10 +315,10 @@ var options = {
 };
 
 //Get the context of the canvas element we want to select
-var ctx = document.getElementById("socorroAosEstadosChart")
-                  .getContext("2d");
+var canvas = document.getElementById("socorroAosEstadosChart");
+var ctx = canvas && canvas.getContext("2d");
 
-socorroAosEstadosChart = new Chart(ctx).Doughnut(data, options);
+socorroAosEstadosChart = ctx && new Chart(ctx).Doughnut(data, options);
 
 
 
@@ -350,10 +350,10 @@ var options = {
 };
 
 //Get the context of the canvas element we want to select
-var ctx = document.getElementById("foroPrivilegiado2Chart")
-                  .getContext("2d");
+var canvas = document.getElementById("foroPrivilegiado2Chart");
+var ctx = canvas && canvas.getContext("2d");
 
-foroPrivilegiado2Chart = new Chart(ctx).Doughnut(data, options);
+foroPrivilegiado2Chart = ctx && new Chart(ctx).Doughnut(data, options);
 
 
 
@@ -387,7 +387,7 @@ var options = {
 };
 
 //Get the context of the canvas element we want to select
-var canvas = document.getElementById("canvas-id-here");
+var canvas = document.getElementById("reformaTrabalhistaChart");
 var ctx = canvas && canvas.getContext("2d");
 
-reformaTrabalhistaChart = new Chart(ctx).Doughnut(data, options);
+reformaTrabalhistaChart = ctx && new Chart(ctx).Doughnut(data, options);
