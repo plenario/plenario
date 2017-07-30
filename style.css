@@ -234,7 +234,7 @@ aside .fa:hover {
 	height: 100vh;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 	background-color: black;
 	background-repeat: no-repeat;
