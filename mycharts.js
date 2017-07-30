@@ -358,7 +358,7 @@ foroPrivilegiado2Chart = new Chart(ctx).Doughnut(data, options);
 
 
 
-//my chart about "PEC do foro privilegiado - 2º turno" with chartjs code
+//my chart about "Reforma trabalhista" with chartjs code
 
 var reformaTrabalhistaChart;
 var data = [
@@ -391,5 +391,3 @@ var canvas = document.getElementById("canvas-id-here");
 var ctx = canvas && canvas.getContext("2d");
 
 reformaTrabalhistaChart = new Chart(ctx).Doughnut(data, options);
-
-
