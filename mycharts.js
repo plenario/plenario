@@ -122,7 +122,7 @@ var ctx = canvas && canvas.getContext("2d");
 dilma1Chart = ctx && new Chart(ctx).Doughnut(data, options);
 
 
-//my fourth chart with chartjs code
+//my chart about "reforma do ensino médio" with chartjs code
 
 var reformaEnsinoMedioChart;
 var data = [
@@ -250,9 +250,6 @@ var ctx = canvas && canvas.getContext("2d");
 foroPrivilegiado1Chart = ctx && new Chart(ctx).Doughnut(data, options);
 
 
-
-
-
 //my chart about "projeto sobre abuso de autoridade" with chartjs code
 
 var abusoDeAutoridadeChart;
@@ -283,10 +280,6 @@ var canvas = document.getElementById("abusoDeAutoridadeChart");
 var ctx = canvas && canvas.getContext("2d");
 
 abusoDeAutoridadeChart = ctx && new Chart(ctx).Doughnut(data, options);
-
-
-
-
 
 
 //my chart about "projeto sobre socorro aos estados" with chartjs code
@@ -321,9 +314,6 @@ var ctx = canvas && canvas.getContext("2d");
 socorroAosEstadosChart = ctx && new Chart(ctx).Doughnut(data, options);
 
 
-
-
-
 //my chart about "PEC do foro privilegiado - 2º turno" with chartjs code
 
 var foroPrivilegiado2Chart;
@@ -354,8 +344,6 @@ var canvas = document.getElementById("foroPrivilegiado2Chart");
 var ctx = canvas && canvas.getContext("2d");
 
 foroPrivilegiado2Chart = ctx && new Chart(ctx).Doughnut(data, options);
-
-
 
 
 //my chart about "Reforma trabalhista" with chartjs code
