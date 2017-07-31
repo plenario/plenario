@@ -611,14 +611,20 @@ footer .fa {
 .resultLabelSenador.flex {
 	justify-content: center;
 	opacity: 0.7;
-	margin: 20px 50px;
-	border-radius: 1%;
+	/*margin: 20px 50px;*/
+	border-radius: 2%;
+	width: 300px;
+	height: 55px;
+	align-self: center;
 }
 
 .resultLabelSenador.flex p {
 	color: white;
 	font-size: 150%;
 	font-weight: 700;
+	align-self: center;
+	align-items: center;
+
 }
 
 .resultLabelSenador.flex.aFavor {
@@ -642,8 +648,8 @@ footer .fa {
 }
 
 .resultLabelSenador.flex.ausente {
-	border: 2px lightgray solid;
-	background-color: lightgray;
+	border: 2px gray solid;
+	background-color: gray;
 }
 
 /* aqui começa a estilização do meu proposicao.html */
