@@ -1,0 +1,1539 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Rubik|Signika');
+
+* {
+	box-sizing: none;
+	font-family: 'Lato', 'Rubik', 'Signika', Helvetica, sans-serif;
+	margin: 0;
+}
+
+header {
+	
+}
+
+ul {
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none !important;
+	cursor: pointer;
+}
+
+a:hover {
+	color: #FFBF00;
+}
+
+a:hover i {
+	color: #FFBF00;
+}
+
+
+/* aqui começa o meu menu */
+
+.container {
+	padding: 0;
+	max-width: 1920px;
+	margin: 0 auto;
+}
+
+#hamburgerMenu {
+	display: none;
+	width: 50px;
+	height: 50px;
+	border: #FFBF00 3px solid;
+	background: none;
+	position: absolute;
+	z-index: 1000;
+	left: 5px;
+	top: 5px;
+	margin: 15px;
+}
+
+#hamburgerMenu .row {
+	width: 100%;
+	height: 2px;
+	margin: 6px 0px;
+	display: block;
+	background: #FFBF00;
+}
+
+#hamburgerMenu.clicked {
+	margin: 15px;
+}
+
+
+#hamburgerList {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	background: black;
+	z-index: 999;
+} 
+
+#hamburgerList li {
+	padding: 20px;
+}
+
+#hamburgerList a {
+	font-size: 200%;
+	color: white;
+}
+
+#hamburgerList li:hover, #hamburgerList a:hover {
+	background: #FFBF00;
+	color: black;
+	font-weight: 700;
+}
+
+.responsivList {
+	display: none;
+}
+
+.responsivList.visible {
+	display: block;
+}
+
+.responsivList.visible ul {
+	padding-top: 70px;
+}
+
+#mainMenu {
+	position: fixed;
+	z-index: 667;
+	background: black;
+	width: 100%;
+	transition: 1s ease-in-out;
+}
+
+#mainMenu.hidden {
+  	transform: translateY(100%);
+}
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+#leftMenu a, #leftMenu li {
+	padding: 20px;
+	color: white;
+	font-size: 25px;
+}
+
+#leftMenu li:first-child {
+	margin-left: 120px;
+}
+
+#leftMenu a:hover, #leftMenu li:hover {
+	background: #FFBF00;
+	color: black;
+	font-weight: 700;
+}
+
+nav .fa {
+	color: white;
+	font-size: 30px;
+	padding: 20px;
+}
+
+nav .fa.colorBlack {
+	color: black;
+	font-size: 30px;
+	padding: 20px;
+}
+
+#socialMedia {
+	display: none;
+}
+
+#socialMedia a:last-child {
+	margin-right: 120px;
+}
+
+
+/*aqui começa o menu do social media SCROLL */
+
+#socialMediaScroll {
+	display: none;
+	z-index: 700;
+	position: fixed;
+	left: 0;
+	top: 50%;
+}
+
+#socialScroll {
+	display: flex;
+	flex-direction: column;
+}
+
+.visivel {
+	display: block !important;
+}
+
+aside.blackFa .fa {
+	color: black;
+}
+
+aside .fa:hover {
+	color: #FFBF00;
+}
+
+
+/* aqui começa a minha primeira dobra */
+
+.title {
+	height: 100vh;
+	background-image: url("imagens/Foto12EdilsonRodriguesAgenciaSenado13dez2016pbblur.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: top;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.title h1, .title h2 {
+	z-index: 666;
+	color: white;
+	text-align: center;
+}
+
+.title h1 {
+	font-size: 150px;
+	font-weight: 700;
+	font-family: 'Signika', Helvetica, sans-serif;
+}
+
+.title h2 {
+	font-size: 70px;
+	font-weight: 400;
+	border-bottom: 2px #FFBF00 solid;
+	font-family: 'Lato', Helvetica, sans-serif;
+}
+
+.title img {
+	object-fit: cover;
+	z-index: -666;
+}
+
+.overlay {
+    background-color: #000000;
+    opacity: 0.95;
+}
+
+/* aqui começa a meu segunda dobra */
+
+.description {
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	background-repeat: no-repeat;
+	background-size: 1000px;
+	padding: 0 80px;
+}
+
+.description .items.content.flex {
+	width: 90%;
+	flex-direction: column;
+	align-items: center;
+}
+
+.item {
+	max-width: 850px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 1px #FFBF00 solid;
+}
+
+.item img {
+	align-self: center;
+	width: 20%;
+	padding-right: 100px;
+	padding-top: 15px;
+}
+
+.item p {
+	align-self: center;
+	width: 50%;
+	font-size: 25px;
+	color: white;
+}
+
+.items > .item:last-child {
+	border-bottom: none;
+}
+
+/*.description #device {
+	width: 40%;
+	opacity: 0.3;
+	text-align: center;
+}
+
+#device img {
+	width: 400px;
+}*/
+
+/* aqui começa a minha terceira dobra */
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	height: 100vh;
+	justify-content: space-between;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background: black;
+	padding: 0 50px;
+}
+
+.card {
+	border: 3px white solid;
+	flex: 23%;
+	height: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	flex-wrap: wrap;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 25px;
+	position: relative;
+	max-width: 100%;
+}
+
+.cards .card:hover:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #FFBF00;
+	opacity: 0.6;
+}
+
+.cards .card:hover p {
+	color: white;
+	font-size: 250%;
+}
+
+.cards .card .cardTitle {
+	font-size: 200%;
+	font-weight: 400;
+	text-align: center;
+	color: #FFBF00;
+	position: absolute;
+	padding-bottom: 20px;
+	z-index: 1;
+}
+
+.cards .card .cardTitle p:hover {
+	opacity: 0.8;
+}
+
+.cards .card:after {
+	content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(180deg,transparent 0,transparent 50%,rgb(0, 0, 0));
+}
+
+.cards .card.one {
+	background-image: url("imagens/Foto2AnaVolpeAgenciaSenado13dez2016pb.jpg");
+}
+
+.cards .card.two {
+	background-image: url("imagens/Foto2JeffersonRudyAgenciaSenado2mai2017pb.jpg");
+}
+
+.cards .card.three {
+	background-image: url("imagens/FotoAnaVolpeAgenciaSenado8fev2017pb.jpg");
+}
+
+.cards .card.four {
+	background-image: url("imagens/FotoWaldemirBarretoAgenciaSenado26abr2017pb.jpg");
+}
+
+.cards .card.five {
+	background-image: url("imagens/Foto4EdilsonRodriguesAgenciaSenado29ago2016pb.jpg");
+}
+
+.cards .card.six {
+	background-image: url("imagens/Foto31GeraldoMagelaAgenciaSenado1dez2016pb.jpg");
+}
+
+
+/* aqui começa a minha quarta dobra */
+
+#newsletter {
+	height: 100vh;
+	background-image: url("imagens/Foto2EdilsonRodriguesAgenciaSenado13dez2016pbblur.jpg");
+	background-size: cover;
+	background-position: left;
+	background-repeat: no-repeat;
+	z-index: -56;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+
+#newsletter p {
+	color: #FACC2E;
+	z-index: 40;
+}
+
+#newsletter p:first-child {
+	font-size: 40px;
+}
+
+#newsletter p:nth-child(2) {
+	font-size: 30px;
+}
+
+#newsletter input {
+	border-bottom: 1.5px #FFBF00 solid;
+	background: none;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+#newsletter #form input, #newsletter #form button {
+	height: 50px;
+	width: 300px;
+	margin-top: 20px;
+}
+
+#newsletter #form input:first-child {
+	margin-right: 20px;
+}
+
+#newsletter #form input::placeholder, #newsletter input {
+	color: white;
+	font-size: 21px;
+	padding-left: 15px;
+}
+
+#newsletter #send button {
+	height: 43px;
+	width: 180px;
+	margin-top: 70px;
+	background-color: #FFBF00;
+	color: white;
+	font-size: 22px;
+	border-radius: 15px;
+}
+
+#newsletter #send button:hover {
+	background: black;
+}
+
+
+/* aqui começa a estilização do meu footer */
+
+
+
+footer.flex {
+	width: 100%;
+	background: black;
+	justify-content: center;
+
+}
+
+footer p {
+	padding: 20px;
+	color: white;
+	font-weight: 500;
+	justify-content: center;
+}
+
+footer .fa {
+	color: #FFBF00;
+}
+
+
+
+/*agora começa o CSS de proposicoes.html */
+
+.proposicaoIntro {
+	height: 70vh;
+	background-image: url("imagens/Foto12MarcosOliveiraAgenciaSenado30nov2016pbblur.jpg");
+	background-size: cover;
+	/*tirei a posição negativa de y pra aparecer imagem no final. na minha tela estava faltando um pedaço dela*/
+	background-position: top;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+.proposicaoIntro h1, .proposicaoIntro h2 {
+	z-index: 666;
+	text-align: center;
+	font-family: 'Lato', Helvetica, sans-serif;
+	color: white;
+}
+
+.proposicaoIntro h1 {
+	font-size: 80px;
+	font-weight: 700;
+}
+
+.proposicaoIntro h2 {
+	font-size: 40px;
+	font-weight: 400;
+	border-bottom: 2px #FFBF00 solid;
+}
+
+.proposicaoIntro img {
+	object-fit: cover;
+	z-index: -666;
+}
+
+.proposicaoBox {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	min-height: 30vh;
+	max-width: 60%;
+	border-bottom: 1px orange solid;
+	box-shadow: 1px solid #9E9E9E;
+	transition: all 3s.;
+	border-radius: 1%;
+	padding: 20px 80px;
+	margin: 0 auto;
+}
+
+.proposicaoBox:hover{
+	box-shadow: 1px 2px 10px #9E9E9E;
+}
+
+.proposicaoBoxAlone {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	min-height: 30vh;
+	max-width: 60%;
+	border-bottom: 1px orange solid;
+	padding: 20px 80px;
+	margin: 0 auto;
+}
+
+.container .proposicaoLink, .container .proposicaoLink:visited {
+	text-decoration: none;
+	color: black;
+}
+
+.boxChart {
+	width: 30%;
+	display: flex;
+	align-items: center;
+}
+
+#pecTeto2Chart, #pecTeto1Chart, #dilma2Chart, #dilma1Chart, #reformaEnsinoMedioChart, #vaquejada1Chart, #vaquejada2Chart, #foroPrivilegiado1Chart, #abusoDeAutoridadeChart, #socorroAosEstadosChart, #foroPrivilegiado2Chart, #reformaTrabalhistaChart, #pecTeto1Chartv2 {
+	width: 30vw;
+	height: 30vh;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.boxContent {
+	width: 70%
+}
+
+.boxContent p, .boxContent table {
+	padding: 20px;
+}
+
+.boxContent .contentTitle {
+	font-size: 30px;
+}
+
+.boxContent .date p {
+	font-size: 15px;
+	padding: 0px 20px;
+}
+
+.boxContent .contentSubtitle {
+	font-size: 20px;
+}
+
+.boxContent .contentResult {
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.contentResult .resultLabel td {
+	text-align: center;
+	width: 30%;
+	font-size: 20px;
+}
+
+.contentResult .resultLabel .greenLine {
+	border-bottom: 3px green solid;
+}
+
+.contentResult .resultLabel .redLine {
+	border-bottom: 3px red solid;
+}
+
+.contentResult .resultLabel .orangeLine {
+	border-bottom: 3px orange solid;
+}
+
+.contentResult .resultLabel .purpleLine {
+	border-bottom: 3px purple solid;
+}
+
+.contentResult .resultLabel .grayLine {
+	border-bottom: 3px lightgray solid;
+}
+
+.resultLabelSenador.flex {
+	justify-content: center;
+	opacity: 0.7;
+	/*margin: 20px 50px;*/
+	border-radius: 2%;
+	width: 300px;
+	height: 55px;
+	align-self: center;
+}
+
+.resultLabelSenador.flex p {
+	color: white;
+	font-size: 29px;
+	font-weight: 700;
+	align-self: center;
+	align-items: center;
+
+}
+
+.resultLabelSenador.flex.aFavor {
+	border: 2px green solid;
+	background-color: green;
+}
+
+.resultLabelSenador.flex.contra {
+	border: 2px red solid;
+	background-color: red;
+}
+
+.resultLabelSenador.flex.naoVotou {
+	border: 2px orange solid;
+	background-color: orange;
+}
+
+.resultLabelSenador.flex.abstencao {
+	border: 2px purple solid;
+	background-color: purple;
+}
+
+.resultLabelSenador.flex.ausente {
+	border: 2px gray solid;
+	background-color: gray;
+}
+
+/* aqui começa a estilização do meu proposicao.html */
+
+.resultSubtitle {
+	width: 80%;
+	height: 20%;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+}
+
+.resultSubtitle span {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.resultCircle {
+	width: 20px;
+	height: 20px;
+	display: block;
+	border-radius: 50%;
+	border: none;
+}
+
+.green {
+	background: green;
+}
+
+.red { 
+	background: red;
+}
+
+.purple {
+	background: purple;
+}
+
+.orange {
+	background: orange;
+}
+
+.gray {
+	background: gray;
+}
+
+.resultName {
+
+}
+
+
+/* aqui começa a estilização do meu senadores.html */
+
+.senadoresIntro {
+	height: 70vh;
+	background-image: url("imagens/FotoEdilsonRodriguesAgenciaSenado30nov2016pbblur.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+.senadoresIntro h1, .senadoresIntro h2 {
+	z-index: 666;
+	text-align: center;
+	font-family: 'Lato', Helvetica, sans-serif;
+}
+
+.senadoresIntro h1 {
+	font-size: 80px;
+	font-weight: 700;
+	color: white;
+}
+
+.senadoresIntro h2 {
+	font-size: 40px;
+	font-weight: 400;
+	border-bottom: 2px #FFBF00 solid;
+	color: white;
+}
+
+.senadoresIntro img {
+	object-fit: cover;
+	z-index: -666;
+}
+
+#senadores {
+	margin: 0 80px;
+	flex-wrap: wrap;
+	padding-bottom: 150px;
+}
+
+.senadoresBox {
+	margin-right: 70px;
+	margin-top: 40px;
+	border: 1px orange solid;
+	box-shadow: 1px solid #9E9E9E;
+	transition: all 3s.;
+	border-radius: 1%;
+	padding: 10px;
+	transition: 0.2s;
+}
+
+.senadoresBox.unselected {
+	display: none;
+}
+
+#senadores .senadoresBox.aFavor {
+	border: 5px solid green !important;
+	box-shadow: 5px solid #9E9E9E !important;
+}
+
+.senadoresBox.contra {
+	border: 5px solid red !important;
+	box-shadow: 5px solid #9E9E9E !important;
+}
+
+.senadoresBox.naoVotou {
+	border: 5px solid orange !important;
+	box-shadow: 5px solid #9E9E9E !important;
+}
+
+.senadoresBox.abstencao {
+	border: 5px solid purple !important;
+	box-shadow: 5px solid #9E9E9E !important;
+}
+
+.senadoresBox.ausente {
+	border: 5px solid lightgray !important;
+	box-shadow: 5px solid #9E9E9E !important;
+}
+
+.senadoresBox:last-child {
+	margin-right: 0;
+}
+
+.senadoresBox:hover {
+	box-shadow: 1px 2px 10px #9E9E9E;
+}
+
+.senadoresBox img {
+	width: 200px;
+}
+
+.senadoresBox p {
+	text-align: center;
+}
+
+.senadoresBox a {
+	color: black;
+}
+
+.senadoresName {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.senadoresParty {
+	font-size: 15px;
+	font-weight: 300;
+}
+
+#filter {
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+}
+
+select.party, select.uf {
+	width: 300px;
+	height: 30px;
+	background: none;
+	margin-right: 20px;
+	border: 1px black solid;
+	font-size: 15px;
+	padding-left: 0px;
+	border-radius: 1%;
+}
+
+select.uf {
+	margin-right: none;
+}
+
+input.searchName {
+	background: none;
+	height: 30px;
+	width: 100%;
+	border: 1px black solid;
+	border-radius: 1%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+#searchBar input::placeholder, #searchBar input {
+	color: black;
+	font-size: 15px;
+	margin-left: 10px;
+}
+
+#searchBar input {
+	padding-left: 10px;
+}
+
+
+/* aqui começa a estilização do html de cada senador */
+
+
+.senadoresProfile {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	max-width: 60%;
+	border-bottom: 1px orange solid;
+	padding: 20px 80px;
+}
+
+.firstdiv {
+	max-width: 30%;
+	align-self: center;
+}
+
+.senadoresProfile img {
+	width: 100%;
+}
+
+.boxSenadores {
+	width: 70%;
+}
+
+.boxSenadores p {
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+
+.boxSenadores i {
+	padding-left: 20px;
+}
+
+.boxSenadores .contentName {
+	font-size: 30px;
+	text-align: left;
+}
+
+.boxSenadores .contentName .socialSenador .fa {
+	color: black;
+}
+
+.boxSenadores .contentName .socialSenador .fa:hover {
+	color: #FFBF00;
+}
+
+.boxSenadores .contentParty {
+	font-size: 20px;
+}
+
+.profile {
+	justify-content: center;
+}
+
+
+/*aqui começa a estilização de sobre.html */
+
+.sobreIntro {
+	background-image: url("imagens/Foto22AnaVolpeAgenciaSenado13dez2016pbblur.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+.sobreIntro h1, .sobreIntro h2 {
+	z-index: 666;
+	color: white;
+	text-align: center;
+	font-family: 'Lato', Helvetica, sans-serif;
+}
+
+.sobreIntro h1 {
+	font-size: 80px;
+	font-weight: 700;
+}
+
+.sobreIntro h2 {
+	font-size: 40px;
+	font-weight: 400;
+	border-bottom: 2px #FFBF00 solid;
+}
+
+.sobreIntro img {
+	object-fit: cover;
+	z-index: -666;
+}
+
+.sobreContent {
+	background: black;
+	padding: 40px 80px;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.sobreContent #bioGabr {
+	width: 40%;
+	align-items: center;
+	align-self: center;
+}
+
+.sobreContent p {
+	color: white;
+	line-height: 25px;
+	padding-top: 30px;
+	font-size: 20px;
+}
+
+.sobreContent p a {
+	color: white;
+	font-weight: 700;
+}
+
+.sobreContent #picGabr {
+	width: 100%;
+	padding-top: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.sobreContent #picGabr img {
+	max-width: 50%;
+	justify-content: center;
+	border-radius: 50%;
+}
+
+.sobreContent #picGabr.flex.noBorder img {
+	border-radius: 0%;
+}
+
+.sobreContent p a:hover {
+	color: #FFBF00;
+}
+
+.sobreContent p .fa {
+	padding-right: 20px;
+	font-size: 25px;
+}
+
+.sobreContent p .fa:last-child {
+	padding-right: none;
+}
+
+.sobreContent #donation {
+	justify-content: space-around;
+}
+
+
+
+/*agora começa o MEDIA QUERIES de index.html */
+@media only screen and (max-width: 1224px) {
+
+	#mainMenu {
+	width: 100vw;
+	max-width: 100%;
+	}
+
+	#leftMenu a, #leftMenu li {
+	padding: 10px;
+	color: white;
+	font-size: 20px;
+	}
+
+	#leftMenu li:first-child {
+	margin-left: 70px;
+	}
+
+	nav .fa {
+	color: white;
+	font-size: 20px;
+	padding: 20px;
+	}
+
+	#socialMedia a:last-child {
+	margin-right: 70px;
+	}
+
+	.title h1 {
+	font-size: 100px;
+	}
+
+	.title h2 {
+	font-size: 50px;
+	}
+
+/*	#device img {
+	width: 400px;
+	object-fit: contain;
+	}*/
+
+	.cards .card .cardTitle {
+	}
+
+	#newsletter {
+	background-position: left;
+	background-size: cover;
+	}
+/*aqui começa o MEDIA QUERIES de senadores[NomeSobrenome].html */
+	.senadoresProfile {
+	max-width: 70%;
+	padding: 10px 10px;
+	}
+
+	.boxSenadores {
+	padding-left: 0px;
+	}
+
+	.proposicaoBox {
+	max-width: 70%;
+	}
+
+	.contentBio p:last-child {
+	display: none;
+	}
+/*aqui começa o MEDIA QUERIES de proposicoes.html */
+	.proposicaoIntro {
+	background-position: bottom;
+	}
+
+	.proposicaoIntro h2 {
+	color: white;
+	}
+
+
+
+/*aqui começa o MEDIA QUERIES de sobre.html */
+
+	.sobreIntro {
+	background-position: center;
+	background-size: cover;
+	}
+
+	.sobreContent #bioGabr {
+	width: 58%;
+	}
+
+}
+
+
+@media only screen and (max-width: 840px) {
+
+	#mainMenu {
+	justify-content: center;
+	}
+
+	#leftMenu a, #leftMenu li {
+	padding: 10px;
+	color: white;
+	font-size: 18px;
+	}
+
+	#leftMenu li:first-child {
+	margin-left: 10px;
+	}
+
+	nav .fa {
+	font-size: 20px;
+	}
+
+	#socialMedia.visivel {
+	display: none !important;
+	}
+
+	#socialMedia a:last-child {
+	margin-right: 10px;
+	}
+
+	.title h1 {
+	font-size: 75px;
+	}
+
+	.title h2 {
+	font-size: 35px;
+	}
+
+	.description {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 80px;
+	}
+
+	.items.content {
+	width: 100%;
+	}
+
+	.item p {
+	font-size: 20px;
+	}
+
+/*	#device img {
+	display: none;
+	}
+*/
+	.cards {
+	height: auto;
+	}
+
+	.card {
+	min-width: 200px;
+	height: 250px;
+	}
+
+	.cards .card .cardTitle {
+	}
+
+	#newsletter {
+	background-position: left;
+	background-size: cover;
+	}
+
+	#newsletter p {
+	font-size: 45px;
+	}
+
+	#newsletter #form input {
+	height: 40px;
+	width: 300px;
+	}
+
+	#newsletter #form input:first-child {
+	margin-right: 0px;
+	}
+
+	#newsletter #send input {
+	height: 40px;
+	}
+/*aqui começa o MEDIA QUERIES de senadores[NomeSobrenome].html */
+
+	.senadoresProfile {
+	max-width: 80%;
+	padding: 10px 10px;
+	}
+
+	.boxSenadores {
+	margin-left: 90px;
+	}
+
+	.proposicaoBox {
+	max-width: 80%;
+	padding: 10px 10px;
+	}
+
+	.boxContent p, .boxContent table, .boxContent .date p {
+	padding: 5px 0px;
+	}
+
+	.boxSenadores .contentName span {
+	display: none;
+	}
+
+
+	.boxContent .contentSubtitle p {
+	font-size: 17px;
+	}
+
+
+/*aqui começa o MEDIA QUERIES de sobre.html */
+
+	.sobreContent #bioGabr {
+	width: 60%;
+	}
+
+}
+
+@media only screen and (max-width: 420px) {
+
+	#hamburgerMenu {
+	display: block;
+	}
+
+	#mainMenu {
+	display: none;
+	}
+
+	aside {
+	display: none;
+	}
+
+	.description {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 80px;
+	}
+
+	.item {
+	flex-direction: column;
+	}
+
+	.item p {
+	width: 100%;
+	text-align: center;
+	}
+
+	.item img {
+	padding-right: 0px;
+	}
+
+	.title h1 {
+	font-size: 65px;
+	}
+
+	.title h2 {
+	padding: 0 20px;
+	font-size: 35px;
+	}
+
+	.item img {
+	width: 50%;
+	}
+
+	.cards {
+	height: auto;
+	}
+
+	.card {
+	height: 200px;
+	}
+
+	.cards .card .cardTitle {
+	}
+
+	#newsletter {
+	background-size: cover;
+	background-position: bottom;
+	}
+
+	#newsletter p:first-child {
+	font-size: 33px;
+	}
+
+	#newsletter p:nth-child(2) {
+	font-size: 25px;
+	padding: 1px;
+	}
+
+
+	#newsletter #form input:first-child {
+	margin-right: 0px;
+	}
+
+/*aqui começa o MEDIA QUERIES de senadores.html*/
+
+	.senadoresIntro h1 {
+	font-size: 40px;
+	}
+
+	.senadoresIntro h2 {
+	font-size: 20px;
+	}
+	
+	#filter {
+	padding: 0px;
+	flex-direction: column;
+	}
+
+	select.party, select.uf {
+	margin-right: 0px;
+	margin-top: 10px;
+	}
+
+	select.uf {
+	margin-right: none;
+	}
+
+	input.searchName {
+	height: 30px;
+	width: 100%;
+	margin-top: 10px;
+	}
+
+	#searchBar input::placeholder, #searchBar input {
+	font-size: 15px;
+	}
+
+	.senadoresBox {
+	margin-right: 0px;
+	}
+
+	#senadores.flex {
+	justify-content: center;
+	}
+
+/*aqui começa o MEDIA QUERIES de senadores[NomeSobrenome].html */
+	.senadoresProfile {
+	flex-direction: column;
+	max-width: 67%;
+	}
+
+	.senadoresProfile img {
+	width: 200px;
+	}
+
+	.firstdiv {
+	max-width: 100%;
+	}
+
+	.boxSenadores {
+	margin-left: 0;
+	width: 100%;
+	}
+
+	.contentName p {
+	text-align: center;
+	}
+
+	.contentParty p {
+	text-align: center;
+	}
+
+	.boxChart {
+	height: 100%;
+	justify-content: center;
+	}
+
+	#pecTeto2Chart, #pecTeto1Chart, #dilma2Chart, #dilma1Chart, #reformaEnsinoMedioChart, #vaquejada1Chart, #foroPrivilegiado1Chart, #abusoDeAutoridadeChart, #socorroAosEstadosChart, #foroPrivilegiado2Chart, #reformaTrabalhistaChart, #pecTeto1Chartv2 {
+	width: 40vw;
+	height: 40vh;
+	max-width: 100%;
+	max-height: 100%;
+	}
+
+	
+/*aqui começa o MEDIA QUERIES de proposicoes.html */
+
+	.proposicaoIntro h1{
+	font-size: 35px;
+	}
+
+	.proposicaoIntro h2 {
+	font-size: 20px;
+	color: black;
+	}
+
+	.proposicaoBox {
+	flex-direction: column;
+	}
+
+	.boxChart {
+	width: 100%;
+	text-align: center;
+	}
+
+	.boxContent {
+	width: 100%;
+	}
+
+	.boxContent .contentTitle p{ 
+	font-size: 22px;
+	}
+
+	.boxContent .date p {
+	font-size: 12px;
+	}
+
+	.boxContent .contentSubtitle p {
+	font-size: 14px;
+	}
+
+	.contentResult .resultLabel td {
+	font-size: 17px;
+	text-align: center;
+	}
+
+/*aqui começa o MEDIA QUERIES de sobre.html */
+	
+	.sobreIntro h1 {
+	font-size: 50px;
+	font-family: 'Lato', Helvetica, sans-serif;
+	}
+
+	.sobreIntro h2 {
+	font-size: 30px;
+	font-family: 'Lato', Helvetica, sans-serif;
+	}
+
+	.sobreIntro {
+	background-position: center;
+	}
+
+	.sobreContent {
+	padding: 10px 65px; 
+	}
+
+	.sobreContent #picGabr img {
+	max-width: 100%;
+	}
+
+	.sobreContent #bioGabr {
+	width: 90%;
+	}
+
+}
+
+@media only screen and (max-width: 340px) {
+	.title h1 {
+	font-size: 60px;
+	}
+
+	.title h2 {
+	font-size: 30px;
+	}
+
+	.description {
+	padding: 0 20px;
+	}
+
+	.item p {
+	width: 75%;
+	}
+
+	.item img {
+	width: 30%;
+	}
+
+	.cards .card .cardTitle {
+	font-size: 160%;
+	}
+
+	.card {
+	min-width: 200px;
+	}
+
+	#newsletter p:first-child {
+	font-size: 27px;
+	}
+
+	#newsletter p:nth-child(2) {
+	font-size: 20px;
+	}
+
+	#newsletter #form input {
+	width: 200px;
+	}
+
+	#socialMediaScroll.visivel {
+	display: none !important;
+	}
+
+	footer p {
+	font-size: 13px;
+	}
+
+/*aqui começa o MEDIA QUERIES de senadores[NomeSobrenome].html */
+	
+
+/*aqui começa o MEDIA QUERIES de proposicoes.html*/
+	.boxContent .contentTitle p {
+	font-size: 19px;
+	}
+
+	.boxContent .date p {
+	font-size: 13px;
+	}
+
+	.boxContent .contentSubtitle p {
+	font-size: 14px;
+	}
+
+	.contentResult .resultLabel td {
+	font-size: 15px;
+	}
+
+/*aqui começa o MEDIA QUERIES de sobre.html */
+	.sobreContent #bioGabr {
+	width: 100%;
+	}
+
+	.sobreContent {
+	padding: 10px 40px; 
+	}
+
+}

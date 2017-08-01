@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Site de monitoramento dos resultados das votações no Senado">
+    <meta name="keywords" content="legislativo, senador, senadores, Senado, Senado Federal, votação, PEC, PL, MP, medida provisória, política, Michel Temer, presidente, governo, eleição, reforma, open data, transparency, government, social participation, democracy, visualization, Congress, politics, Brasil, Brazil, Brasília, brazilian, election, Planalto, Câmara, Câmara dos Deputados, Renan Calheiros, Eunício Oliveira, Aécio Neves, PMDB, PSDB, PT, Rede, PSB, PSD, PPS, PCdoB, PDT, PTC, DEM, Lava Jato, Sérgio Moro">
+    <meta name="author" content="Gabriela Caesar">
+
+    <title>plenário</title>
+
+	<link rel="shortcut icon" type="image/ico" href="imagens/faviconGeneratorOrg.ico"/>
+
+    <link href="style.css" rel="stylesheet">
+ 
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!-- my google analytics code -->	
+	<script>
+  	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ 	 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ 	 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ 	 })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ 	 ga('create', 'UA-98292962-2', 'auto');
+ 	 ga('send', 'pageview');
+
+	</script>
+	<!-- end of my google analytics code -->
+    
+</head>
+
+<body>
+<!-- aqui começa a minha primeira dobra -->
+<header>
+	<section class="container">
+		<button id="hamburgerMenu">
+				<span class="row"></span>
+				<span class="row"></span>
+				<span class="row"></span>
+		</button>
+
+	<nav id="hamburgerList" class="responsivList">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="senadores.html">Senadores</a></li>
+			<li><a href="proposicoes.html">Proposições</a></li>
+			<li><a href="sobre.html">Sobre</a></li>
+		</ul>
+	</nav>
+
+	<nav id="mainMenu" class="flex">
+		<nav id="leftMenu">
+			<ul class="flex">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="senadores.html">Senadores</a></li>
+				<li><a href="proposicoes.html">Proposições</a></li>
+				<li><a href="sobre.html">Sobre</a></li>
+			</ul>
+		</nav>
+
+		<nav id="socialMedia" class="visivel">
+			<div id="socialTop">
+				<a href="https://twitter.com/projetoPlenario" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+				<a href="https://www.facebook.com/Plen%C3%A1rio-448853062151379/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+				<a href="https://github.com/plenario" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+				<a href="https://medium.com/@plenario" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a>
+				<a href="https://www.instagram.com/projetoplenario/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+			</div>
+		</nav>
+	</nav>
+	</section>
+</header>
+
+<!-- aqui começa o menu lateral, durante o scroll -->
+
+<aside>
+	<nav id="socialMediaScroll">
+			<div id="socialScroll">
+				<a href="https://twitter.com/projetoPlenario" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+				<a href="https://www.facebook.com/Plen%C3%A1rio-448853062151379/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+				<a href="https://github.com/plenario/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+				<a href="https://medium.com/@plenario" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a>
+				<a href="https://www.instagram.com/projetoPlenario/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+			</div>
+		</nav>
+</aside>
+
+	<section class="container">
+		<div class="sobreIntro" alt="Foto: Ana Volpe/Agência Senado - 13.dez.2016">
+			<h1>sobre</h1>
+			<h2>a criação do plenário</h2>
+		</div>
+	</section>
+
+	<section class="container">
+		<div class="sobreContent flex">
+			<div id="picGabr" class="flex noBorder">
+				<img src="imagens/gifPlenarioReady.gif" alt="">
+			</div>
+			<div id="bioGabr">
+				<p>O plenário é uma ferramenta open source para aumentar a prestação de contas do mandato de políticos. Esta versão inicial apresenta os dados de votações do Senado.</p>
+
+				<p>O site de monitoramento online procura unir interesse público, transparência e visualização de dados.</p>
+
+				<p>O projeto foi desenvolvido como trabalho final para o curso <i>bootcamp</i> <a href="http://reprograma.com.br/" target="_blank">{reprograma}</a>, com apoio do <a href="https://informatica.sp.senai.br/" target="_blank">Senai de Santa Cecília</a>, unidade localizada em São Paulo. 
+
+				<p>Se você gostou e quer ajudar a tornar o projeto sustentável, eis uma forma de colaborar:</p>
+				</br>
+				<div id="donation" class="flex">
+				<!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+				<form action="https://pagseguro.uol.com.br/checkout/v2/donation.html" method="post" class="flex pagseguro">
+				<!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+				<input type="hidden" name="currency" value="BRL" />
+				<input type="hidden" name="receiverEmail" value="caesar.gabriela@gmail.com" />
+				<input type="hidden" name="iot" value="button" />
+				<input type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/doacoes/120x53-doar-cinza.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+				</form>
+				<!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
+
+				<!-- INICIO FORMULARIO BOTAO PAYPAL -->
+				<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" class="flex paypal">
+				<input type="hidden" name="cmd" value="_s-xclick">
+				<input type="hidden" name="hosted_button_id" value="QFC4V6RBF3FT2">
+				<input type="image" src="https://www.paypalobjects.com/pt_BR/BR/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - A maneira fácil e segura de enviar pagamentos online!">
+				<img alt="" border="0" src="https://www.paypalobjects.com/pt_BR/i/scr/pixel.gif" width="1" height="1">
+				</form>
+				<!-- FINAL FORMULARIO BOTAO PAYPAL -->
+				</div>
+
+				<p>Para <a href="http://www.gabrielacaesar.com/" target="_blank">Gabriela Caesar</a>, a ferramenta amplia o leque de mecanismos para fortalecer a participação social.</p>
+			<div id="picGabr">
+				<img src="http://www.gabrielacaesar.com/fotoprofile.jpg" alt="Foto: Arquivo pessoal/Gabriela Caesar">
+			</div>
+				<p>Gabriela é jornalista e programadora front-end, com passagens em redações de São Paulo e Brasília. Tem interesse em unir política com transparência pública, sociedade civil organizada, dados abertos e linguagem de programação.</p>
+
+				<p>Fale comigo em <a href="mailto:caesar.gabriela@gmail.com">caesar.gabriela@gmail.com</a></p>
+
+				<p>Ou pelas mídias sociais:</p>
+				<p>
+					<a href="#" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+					<a href="#" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+					<a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+				</p>
+			</div>
+		</div>
+	</section>
+
+<!-- aqui começa o meu footer -->
+
+	<section class="container">
+			<footer class="flex">
+				<p>Com <i class="fa fa-heart" aria-hidden="true"></i> por Gabriela Caesar</p>
+			</footer>
+	</section>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="script.js"></script>
+</body>
+
+
