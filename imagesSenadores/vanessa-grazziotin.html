@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Site de monitoramento dos resultados das votações no Senado">
+    <meta name="keywords" content="legislativo, senador, senadores, Senado, Senado Federal, votação, PEC, PL, MP, medida provisória, política, Michel Temer, presidente, governo, eleição, reforma, open data, transparency, government, social participation, democracy, visualization, Congress, politics, Brasil, Brazil, Brasília, brazilian, election, Planalto, Câmara, Câmara dos Deputados, Renan Calheiros, Eunício Oliveira, Aécio Neves, PMDB, PSDB, PT, Rede, PSB, PSD, PPS, PCdoB, PDT, PTC, DEM, Lava Jato, Sérgio Moro">
+    <meta name="author" content="Gabriela Caesar">
+
+    <title>plenário</title>
+
+	<link rel="shortcut icon" type="image/ico" href="imagens/faviconGeneratorOrg.ico"/>
+
+    <link href="style.css" rel="stylesheet">
+
+ 
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+
+<body>
+	
+	
+
+<!-- aqui começa a minha primeira dobra -->
+<header>
+	<section class="container">
+		<button id="hamburgerMenu">
+				<span class="row"></span>
+				<span class="row"></span>
+				<span class="row"></span>
+		</button>
+
+	<nav id="hamburgerList" class="responsivList">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="senadores.html">Senadores</a></li>
+			<li><a href="proposicoes.html">Proposições</a></li>
+			<li><a href="sobre.html">Sobre</a></li>
+		</ul>
+	</nav>
+
+	<nav id="mainMenu" class="flex">
+		<nav id="leftMenu">
+			<ul class="flex">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="senadores.html">Senadores</a></li>
+				<li><a href="proposicoes.html">Proposições</a></li>
+				<li><a href="sobre.html">Sobre</a></li>
+			</ul>
+		</nav>
+
+		<nav id="socialMedia" class="visivel">
+			<div id="socialTop">
+				<a href="https://twitter.com/projetoPlenario" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+				<a href="https://www.facebook.com/Plen%C3%A1rio-448853062151379/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+				<a href="https://github.com/plenario" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+				<a href="https://medium.com/@plenario" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a>
+				<a href="https://www.instagram.com/projetoplenario/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+			</div>
+		</nav>
+	</nav>
+	</section>
+</header>
+
+<!-- aqui começa o menu lateral, durante o scroll -->
+
+<aside>
+	<nav id="socialMediaScroll">
+			<div id="socialScroll">
+				<a href="https://twitter.com/projetoPlenario" target="_blank"><i class="fa colorBlack fa-twitter-square" aria-hidden="true"></i></a>
+				<a href="https://www.facebook.com/Plen%C3%A1rio-448853062151379/" target="_blank"><i class="fa colorBlack fa-facebook-square" aria-hidden="true"></i></a>
+				<a href="https://github.com/plenario/" target="_blank"><i class="fa colorBlack fa-github" aria-hidden="true"></i></a>
+				<a href="https://medium.com/@plenario" target="_blank"><i class="fa colorBlack fa-medium" aria-hidden="true"></i></a>
+				<a href="https://www.instagram.com/projetoPlenario/" target="_blank"><i class="fa colorBlack fa-instagram" aria-hidden="true"></i></a>
+			</div>
+		</nav>
+</aside>
+
+
+	<section class="container">
+		<div class="senadoresIntro">
+			<h1>senadores</h1>
+			<h2>saiba como votou cada senador</h2>
+		</div>
+	</section>
+
+
+<!-- aqui começa a minha segunda dobra -->
+
+
+	<section class="container flex profile">
+		<div class="senadoresProfile">
+			<div class="firstdiv">
+				<img src="imagesSenadores/vanessagrazziotin65am.jpg" alt="">
+			</div>
+			<div class="boxSenadores">
+				<div class="contentName flex">
+					<p>Vanessa Grazziotin</p>
+					<span class="socialSenador">
+					<a href="https://twitter.com/vanessasenadora" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+					<a href="https://www.facebook.com/VanessaGrazziotin/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+					<a href="https://www.instagram.com/vanessagrazziotin/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+					</span>
+				</div>
+				<div class="contentParty">
+					<p>(PCdoB-AM)</p>
+				</div>
+				<div class="contentBio">
+					<p>Vanessa Grazziotin (Videira, 29 de junho de 1961) é farmacêutica e senadora filiada ao Partido Comunista do Brasil.</p>
+
+					<p>É casada com Eron Bezerra, ex-deputado estadual do Amazonas e ex-secretário de Estado de Produção Rural do estado.</p>
+					<i class="sourceBio">fonte: Wikipédia</i>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="container">
+		<div class="proposicaoBox">
+			<div class="boxChart">
+				<a href="reforma-trabalhista.html"><canvas id="reformaTrabalhistaChart"></canvas></a>
+			</div>
+			<div class="boxContent">
+				<div class="contentTitle">
+					<a href="reforma-trabalhista.html"><p>Reforma trabalhista</p></a>
+				</div>
+				<div class="date">
+					<p>11 de julho de 2017</p>
+				</div>
+				<div class="contentSubtitle">
+					<p>O <a href="https://www25.senado.leg.br/web/atividade/materias/-/materia/129049" target="_blank">PLC 38 de 2017</a> faz uma série de mudanças na legislação trabalhista. Entre as mudanças, destacam-se a flexibilização da jornada de trabalho, a contribuição sindical facultativa e a regulamentação do home office. O projeto foi sancionado em 13 de julho de 2017.</p>
+				</div>
+				<div class="contentResult flex">
+					<div class="resultLabelSenador flex contra">
+						<p>Contra</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section class="container">
+		<div class="proposicaoBox">
+			<div class="boxChart">
+				<a href="foro-privilegiado-2turno.html"><canvas id="foroPrivilegiado2Chart"></canvas></a>
+			</div>
+			<div class="boxContent">
+				<div class="contentTitle">
+					<a href="foro-privilegiado-2turno.html"><p>PEC do foro privilegiado - 2º turno</p></a>
+				</div>
+				<div class="date">
+					<p>31 de maio de 2017</p>
+				</div>
+				<div class="contentSubtitle">
+					<p>A <a href="http://www25.senado.leg.br/web/atividade/materias/-/materia/111574" target="_blank">PEC 10 de 2013</a> concede direito ao foro privilegiado a apenas os chefes de Executivo, Legislativo e Judiciário. A proposta foi aprovada, em dois turnos, no Senado e espera a análise de deputados. O tema também está para ser analisado pelo plenário do STF.</p>
+				</div>
+				<div class="contentResult flex">
+					<div class="resultLabelSenador flex aFavor">
+						<p>A favor</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="container">
+		<div class="proposicaoBox">
+			<div class="boxChart">
+				<a href="socorro-aos-estados.html"><canvas id="socorroAosEstadosChart"></canvas></a>
+			</div>
+			<div class="boxContent">
+				<div class="contentTitle">
+					<a href="socorro-aos-estados.html"><p>Socorro aos estados</p></a>
+				</div>
+				<div class="date">
+					<p>17 de maio de 2017</p>
+				</div>
+				<div class="contentSubtitle">
+					<p>O <a href="https://www25.senado.leg.br/web/atividade/materias/-/materia/129171" target="_blank">PLC 39 de 2017</a> autoriza a suspensão do pagamento da dívida com a União por estados com alto endividamento. O regime pode durar até três anos, prorrogável por igual período. Publicada no Diário Oficial de 22 de maio de 2017, a lei exige contrapartidas dos estados, como a contenção de gastos.</p>
+				</div>
+				<div class="contentResult flex">
+					<div class="resultLabelSenador flex contra">
+						<p>Contra</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section class="container">
+		<div class="proposicaoBox">
+			<div class="boxChart">
+				<a href="abuso-de-autoridade.html"><canvas id="abusoDeAutoridadeChart"></canvas></a>
+			</div>
+			<div class="boxContent">
+				<div class="contentTitle">
+					<a href="abuso-de-autoridade.html"><p>Abuso de autoridade</p></a>
+				</div>
+				<div class="date">
+					<p>26 de abril de 2017</p>
+				</div>
+				<div class="contentSubtitle">
+					<p>O <a href="https://www25.senado.leg.br/web/atividade/materias/-/materia/128545" target="_blank">PLS 85 de 2017</a> define os crimes de abuso de autoridade e estabelece punições para agentes públicos, servidores ou não, que cometerem tais crimes. A proposição é alvo de críticas por integrantes do Judiciário e do MP. Aprovado no Senado, o projeto tramita na Câmara.</p>
+				</div>
+				<div class="contentResult flex">
+					<div class="resultLabelSenador flex aFavor">
+						<p>A favor</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	
+	<section class="container">
+		<div class="proposicaoBox">
+			<div class="boxChart">
+				<a href="foro-privilegiado-1turno.html"><canvas id="foroPrivilegiado1Chart"></canvas></a>
+			</div>
+			<div class="boxContent">
+				<div class="contentTitle">
+					<a href="foro-privilegiado-1turno.html"><p>PEC do foro privilegiado - 1º turno</p></a>
+				</div>
+				<div class="date">
+					<p>26 de abril de 2017</p>
+				</div>
+				<div class="contentSubtitle">
+					<p>A <a href="http://www25.senado.leg.br/web/atividade/materias/-/materia/111574" target="_blank">PEC 10 de 2013</a> concede direito ao foro privilegiado a apenas os chefes de Executivo, Legislativo e Judiciário. A proposta foi aprovada, em dois turnos, no Senado e espera a análise de deputados. O tema também está para ser analisado pelo plenário do Supremo Tribunal Federal.</p>
+				</div>
+				<div class="contentResult flex">
+					<div class="resultLabelSenador flex aFavor">
+						<p>A favor</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="container">
+		<div class="proposicaoBox">
+			<div class="boxChart">
+				<a href="pec-vaquejada-2turno.html"><canvas id="vaquejada2Chart"></canvas></a>
+			</div>
+			<div class="boxContent">
+				<div class="contentTitle">
+					<a href="pec-vaquejada-2turno.html"><p>PEC da vaquejada - 2º turno</p></a>
+				</div>
+				<div class="date">
+					<p>14 de fevereiro de 2017</p>
+				</div>
+				<div class="contentSubtitle">
+					<p>A <a href="http://www25.senado.leg.br/web/atividade/materias/-/materia/127262" target="_blank">PEC 50 de 2016</a> assegura a prática da vaquejada como manifestação cultural. A proposta de emenda à Constituição contraria decisão do STF, de outubro de 2016, que considera o sofrimento imposto aos animais pela vaquejada. A PEC foi promulgada em 6 de junho de 2017.</p>
+				</div>
+				<div class="contentResult flex">
+					<div class="resultLabelSenador flex aFavor">
+						<p>A favor</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section class="container">
+		<div class="proposicaoBox">
+			<div class="boxChart">
+				<a href="pec-vaquejada-1turno.html"><canvas id="vaquejada1Chart"></canvas></a>
+			</div>
+			<div class="boxContent">
+				<div class="contentTitle">
+					<a href="pec-vaquejada-1turno.html"><p>PEC da vaquejada - 1º turno</p></a>
+				</div>
+				<div class="date">
+					<p>14 de fevereiro de 2017</p>
+				</div>
+				<div class="contentSubtitle">
+					<p>A <a href="http://www25.senado.leg.br/web/atividade/materias/-/materia/127262" target="_blank">PEC 50 de 2016</a> assegura a prática da vaquejada como manifestação cultural. A proposta de emenda à Constituição contraria decisão do STF, de outubro de 2016, que considera o sofrimento imposto aos animais pela vaquejada. A PEC foi promulgada em 6 de junho de 2017.</p>
+				</div>
+				<div class="contentResult flex">
+					<div class="resultLabelSenador flex aFavor">
+						<p>A favor</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="container">
+		<div class="proposicaoBox">
+			<div class="boxChart">
+				<a href="reforma-ensino-medio.html"></a><canvas id="reformaEnsinoMedioChart"></canvas></a>
+			</div>
+			<div class="boxContent">
+				<div class="contentTitle">
+					<a href="reforma-ensino-medio.html"><p>Reforma do ensino médio</p></a>
+				</div>
+				<div class="date">
+					<p>8 de fevereiro de 2017</p>
+				</div>
+				<div class="contentSubtitle">
+					<p>A <a href="https://www25.senado.leg.br/web/atividade/materias/-/materia/126992" target="_blank">MP 746 de 2016</a> flexibiliza as disciplinas do ensino médio e amplia o ensino integral. A proposição é uma tentativa de tornar os estudos mais atrativos e diminuir a evasão escolar. A sanção da medida ocorreu em 16 de fevereiro de 2017.</p>
+				</div>
+				<div class="contentResult flex">
+					<div class="resultLabelSenador flex contra">
+						<p>Contra</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+	<section class="container">
+		<div class="proposicaoBox">
+			<div class="boxChart">
+				<a href="teto-dos-gastos-2turno.html">
+					<canvas id="pecTeto2Chart"></canvas>
+				</a>
+			</div>
+			<div class="boxContent">
+				<div class="contentTitle">
+					<a href="teto-dos-gastos-2turno.html"><p>PEC do teto dos gastos públicos - 2º turno</p></a>
+				</div>
+				<div class="date">
+					<p>13 de dezembro de 2016</p>
+				</div>
+				<div class="contentSubtitle">
+					<p>A <a href="https://www25.senado.leg.br/web/atividade/materias/-/materia/127337" target="_blank">PEC 55 de 2016</a> cria um regime fiscal que estabelece limites para as despesas públicas durante 20 anos. A proposta de emenda à Constituição foi aprovada, em dois turnos, por mais de 3/5 da Câmara e do Senado. A PEC foi promulgada em 15 de dezembro de 2016.</p>
+				</div>
+				<div class="contentResult flex">
+					<div class="resultLabelSenador flex contra">
+						<p>Contra</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section class="container">
+		<div class="proposicaoBox">
+			<div class="boxChart">
+				<a href="teto-dos-gastos-1turno.html">
+					<canvas id="pecTeto1Chart"></canvas>
+				</a>
+			</div>
+			<div class="boxContent">
+				<div class="contentTitle">
+					<a href="teto-dos-gastos-1turno.html"><p>PEC do teto dos gastos públicos - 1º turno</p></a
+				</div>
+				<div class="date">
+					<p>29 de novembro de 2016</p>
+				</div>
+				<div class="contentSubtitle">
+					<p>A <a href="https://www25.senado.leg.br/web/atividade/materias/-/materia/127337" target="_blank">PEC 55 de 2016</a> cria um regime fiscal que estabelece limites para as despesas públicas durante 20 anos. A proposta de emenda à Constituição foi aprovada, em dois turnos, por mais de 3/5 da Câmara e do Senado. A PEC foi promulgada em 15 de dezembro de 2016.</p>
+				</div>
+				<div class="contentResult flex">
+					<div class="resultLabelSenador flex contra">
+						<p>Contra</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section class="container">
+		<div class="proposicaoBox">
+			<div class="boxChart">
+				<a href="inelegibilidade-dilma.html"><canvas id="dilma2Chart"></canvas></a>
+			</div>
+			<div class="boxContent">
+				<div class="contentTitle">
+					<a href="inelegibilidade-dilma.html"><p>Inelegibilidade de Dilma Rousseff</p></a>
+				</div>
+				<div class="date">
+					<p>31 de agosto de 2016</p>
+				</div>
+				<div class="contentSubtitle">
+					<p>O destaque foi apresentado no <a href="http://www25.senado.leg.br/web/atividade/materias/-/materia/125567" target="_blank">julgamento de Dilma Rousseff</a>, em 31 de agosto de 2016. Na votação, não houve votos suficientes para tornar a petista inelegível por oito anos. O mandato de Dilma já tinha sido cassado pelos senadores, em sessão presidida pelo então presidente do Supremo Tribunal Federal, Ricardo Lewandowski. </p>
+				</div>
+				<div class="contentResult flex">
+					<div class="resultLabelSenador flex contra">
+						<p>Contra</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section class="container">
+		<div class="proposicaoBox">
+			<div class="boxChart">
+				<a href="cassacao-dilma.html"><canvas id="dilma1Chart"></canvas></a>
+			</div>
+			<div class="boxContent">
+				<div class="contentTitle">
+					<a href="cassacao-dilma.html"><p>Cassação de Dilma Rousseff</p></a>
+				</div>
+				<div class="date">
+					<p>31 de agosto de 2016</p>
+				</div>
+				<div class="contentSubtitle">
+					<p>A ex-presidente Dilma Rousseff teve o mandato cassado em 31 de agosto de 2016. A <a href="http://www25.senado.leg.br/web/atividade/materias/-/materia/125567" target="_blank">denúncia</a> apresentada se fundamentou em dois crimes: 1) suposta abertura de créditos suplementares por decretos presidenciais, sem autorização do Congresso e; 2) contratação ilegal de operações de crédito.</p>
+				</div>
+				<div class="contentResult flex">
+					<div class="resultLabelSenador flex contra">
+						<p>Contra</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="container">
+			<footer class="flex">
+				<p>Desenvolvido com <i class="fa fa-heart" aria-hidden="true"></i> por Gabriela Caesar</p>
+			</footer>
+	</section>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
+	<script src="script.js"></script>
+	<script src="mycharts.js"></script>
+</body>
+</html>
