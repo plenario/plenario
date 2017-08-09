@@ -114,6 +114,7 @@ searchBar.addEventListener('keyup', function() {
 
 // Form Functions
 let $formNewsLetter = $('.js-form-newsletter')
+let timer
 
 let handleForm = function(event) {
   event.preventDefault()
@@ -123,17 +124,20 @@ let handleForm = function(event) {
   }
   let validationContact = validadeContact(contact)
   if (!validationContact) {
-    sendMail(contact)
-      .done(function(response) {
-		handleFeedback.success('Email Cadastrado com sucesso!')
-		cleanForm(contact)
-      })
-      .fail(function(error) {
-        handleFeedback.error(
-          'Não foi possível cadastrar seu e-mail, tente mais tarde.',
-        )
-        console.log(error)
-      })
+    clearTimeout(timer)
+    timer = setTimeout(function() {
+      sendMail(contact)
+        .done(function(response) {
+          handleFeedback.success('Email Cadastrado com sucesso!')
+          cleanForm(contact)
+        })
+        .fail(function(error) {
+          handleFeedback.error(
+            'Não foi possível cadastrar seu e-mail, tente mais tarde.',
+          )
+          console.log(error)
+        })
+    }, 500)
   } else {
     handleFeedback.error(validationContact)
   }
@@ -164,9 +168,9 @@ let validadeContact = function(contact) {
   return error
 }
 
-let cleanForm = function(contact){
-	contact.name.val('')
-	contact.from.val('')
+let cleanForm = function(contact) {
+  contact.name.val('')
+  contact.from.val('')
 }
 
 let sendMail = function(contact) {
@@ -176,9 +180,9 @@ let sendMail = function(contact) {
     dataType: 'json',
     contentType: 'application/json',
     data: JSON.stringify({
-		name: contact.name.val(),
-		from: contact.from.val()
-	}),
+      name: contact.name.val(),
+      from: contact.from.val(),
+    }),
   })
 }
 
