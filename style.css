@@ -192,7 +192,7 @@ aside .fa:hover {
 	background-image: url("imagens/Foto12EdilsonRodriguesAgenciaSenado13dez2016pbblur.jpg");
 	background-size: cover;
 	background-attachment: fixed;
-	background-position: top;
+	background-position: bottom;
 	background-repeat: no-repeat;
 	display: flex;
 	flex-direction: column;
@@ -1266,7 +1266,7 @@ input.searchName {
 	.item p {
 	width: 100%;
 	text-align: center;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 	}
 
 	.item img {
