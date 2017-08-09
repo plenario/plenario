@@ -24,7 +24,7 @@ why shouldn't we contact them and ask about the recent decisions?
 
 
 <strong>metodology</strong></p>
-1 - the first version on plenario presents the results of 12 propositions voted by senators. 
+1 - the first version of plenario presents the results of 12 propositions voted by senators. 
 all of them have been covered by the media and might be of society's interest.
 
 two of 12 propositions are about the impeachment of Dilma Rousseff, in august 2016. 
@@ -35,13 +35,13 @@ the more recent proposition, "reforma trabalhista", was voted in july 2017.
 2 - the votings of indications are secrets. so again we can't know exactly how each senador voted.
 this happened when Alexandre de Moraes, former Minister for Justice, was indicated to the Supreme Court.
 
-there is also vote by acclamation, when we can't know exactly how each senator voted in these cases.
+there is also vote by acclamation, when we can't know exactly how each senator voted.
 fortunately, due to the nominal votings, we do have the opened results of the most polemic and important issues.
 
 3 - the data was collected of the official website [www.senado.leg.br].
 we think that it's better to communicate with less variables as possible. 
 
-this explains why we've decide to unify these labels:
+this explains why we've decided to unify these labels:
 <ul>
 <li>"licença saúde", aka LS;</li>
 <li>"senador em missão", aka MIS;</li>
@@ -66,5 +66,3 @@ pleario will always show Ângela Portela affiliated to PDT.
 
 the same situation happens with Alvaro Dias and Romário, for example. 
 both have migrated to Podemos, former PTN. 
-
-
