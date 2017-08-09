@@ -12,7 +12,7 @@ and, of course, with internet and social media, it gets easier to reach the poli
 we should make use of this advantage.
 
 we elect senators every four years. all the 26 states and Distrito Federal are represented by three senators.
-in total, they are 81 senators, each one also have two substitutes. in case the senator dies, gets a license or resigns.
+in total, they are 81 senators. each one also have two substitutes, in case the senator dies, gets a license or resigns.
 
 when elected, the senator guarantee at least eight years in power. 
 
