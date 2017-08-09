@@ -16,7 +16,7 @@ in total, they are 81 senators, each one also have two substitutes. in case the 
 
 when elected, the senator guarantee at least eight years in power. 
 
-and, of course, a huge list of benefits, such as an apartment in Brasíia, car, health assistance, employees (sometimes, more than 80 people) and more than R$ 30.000 available to spend per month with general spending. 
+and, of course, a huge list of benefits, such as an apartment in Brasíia, car, health assistance, employees (sometimes, more than 70 people) and more than R$ 30.000 available to spend per month with general spending. 
 
 why shouldn't we keep our eyes on them, even before the election?
 
