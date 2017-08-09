@@ -23,7 +23,7 @@ why shouldn't we keep our eyes on them, even before the election?
 why shouldn't we contact them and ask about the recent decisions?
 
 
-<b>metodology</b></p>
+<strong>metodology</strong></p>
 1 - the first version on plenario presents the results of 12 propositions voted by senators. 
 all of them have been covered by the media and might be of society's interest.
 
@@ -42,16 +42,20 @@ fortunately, due to the nominal votings, we do have the opened results of the mo
 we think that it's better to communicate with less variables as possible. 
 
 this explains why we've decide to unify these labels:
-"licença saúde", aka LS;
-"senador em missão", aka MIS;
-"atividade política/cultural", aka AP;
-"licença particular", aka LP.
+<ul>
+<li>"licença saúde", aka LS;</li>
+<li>"senador em missão", aka MIS;</li>
+<li>"atividade política/cultural", aka AP;</li>
+<li>"licença particular", aka LP.</li>
+</ul>
 
 on plenario, all these labels are called "ausente".
 
 following this logic, we've decided to unify two others labels:
-"presente, mas não registrou voto", aka P-NRV;
-"presidente" (since the presidente of the senate is coordenating the voting, he doesn't vote).
+<ul>
+<li>"presente, mas não registrou voto", aka P-NRV;</li>
+<li>"presidente" (since the presidente of the senate is coordenating the voting, he doesn't vote).</li>
+</ul>
 
 on plenario, all these labels are called "não votou".
 
