@@ -12,17 +12,17 @@ and, of course, with internet and social media, it gets easier to reach the poli
 we should make use of this advantage.
 
 we elect senators every four years. all the 26 states and Distrito Federal are represented by three senators.
-in total, they are 81 senators. each one also have two substitutes, in case the senator die, get a license or resign.
+in total, they are 81 senators, each one also have two substitutes. in case the senator dies, gets a license or resigns.
 
 when elected, the senator guarantee at least eight years in power. 
 
-and, of course, a huge list of benefits, such as apartment in Brasíia, car, employees (sometimes, more than 80 people) and more than R$ 40.000 available to spend per month with general spending. 
+and, of course, a huge list of benefits, such as an apartment in Brasíia, car, employees (sometimes, more than 80 people) and more than R$ 40.000 available to spend per month with general spending. 
 
 why shouldn't we keep our eyes on them, even before the election?
 
-why shouldn't we contact them and ask about the recent decisions?
+why shouldn't we get in touch with them to ask about their recent decisions?
 
-<strong>metodology</strong></p>
+<strong>methodology</strong></p>
 1 - the first version of plenario presents the results of 12 propositions voted by senators. 
 all of them have been covered by the media and might be of society's interest.
 
@@ -31,11 +31,11 @@ they have been choosen due to the relevance.
 
 the more recent proposition, "reforma trabalhista", was voted in july 2017.
 
-2 - the votings of indications are secrets. so again we can't know exactly how each senador voted.
+2 - the votings of indications are undisclosed. so again we can't know exactly how each senador voted.
 this happened when Alexandre de Moraes, former Minister for Justice, was indicated to the Supreme Court.
 
 there is also vote by acclamation, when we can't know exactly how each senator voted.
-fortunately, due to the nominal votings, we do have the opened results of the most polemic and important issues.
+fortunately, due to the nominal votings, we do have the opened results of the most controversial and important issues.
 
 3 - the data was collected of the official website [www.senado.leg.br].
 we think that it's better to communicate with less variables as possible. 
