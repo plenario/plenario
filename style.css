@@ -523,6 +523,21 @@ footer .fa {
 	margin: 0 auto;
 }
 
+
+.proposicaoBox a p, a table {
+	text-decoration: none !important;
+	color: black !important;
+}
+
+.proposicaoBox p a {
+	text-decoration: underline !important;
+	color: black;
+}
+
+.proposicaoBox p a {
+	font-weight: 500;
+}
+
 .proposicaoBox:hover{
 	box-shadow: 1px 2px 10px #9E9E9E;
 }
@@ -573,8 +588,14 @@ footer .fa {
 	padding: 0px 20px;
 }
 
+
 .boxContent .contentSubtitle {
 	font-size: 20px;
+}
+
+.boxContent .contentSubtitle p a {
+	text-decoration: underline !important;
+	color: black;
 }
 
 .boxContent .contentResult {
@@ -624,7 +645,6 @@ footer .fa {
 	font-weight: 700;
 	align-self: center;
 	align-items: center;
-
 }
 
 .resultLabelSenador.flex.aFavor {
@@ -826,7 +846,7 @@ select.party, select.uf {
 	margin-right: 20px;
 	border: 1px black solid;
 	font-size: 15px;
-	padding-left: 0px;
+	padding-left: 10px;
 	border-radius: 1%;
 }
 
@@ -969,7 +989,7 @@ input.searchName {
 }
 
 .sobreContent p a {
-	color: white;
+	color: white !important;
 	font-weight: 700;
 }
 
@@ -992,7 +1012,7 @@ input.searchName {
 }
 
 .sobreContent p a:hover {
-	color: #FFBF00;
+	color: #FFBF00 !important;
 }
 
 .sobreContent p .fa {
@@ -1051,9 +1071,6 @@ input.searchName {
 	object-fit: contain;
 	}*/
 
-	.cards .card .cardTitle {
-	}
-
 	#newsletter {
 	background-position: left;
 	background-size: cover;
@@ -1072,9 +1089,6 @@ input.searchName {
 	max-width: 70%;
 	}
 
-	.contentBio p:last-child {
-	display: none;
-	}
 /*aqui começa o MEDIA QUERIES de proposicoes.html */
 	.proposicaoIntro {
 	background-position: bottom;
@@ -1083,7 +1097,6 @@ input.searchName {
 	.proposicaoIntro h2 {
 	color: white;
 	}
-
 
 
 /*aqui começa o MEDIA QUERIES de sobre.html */
@@ -1152,10 +1165,6 @@ input.searchName {
 	font-size: 20px;
 	}
 
-/*	#device img {
-	display: none;
-	}
-*/
 	.cards {
 	height: auto;
 	}
@@ -1166,6 +1175,7 @@ input.searchName {
 	}
 
 	.cards .card .cardTitle {
+	font-size: 150%;
 	}
 
 	#newsletter {
@@ -1173,8 +1183,8 @@ input.searchName {
 	background-size: cover;
 	}
 
-	#newsletter p {
-	font-size: 45px;
+	#newsletter p:nth-child(2) {
+	font-size: 25px !important;
 	}
 
 	#newsletter #form input {
@@ -1202,7 +1212,7 @@ input.searchName {
 
 	.proposicaoBox {
 	max-width: 80%;
-	padding: 10px 10px;
+	padding: 10px 50px;
 	}
 
 	.boxContent p, .boxContent table, .boxContent .date p {
@@ -1256,6 +1266,7 @@ input.searchName {
 	.item p {
 	width: 100%;
 	text-align: center;
+	padding-bottom: 10px;
 	}
 
 	.item img {
@@ -1283,9 +1294,6 @@ input.searchName {
 	height: 200px;
 	}
 
-	.cards .card .cardTitle {
-	}
-
 	#newsletter {
 	background-size: cover;
 	background-position: bottom;
@@ -1296,10 +1304,9 @@ input.searchName {
 	}
 
 	#newsletter p:nth-child(2) {
-	font-size: 25px;
-	padding: 1px;
+	font-size: 23px !important;
+	padding: 1px 40px;
 	}
-
 
 	#newsletter #form input:first-child {
 	margin-right: 0px;
@@ -1350,7 +1357,8 @@ input.searchName {
 /*aqui começa o MEDIA QUERIES de senadores[NomeSobrenome].html */
 	.senadoresProfile {
 	flex-direction: column;
-	max-width: 67%;
+	max-width: 75%;
+	padding: 10px 0px;
 	}
 
 	.senadoresProfile img {
@@ -1366,28 +1374,53 @@ input.searchName {
 	width: 100%;
 	}
 
-	.contentName p {
-	text-align: center;
+	.boxSenadores .contentName.flex p {
+	margin: 0 auto;
+	}
+
+	.boxSenadores i {
+	padding-left: 0px;
 	}
 
 	.contentParty p {
 	text-align: center;
 	}
 
-	.boxChart {
-	height: 100%;
-	justify-content: center;
+	.contentBio p:first-child {
+	padding: 0px 0px 10px 0px;
 	}
 
-	#pecTeto2Chart, #pecTeto1Chart, #dilma2Chart, #dilma1Chart, #reformaEnsinoMedioChart, #vaquejada1Chart, #foroPrivilegiado1Chart, #abusoDeAutoridadeChart, #socorroAosEstadosChart, #foroPrivilegiado2Chart, #reformaTrabalhistaChart, #pecTeto1Chartv2 {
+	.contentBio p:nth-child(2) {
+	display: none;
+	}
+
+	.boxChart {
+	display: none;
+	}
+
+	/*#pecTeto2Chart, #pecTeto1Chart, #dilma2Chart, #dilma1Chart, #reformaEnsinoMedioChart, #vaquejada1Chart, #foroPrivilegiado1Chart, #abusoDeAutoridadeChart, #socorroAosEstadosChart, #foroPrivilegiado2Chart, #reformaTrabalhistaChart, #pecTeto1Chartv2 {
 	width: 40vw;
 	height: 40vh;
 	max-width: 100%;
 	max-height: 100%;
+	}*/
+
+	.resultLabelSenador.flex {
+	height: 35px;
+	width: 200px;
+	margin-top: 10px;
+	}
+
+	.resultLabelSenador.flex p {
+	font-size: 20px;
 	}
 
 	
 /*aqui começa o MEDIA QUERIES de proposicoes.html */
+
+	.proposicaoIntro {
+	background-position: left;
+	}
 
 	.proposicaoIntro h1{
 	font-size: 35px;
@@ -1395,18 +1428,17 @@ input.searchName {
 
 	.proposicaoIntro h2 {
 	font-size: 20px;
-	color: black;
 	}
 
 	.proposicaoBox {
 	flex-direction: column;
 	}
-
+/*
 	.boxChart {
 	width: 100%;
 	text-align: center;
 	}
-
+*/
 	.boxContent {
 	width: 100%;
 	}
@@ -1424,9 +1456,9 @@ input.searchName {
 	}
 
 	.contentResult .resultLabel td {
-	font-size: 17px;
-	text-align: center;
+	font-size: 15px;
 	}
+
 
 /*aqui começa o MEDIA QUERIES de sobre.html */
 	
@@ -1480,23 +1512,33 @@ input.searchName {
 	}
 
 	.cards .card .cardTitle {
-	font-size: 160%;
+	font-size: 120%;
 	}
 
 	.card {
 	min-width: 200px;
 	}
 
-	#newsletter p:first-child {
-	font-size: 27px;
-	}
-
 	#newsletter p:nth-child(2) {
-	font-size: 20px;
+	font-size: 18px !important;
 	}
 
 	#newsletter #form input {
 	width: 200px;
+	}
+
+	#newsletter #form input::placeholder, #newsletter input {
+	font-size: 17px;
+	}
+
+	#newsletter #send button {
+	height: 34px;
+	width: 150px;
+	margin-top: 70px;
+	background-color: #FFBF00;
+	color: white;
+	font-size: 20px;
+	border-radius: 15px;
 	}
 
 	#socialMediaScroll.visivel {
@@ -1524,7 +1566,7 @@ input.searchName {
 	}
 
 	.contentResult .resultLabel td {
-	font-size: 15px;
+	font-size: 13px;
 	}
 
 /*aqui começa o MEDIA QUERIES de sobre.html */
