@@ -12,7 +12,7 @@ and, of course, with internet and social media, it gets easier to reach the poli
 we should make use of this advantage.
 
 we elect senators every four years. all the 26 states and Distrito Federal are represented by three senators.
-in total, they are 81 senadors. each one also have two substitutes, in case the senator die, get a license or resign.
+in total, they are 81 senators. each one also have two substitutes, in case the senator die, get a license or resign.
 
 when elected, the senator guarantee at least eight years in power. 
 
@@ -23,7 +23,7 @@ why shouldn't we keep our eyes on them, even before the election?
 why shouldn't we contact them and ask about the recent decisions?
 
 
-<b>metodology</b>
+<b>metodology</b></p>
 1 - the first version on plenario presents the results of 12 propositions voted by senators. 
 all of them have been covered by the media and might be of society's interest.
 
