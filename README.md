@@ -61,7 +61,7 @@ on plenario, all these labels are called "não votou".
 4 - we are concerned not to get people confused. that's why we have considered the current party of the senator. 
 
 although Ângela Portela was affiliated with PT during the impeachment, her current party is PDT.
-pleario will always show Ângela Portela affiliated to PDT. 
+pleario will always show Ângela Portela affiliated with PDT. 
 
 the same situation happens with Alvaro Dias and Romário, for example. 
 both have migrated to Podemos, former PTN. 
