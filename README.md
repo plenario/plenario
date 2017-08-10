@@ -107,17 +107,20 @@ há também votações por aclamação, quando nós também não sabemos exatame
 
 isso explica por que nós decidimos unificar os rótulos abaixo:
 
-"licença saúde", rótulo identificado pelo Senado por LS;
-"senador em missão", rótulo identificado pelo Senado por MIS;
-"atividade política/cultural", rótulo identificado pelo Senado por AP;
-"licença particular", rótulo identificado pelo Senado por LP.
-no plenario, todos esses rótulos acima passaram a ser nomeados como "ausente".
+<ul>
+<li>"licença saúde", rótulo identificado pelo Senado por LS;</li>
+<li>"senador em missão", rótulo identificado pelo Senado por MIS;</li>
+<li>"atividade política/cultural", rótulo identificado pelo Senado por AP;</li>
+<li>"licença particular", rótulo identificado pelo Senado por LP.</li>
+</ul>
 
 seguindo a mesma lógica, decidimos unificar dois outros rótulos:
 
-"presente, mas não registrou voto", rótulo identificado pelo Senado por P-NRV;
-"presidente" (como o presidente do Senado coordena a votação, ele não vota).
-no plenario, todos esses rótulos acima passaram a ser nomeados como "não votou".
+<ul>
+<li>"presente, mas não registrou voto", rótulo identificado pelo Senado por P-NRV;</li>
+<li>"presidente" (como o presidente do Senado coordena a votação, ele não vota).
+no plenario, todos esses rótulos acima passaram a ser nomeados como "não votou"</li>
+</ul>
 
 4 - nós nos preocupamos em não deixar o internauta confuso. é por isso que resolvemos usar o partido atual de cada senador.
 
