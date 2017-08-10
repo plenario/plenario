@@ -1,3 +1,7 @@
+../images/headerSocialProjetoPlenario2facebook.jpg
+
+./images/headerSocialProjetoPlenario2facebook.jpg
+
 [english]</br>
 plenario is an open source project which focuses on the results of the brazilian senate.
 it was coded during the four last days of the front-end bootcamp {reprograma}, in partnership with senai santa cecília, as final work. 
@@ -23,7 +27,7 @@ why shouldn't we keep our eyes on them, even before the election?
 
 why shouldn't we get in touch with them to ask about their recent decisions?
 
-<strong>methodology</strong></p>
+**methodology**
 1 - the first version of plenario presents the results of 12 propositions voted by senators. 
 all of them have been covered by the media and might be of society's interest.
 
@@ -67,14 +71,14 @@ pleario will always show Ângela Portela affiliated with PDT.
 the same situation happens with Alvaro Dias and Romário, for example. 
 both have migrated to Podemos, former PTN. 
 
-=====
+=====</br>
 [português]</br>
 
 plenário é um projeto, em código aberto, que trabalha os dados de votações do Senado Federal. a ferramenta foi desenvolvida durante os quatro últimos dias do curso de front-end {reprograma}, em parceria com o senai santa cecília, como trabalho final.
 
 plenário foi idealizado e desenvolvido por @gabrielacaesar. @guisoares2011 ajudou com um pull request aqui no github. e também tivemos ajuda das voluntárias da {reprograma} e de três professores do senai santa cecília, localizado em são paulo, brasil.
 
-a ideia principal é oferecer uma ferramenta de controle social que estimule participação social e transparência. acreditamos que accountability é importante na consolidação de democracias.
+a ideia principal é oferecer uma ferramenta de controle social que estimule participação social e transparência. acreditamos que *accountability* é importante na consolidação de democracias.
 
 e, é claro, com internet e mídias sociais, ficou mais fácil alcançar os políticos. devemos fazer uso dessa vantagem.
 
@@ -88,9 +92,10 @@ por que nós não deveríamos ficar de olho neles, mesmo depois da eleição?
 
 por que nós não deveríamos contatá-los para perguntar sobre suas recentes decisões?
 
-metodologia
+**metodologia**
 
 1 - a primeira versão do plenário apresenta o resultado de 12 proposições votadas pelos senadores. todas receberam destaque na imprensa e podem ser de interesse público. 
+
 duas das 12 proposições são sobre o impeachment de Dilma Rousseff, em agosto de 2016. elas foram escolhidas por conta da relevância nacional.
 
 a proposição mais recente, "reforma trabalhista", foi votada em julho de 2017.
