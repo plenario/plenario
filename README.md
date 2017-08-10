@@ -101,7 +101,7 @@ a proposição mais recente, "reforma trabalhista", foi votada em julho de 2017.
 
 2 - as votações de indicados são secretas. isso significa que nós não sabemos exatamente como cada senador votou. foi  que ocorreu quando Alexandre de Moraes, ex-ministro da Justiça, foi indicado para o Supremo Tribunal Federal.
 
-há também votações por aclamação, quando nós também não sabemos exatamente como cada senador votou. felizmente, graças às votações, nós temos o fácil acesso ao resultado das votações de questões mais polêmicas e/ou importantes.
+há também votações por aclamação, quando nós também não sabemos exatamente como cada senador votou. felizmente, graças às votações nominais, nós temos o fácil acesso ao resultado das votações de questões mais polêmicas e/ou importantes.
 
 3 - os dados foram coletados do site oficial do Senado Federal [www.senado.leg.br]. nós acreditamos que é melhor comunicar com menos variáveis.
 
