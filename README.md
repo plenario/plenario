@@ -1,6 +1,4 @@
-../images/headerSocialProjetoPlenario2facebook.jpg
-
-./images/headerSocialProjetoPlenario2facebook.jpg
+![alt text](https://github.com/plenario/plenario/blob/master/imagens/headerSocialProjetoPlenario2facebook.jpg)
 
 [english]</br>
 plenario is an open source project which focuses on the results of the brazilian senate.
