@@ -1,9 +1,9 @@
 plenario is an open source project which focuses on the results of the brazilian senate.
-it was coded during the four last days of a front-end bootcamp as final work. 
+it was coded during the four last days of the front-end bootcamp {reprograma}, in partnership with senai santa cecília, as final work. 
 
 plenario was idealized and coded by @gabrielacaesar.
 @guisoares2011 has kindly helped with a pull request.
-and we also had some help of three teachers who work for senai santa cecília, institution located in são paulo, brazil.
+and we also had some help of {reprograma}'s volunteers and three teachers who work for senai santa cecília, institution located in são paulo, brazil.
 
 the main idea is to offer a social control tool that stimulates the social participation and transparency. 
 we believe accountability is important to consolidate democracies.
