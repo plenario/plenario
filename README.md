@@ -1,4 +1,4 @@
-[inglês]
+[inglês]</br>
 plenario is an open source project which focuses on the results of the brazilian senate.
 it was coded during the four last days of the front-end bootcamp {reprograma}, in partnership with senai santa cecília, as final work. 
 
@@ -68,7 +68,7 @@ the same situation happens with Alvaro Dias and Romário, for example.
 both have migrated to Podemos, former PTN. 
 
 =====
-[português]
+[português]</br>
 
 plenário é um projeto, em código aberto, que trabalha os dados de votações do Senado Federal. a ferramenta foi desenvolvida durante os quatro últimos dias do curso de front-end {reprograma}, em parceria com o senai santa cecília, como trabalho final.
 
