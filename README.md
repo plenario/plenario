@@ -124,6 +124,6 @@ no plenario, todos esses rótulos acima passaram a ser nomeados como "não votou
 
 4 - nós nos preocupamos em não deixar o internauta confuso. é por isso que resolvemos usar o partido atual de cada senador.
 
-embora Ângela Portela estivesse filiada ao PT na época do  impeachment, o partido atual dela é o PDT. pleario mostrará sempre a senadora Ângela Portela filiada ao PDT.
+embora Ângela Portela estivesse filiada ao PT na época do  impeachment, o partido atual dela é o PDT. plenário mostrará sempre a senadora Ângela Portela filiada ao PDT.
 
 temos a mesma situação com Alvaro Dias and Romário, por exemplo. ambos migraram para o Podemos, ex-PTN.
