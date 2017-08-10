@@ -1,4 +1,4 @@
-[inglês]</br>
+[english]</br>
 plenario is an open source project which focuses on the results of the brazilian senate.
 it was coded during the four last days of the front-end bootcamp {reprograma}, in partnership with senai santa cecília, as final work. 
 
