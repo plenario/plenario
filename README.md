@@ -114,6 +114,8 @@ isso explica por que nós decidimos unificar os rótulos abaixo:
 <li>"licença particular", rótulo identificado pelo Senado por LP.</li>
 </ul>
 
+no plenario, todos esses rótulos foram chamados de "ausente". 
+
 seguindo a mesma lógica, decidimos unificar dois outros rótulos:
 
 <ul>
@@ -121,6 +123,8 @@ seguindo a mesma lógica, decidimos unificar dois outros rótulos:
 <li>"presidente" (como o presidente do Senado coordena a votação, ele não vota).
 no plenario, todos esses rótulos acima passaram a ser nomeados como "não votou"</li>
 </ul>
+
+no plenario, todos esses rótulos foram chamados de "não votou".
 
 4 - nós nos preocupamos em não deixar o internauta confuso. é por isso que resolvemos usar o partido atual de cada senador.
 
