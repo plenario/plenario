@@ -26,7 +26,7 @@ why shouldn't we keep our eyes on them, even before the election?
 
 why shouldn't we get in touch with them to ask about their recent decisions?
 
-**methodology**
+**methodology**</br>
 1 - the first version of plenario presents the results of 12 propositions voted by senators. 
 all of them have been covered by the media and might be of society's interest.
 
