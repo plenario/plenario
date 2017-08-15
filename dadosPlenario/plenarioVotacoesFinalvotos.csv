@@ -1,0 +1,980 @@
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,numero,nome,voto,voto add,partido,uf,proposicao,data
+,0,Acir Gurgacz,AP,,PDT,RO,plc 38 de 2017 plen,11.jul.2017
+,1,Aécio Neves,Sim,,PSDB,MG,plc 38 de 2017 plen,11.jul.2017
+,2,Airton Sandoval,Sim,,PMDB,SP,plc 38 de 2017 plen,11.jul.2017
+,3,Alvaro Dias,Não,,PODEMOS,PR,plc 38 de 2017 plen,11.jul.2017
+,4,Ana Amélia,Sim,,PP,RS,plc 38 de 2017 plen,11.jul.2017
+,5,Ângela Portela,Não,,PDT,RR,plc 38 de 2017 plen,11.jul.2017
+,6,Antonio Anastasia,Sim,,PSDB,MG,plc 38 de 2017 plen,11.jul.2017
+,7,Antonio Carlos Valadares,Não,,PSB,SE,plc 38 de 2017 plen,11.jul.2017
+,8,Armando Monteiro,Sim,,PTB,PE,plc 38 de 2017 plen,11.jul.2017
+,9,Ataídes Oliveira,Sim,,PSDB,TO,plc 38 de 2017 plen,11.jul.2017
+,10,Benedito de Lira,Sim,,PP,AL,plc 38 de 2017 plen,11.jul.2017
+,11,Cássio Cunha Lima,Sim,,PSDB,PB,plc 38 de 2017 plen,11.jul.2017
+,12,Cidinho Santos,Sim,,PR,MT,plc 38 de 2017 plen,11.jul.2017
+,13,Ciro Nogueira,Sim,,PP,PI,plc 38 de 2017 plen,11.jul.2017
+,14,Cristovam Buarque,Sim,,PPS,DF,plc 38 de 2017 plen,11.jul.2017
+,15,Dalirio Beber,Sim,,PSDB,SC,plc 38 de 2017 plen,11.jul.2017
+,16,Dário Berger,Sim,,PMDB,SC,plc 38 de 2017 plen,11.jul.2017
+,17,Davi Alcolumbre,Sim,,DEM,AP,plc 38 de 2017 plen,11.jul.2017
+,18,Edison Lobão,Sim,,PMDB,MA,plc 38 de 2017 plen,11.jul.2017
+,19,Eduardo Amorim,Não,,PSDB,SE,plc 38 de 2017 plen,11.jul.2017
+,20,Eduardo Braga,Não,,PMDB,AM,plc 38 de 2017 plen,11.jul.2017
+,21,Eduardo Lopes,Sim,,PRB,RJ,plc 38 de 2017 plen,11.jul.2017
+,22,Elmano Férrer,Sim,,PMDB,PI,plc 38 de 2017 plen,11.jul.2017
+,23,Eunício Oliveira,Presidente (art,,PMDB,CE,plc 38 de 2017 plen,11.jul.2017
+,24,Fátima Bezerra,Não,,PT ,RN,plc 38 de 2017 plen,11.jul.2017
+,25,Fernando Bezerra Coelho,Sim,,PSB,PE,plc 38 de 2017 plen,11.jul.2017
+,26,Fernando Collor,Não,,PTC,AL,plc 38 de 2017 plen,11.jul.2017
+,27,Flexa Ribeiro,Sim,,PSDB,PA,plc 38 de 2017 plen,11.jul.2017
+,28,Garibaldi Alves Filho,Sim,,PMDB,RN,plc 38 de 2017 plen,11.jul.2017
+,29,Gladson Cameli,Sim,,PP,AC,plc 38 de 2017 plen,11.jul.2017
+,30,Gleisi Hoffmann,Não,,PT,PR,plc 38 de 2017 plen,11.jul.2017
+,31,Hélio José,LS,,PMDB,DF,plc 38 de 2017 plen,11.jul.2017
+,32,Humberto Costa,Não,,PT,PE,plc 38 de 2017 plen,11.jul.2017
+,33,Ivo Cassol,Sim,,PP,RO,plc 38 de 2017 plen,11.jul.2017
+,34,Jader Barbalho,Sim,,PMDB,PA,plc 38 de 2017 plen,11.jul.2017
+,35,João Alberto Souza,Sim,,PMDB,MA,plc 38 de 2017 plen,11.jul.2017
+,36,João Capiberibe,Não,,PSB,AP,plc 38 de 2017 plen,11.jul.2017
+,37,Jorge Viana,Não,,PT,AC,plc 38 de 2017 plen,11.jul.2017
+,38,José Agripino,Sim,,DEM,RN,plc 38 de 2017 plen,11.jul.2017
+,39,José Maranhão,Sim,,PMDB,PB,plc 38 de 2017 plen,11.jul.2017
+,40,José Medeiros,Sim,,PSD ,MT,plc 38 de 2017 plen,11.jul.2017
+,41,José Pimentel,Não,,PT,CE,plc 38 de 2017 plen,11.jul.2017
+,42,José Serra,Sim,,PSDB,SP,plc 38 de 2017 plen,11.jul.2017
+,43,Kátia Abreu,Não,,PMDB,TO,plc 38 de 2017 plen,11.jul.2017
+,44,Lasier Martins,Sim,,PSD,RS,plc 38 de 2017 plen,11.jul.2017
+,45,Lídice da Mata,Não,,PSB,BA,plc 38 de 2017 plen,11.jul.2017
+,46,Lindbergh Farias,Não,,PT,RJ,plc 38 de 2017 plen,11.jul.2017
+,47,Lúcia Vânia,Abstenção,,PSB,GO,plc 38 de 2017 plen,11.jul.2017
+,48,Magno Malta,Sim,,PR,ES,plc 38 de 2017 plen,11.jul.2017
+,49,Maria do Carmo Alves,NCom,,DEM,SE,plc 38 de 2017 plen,11.jul.2017
+,50,Marta Suplicy,Sim,,PMDB,SP,plc 38 de 2017 plen,11.jul.2017
+,51,Omar Aziz,Sim,,PSD,AM,plc 38 de 2017 plen,11.jul.2017
+,52,Otto Alencar,Não,,PSD,BA,plc 38 de 2017 plen,11.jul.2017
+,53,Paulo Bauer,Sim,,PSDB,SC,plc 38 de 2017 plen,11.jul.2017
+,54,Paulo Paim,Não,,PT,RS,plc 38 de 2017 plen,11.jul.2017
+,55,Paulo Rocha,Não,,PT,PA,plc 38 de 2017 plen,11.jul.2017
+,56,Pedro Chaves,Sim,,PSC,MS,plc 38 de 2017 plen,11.jul.2017
+,57,Raimundo Lira,Sim,,PMDB,PB,plc 38 de 2017 plen,11.jul.2017
+,58,Randolfe Rodrigues,Não,,REDE,AP,plc 38 de 2017 plen,11.jul.2017
+,59,Regina Sousa,Não,,PT,PI,plc 38 de 2017 plen,11.jul.2017
+,60,Reguffe,Não,,S/SIGLA,DF,plc 38 de 2017 plen,11.jul.2017
+,61,Renan Calheiros,Não,,PMDB,AL,plc 38 de 2017 plen,11.jul.2017
+,62,Ricardo Ferraço,Sim,,PSDB,ES,plc 38 de 2017 plen,11.jul.2017
+,63,Roberto Muniz,Sim,,PP,BA,plc 38 de 2017 plen,11.jul.2017
+,64,Roberto Requião,Não,,PMDB,PR,plc 38 de 2017 plen,11.jul.2017
+,65,Roberto Rocha,Sim,,PSB,MA,plc 38 de 2017 plen,11.jul.2017
+,66,Romário,Não,,PODEMOS,RJ,plc 38 de 2017 plen,11.jul.2017
+,67,Romero Jucá,Sim,,PMDB,RR,plc 38 de 2017 plen,11.jul.2017
+,68,Ronaldo Caiado,Sim,,DEM,GO,plc 38 de 2017 plen,11.jul.2017
+,69,Rose de Freitas,Sim,,PMDB,ES,plc 38 de 2017 plen,11.jul.2017
+,70,Sérgio Petecão,Sim,,PSD,AC,plc 38 de 2017 plen,11.jul.2017
+,71,Simone Tebet,Sim,,PMDB,MS,plc 38 de 2017 plen,11.jul.2017
+,72,Tasso Jereissati,Sim,,PSDB,CE,plc 38 de 2017 plen,11.jul.2017
+,73,Telmário Mota,Não,,PTB,RR,plc 38 de 2017 plen,11.jul.2017
+,74,Valdir Raupp,Sim,,PMDB,RO,plc 38 de 2017 plen,11.jul.2017
+,75,Vanessa Grazziotin,Não,,PCDOB,AM,plc 38 de 2017 plen,11.jul.2017
+,76,Vicentinho Alves,Sim,,PR,TO,plc 38 de 2017 plen,11.jul.2017
+,77,Waldemir Moka,Sim,,PMDB,MS,plc 38 de 2017 plen,11.jul.2017
+,78,Wellington Fagundes,Sim,,PR,MT,plc 38 de 2017 plen,11.jul.2017
+,79,Wilder Morais,Sim,,PP,GO,plc 38 de 2017 plen,11.jul.2017
+,80,Zeze Perrella,Sim,,PMDB,MG,plc 38 de 2017 plen,11.jul.2017
+,0,Acir Gurgacz,Sim,,PDT,RO,pec 10 de 2013 2t,31.mai.2017
+,1,Aécio Neves,NCom,,PSDB,MG,pec 10 de 2013 2t,31.mai.2017
+,2,Airton Sandoval,Sim,,PMDB,SP,pec 10 de 2013 2t,31.mai.2017
+,3,Alvaro Dias,Sim,,PODEMOS,PR,pec 10 de 2013 2t,31.mai.2017
+,4,Ana Amélia,Sim,,PP,RS,pec 10 de 2013 2t,31.mai.2017
+,5,Ângela Portela,Sim,,PDT,RR,pec 10 de 2013 2t,31.mai.2017
+,6,Antonio Anastasia,Sim,,PSDB,MG,pec 10 de 2013 2t,31.mai.2017
+,7,Antonio Carlos Valadares,LS,,PSB,SE,pec 10 de 2013 2t,31.mai.2017
+,8,Armando Monteiro,Sim,,PTB,PE,pec 10 de 2013 2t,31.mai.2017
+,9,Ataídes Oliveira,P,NRV,PSDB,TO,pec 10 de 2013 2t,31.mai.2017
+,10,Benedito de Lira,Sim,,PP,AL,pec 10 de 2013 2t,31.mai.2017
+,11,Cássio Cunha Lima,Sim,,PSDB,PB,pec 10 de 2013 2t,31.mai.2017
+,12,Cidinho Santos,Sim,,PR,MT,pec 10 de 2013 2t,31.mai.2017
+,13,Ciro Nogueira,Sim,,PP,PI,pec 10 de 2013 2t,31.mai.2017
+,14,Cristovam Buarque,NCom,,PPS,DF,pec 10 de 2013 2t,31.mai.2017
+,15,Dalirio Beber,Sim,,PSDB,SC,pec 10 de 2013 2t,31.mai.2017
+,16,Dário Berger,Sim,,PMDB,SC,pec 10 de 2013 2t,31.mai.2017
+,17,Davi Alcolumbre,Sim,,DEM,AP,pec 10 de 2013 2t,31.mai.2017
+,18,Edison Lobão,LS,,PMDB,MA,pec 10 de 2013 2t,31.mai.2017
+,19,Eduardo Amorim,Sim,,PSDB,SE,pec 10 de 2013 2t,31.mai.2017
+,20,Eduardo Braga,Sim,,PMDB,AM,pec 10 de 2013 2t,31.mai.2017
+,21,Eduardo Lopes,Sim,,PRB,RJ,pec 10 de 2013 2t,31.mai.2017
+,22,Elmano Férrer,Sim,,PMDB,PI,pec 10 de 2013 2t,31.mai.2017
+,23,Eunício Oliveira,Presidente (art,,PMDB,CE,pec 10 de 2013 2t,31.mai.2017
+,24,Fátima Bezerra,Sim,,PT ,RN,pec 10 de 2013 2t,31.mai.2017
+,25,Fernando Bezerra Coelho,Sim,,PSB,PE,pec 10 de 2013 2t,31.mai.2017
+,26,Fernando Collor,Sim,,PTC,AL,pec 10 de 2013 2t,31.mai.2017
+,27,Flexa Ribeiro,Sim,,PSDB,PA,pec 10 de 2013 2t,31.mai.2017
+,28,Garibaldi Alves Filho,Sim,,PMDB,RN,pec 10 de 2013 2t,31.mai.2017
+,29,Gladson Cameli,Sim,,PP,AC,pec 10 de 2013 2t,31.mai.2017
+,30,Gleisi Hoffmann,AP,,PT,PR,pec 10 de 2013 2t,31.mai.2017
+,31,Hélio José,Sim,,PMDB,DF,pec 10 de 2013 2t,31.mai.2017
+,32,Humberto Costa,Sim,,PT,PE,pec 10 de 2013 2t,31.mai.2017
+,33,Ivo Cassol,Sim,,PP,RO,pec 10 de 2013 2t,31.mai.2017
+,34,Jader Barbalho,AP,,PMDB,PA,pec 10 de 2013 2t,31.mai.2017
+,35,João Alberto Souza,Sim,,PMDB,MA,pec 10 de 2013 2t,31.mai.2017
+,36,João Capiberibe,Sim,,PSB,AP,pec 10 de 2013 2t,31.mai.2017
+,37,Jorge Viana,Sim,,PT,AC,pec 10 de 2013 2t,31.mai.2017
+,38,José Agripino,Sim,,DEM,RN,pec 10 de 2013 2t,31.mai.2017
+,39,José Maranhão,Sim,,PMDB,PB,pec 10 de 2013 2t,31.mai.2017
+,40,José Medeiros,Sim,,PSD ,MT,pec 10 de 2013 2t,31.mai.2017
+,41,José Pimentel,Sim,,PT,CE,pec 10 de 2013 2t,31.mai.2017
+,42,José Serra,Sim,,PSDB,SP,pec 10 de 2013 2t,31.mai.2017
+,43,Kátia Abreu,LS,,PMDB,TO,pec 10 de 2013 2t,31.mai.2017
+,44,Lasier Martins,Sim,,PSD,RS,pec 10 de 2013 2t,31.mai.2017
+,45,Lídice da Mata,Sim,,PSB,BA,pec 10 de 2013 2t,31.mai.2017
+,46,Lindbergh Farias,Sim,,PT,RJ,pec 10 de 2013 2t,31.mai.2017
+,47,Lúcia Vânia,Abstenção,,PSB,GO,pec 10 de 2013 2t,31.mai.2017
+,48,Magno Malta,Sim,,PR,ES,pec 10 de 2013 2t,31.mai.2017
+,49,Maria do Carmo Alves,Sim,,DEM,SE,pec 10 de 2013 2t,31.mai.2017
+,50,Marta Suplicy,Sim,,PMDB,SP,pec 10 de 2013 2t,31.mai.2017
+,51,Omar Aziz,Sim,,PSD,AM,pec 10 de 2013 2t,31.mai.2017
+,52,Otto Alencar,Sim,,PSD,BA,pec 10 de 2013 2t,31.mai.2017
+,53,Paulo Bauer,Sim,,PSDB,SC,pec 10 de 2013 2t,31.mai.2017
+,54,Paulo Paim,Sim,,PT,RS,pec 10 de 2013 2t,31.mai.2017
+,55,Paulo Rocha,Sim,,PT,PA,pec 10 de 2013 2t,31.mai.2017
+,56,Pedro Chaves,Sim,,PSC,MS,pec 10 de 2013 2t,31.mai.2017
+,57,Raimundo Lira,Sim,,PMDB,PB,pec 10 de 2013 2t,31.mai.2017
+,58,Randolfe Rodrigues,Sim,,REDE,AP,pec 10 de 2013 2t,31.mai.2017
+,59,Regina Sousa,Sim,,PT,PI,pec 10 de 2013 2t,31.mai.2017
+,60,Reguffe,Sim,,S/SIGLA,DF,pec 10 de 2013 2t,31.mai.2017
+,61,Renan Calheiros,P,NRV,PMDB,AL,pec 10 de 2013 2t,31.mai.2017
+,62,Ricardo Ferraço,Sim,,PSDB,ES,pec 10 de 2013 2t,31.mai.2017
+,63,Roberto Muniz,Sim,,PP,BA,pec 10 de 2013 2t,31.mai.2017
+,64,Roberto Requião,Sim,,PMDB,PR,pec 10 de 2013 2t,31.mai.2017
+,65,Roberto Rocha,Sim,,PSB,MA,pec 10 de 2013 2t,31.mai.2017
+,66,Romário,Sim,,PODEMOS,RJ,pec 10 de 2013 2t,31.mai.2017
+,67,Romero Jucá,Sim,,PMDB,RR,pec 10 de 2013 2t,31.mai.2017
+,68,Ronaldo Caiado,Sim,,DEM,GO,pec 10 de 2013 2t,31.mai.2017
+,69,Rose de Freitas,Sim,,PMDB,ES,pec 10 de 2013 2t,31.mai.2017
+,70,Sérgio Petecão,Sim,,PSD,AC,pec 10 de 2013 2t,31.mai.2017
+,71,Simone Tebet,Sim,,PMDB,MS,pec 10 de 2013 2t,31.mai.2017
+,72,Tasso Jereissati,Sim,,PSDB,CE,pec 10 de 2013 2t,31.mai.2017
+,73,Telmário Mota,Sim,,PTB,RR,pec 10 de 2013 2t,31.mai.2017
+,74,Valdir Raupp,Sim,,PMDB,RO,pec 10 de 2013 2t,31.mai.2017
+,75,Vanessa Grazziotin,Sim,,PCDOB,AM,pec 10 de 2013 2t,31.mai.2017
+,76,Vicentinho Alves,Sim,,PR,TO,pec 10 de 2013 2t,31.mai.2017
+,77,Waldemir Moka,Sim,,PMDB,MS,pec 10 de 2013 2t,31.mai.2017
+,78,Wellington Fagundes,Sim,,PR,MT,pec 10 de 2013 2t,31.mai.2017
+,79,Wilder Morais,Sim,,PP,GO,pec 10 de 2013 2t,31.mai.2017
+,80,Zeze Perrella,AP,,PMDB,MG,pec 10 de 2013 2t,31.mai.2017
+,0,Acir Gurgacz,Sim,,PDT,RO,plc 39 de 2017,17.mai.2017
+,1,Aécio Neves,Sim,,PSDB,MG,plc 39 de 2017,17.mai.2017
+,2,Airton Sandoval,Sim,,PMDB,SP,plc 39 de 2017,17.mai.2017
+,3,Alvaro Dias,Sim,,PODEMOS,PR,plc 39 de 2017,17.mai.2017
+,4,Ana Amélia,Sim,,PP,RS,plc 39 de 2017,17.mai.2017
+,5,Ângela Portela,P,NRV,PDT,RR,plc 39 de 2017,17.mai.2017
+,6,Antonio Anastasia,Sim,,PSDB,MG,plc 39 de 2017,17.mai.2017
+,7,Antonio Carlos Valadares,LS,,PSB,SE,plc 39 de 2017,17.mai.2017
+,8,Armando Monteiro,Sim,,PTB,PE,plc 39 de 2017,17.mai.2017
+,9,Ataídes Oliveira,Sim,,PSDB,TO,plc 39 de 2017,17.mai.2017
+,10,Benedito de Lira,Sim,,PP,AL,plc 39 de 2017,17.mai.2017
+,11,Cássio Cunha Lima,Sim,,PSDB,PB,plc 39 de 2017,17.mai.2017
+,12,Cidinho Santos,Sim,,PR,MT,plc 39 de 2017,17.mai.2017
+,13,Ciro Nogueira,Sim,,PP,PI,plc 39 de 2017,17.mai.2017
+,14,Cristovam Buarque,Sim,,PPS,DF,plc 39 de 2017,17.mai.2017
+,15,Dalirio Beber,Sim,,PSDB,SC,plc 39 de 2017,17.mai.2017
+,16,Dário Berger,Sim,,PMDB,SC,plc 39 de 2017,17.mai.2017
+,17,Davi Alcolumbre,Sim,,DEM,AP,plc 39 de 2017,17.mai.2017
+,18,Edison Lobão,LS,,PMDB,MA,plc 39 de 2017,17.mai.2017
+,19,Eduardo Amorim,Sim,,PSDB,SE,plc 39 de 2017,17.mai.2017
+,20,Eduardo Braga,Sim,,PMDB,AM,plc 39 de 2017,17.mai.2017
+,21,Eduardo Lopes,AP,,PRB,RJ,plc 39 de 2017,17.mai.2017
+,22,Elmano Férrer,Sim,,PMDB,PI,plc 39 de 2017,17.mai.2017
+,23,Eunício Oliveira,Presidente (art,,PMDB,CE,plc 39 de 2017,17.mai.2017
+,24,Fátima Bezerra,Não,,PT ,RN,plc 39 de 2017,17.mai.2017
+,25,Fernando Bezerra Coelho,MIS,,PSB,PE,plc 39 de 2017,17.mai.2017
+,26,Fernando Collor,P,NRV,PTC,AL,plc 39 de 2017,17.mai.2017
+,27,Flexa Ribeiro,Sim,,PSDB,PA,plc 39 de 2017,17.mai.2017
+,28,Garibaldi Alves Filho,Sim,,PMDB,RN,plc 39 de 2017,17.mai.2017
+,29,Gladson Cameli,Sim,,PP,AC,plc 39 de 2017,17.mai.2017
+,30,Gleisi Hoffmann,Não,,PT,PR,plc 39 de 2017,17.mai.2017
+,31,Hélio José,Sim,,PMDB,DF,plc 39 de 2017,17.mai.2017
+,32,Humberto Costa,NCom,,PT,PE,plc 39 de 2017,17.mai.2017
+,33,Ivo Cassol,Sim,,PP,RO,plc 39 de 2017,17.mai.2017
+,34,Jader Barbalho,Sim,,PMDB,PA,plc 39 de 2017,17.mai.2017
+,35,João Alberto Souza,Sim,,PMDB,MA,plc 39 de 2017,17.mai.2017
+,36,João Capiberibe,Não,,PSB,AP,plc 39 de 2017,17.mai.2017
+,37,Jorge Viana,P,NRV,PT,AC,plc 39 de 2017,17.mai.2017
+,38,José Agripino,Sim,,DEM,RN,plc 39 de 2017,17.mai.2017
+,39,José Maranhão,Sim,,PMDB,PB,plc 39 de 2017,17.mai.2017
+,40,José Medeiros,Sim,,PSD ,MT,plc 39 de 2017,17.mai.2017
+,41,José Pimentel,Sim,,PT,CE,plc 39 de 2017,17.mai.2017
+,42,José Serra,Sim,,PSDB,SP,plc 39 de 2017,17.mai.2017
+,43,Kátia Abreu,Sim,,PMDB,TO,plc 39 de 2017,17.mai.2017
+,44,Lasier Martins,Sim,,PSD,RS,plc 39 de 2017,17.mai.2017
+,45,Lídice da Mata,P,NRV,PSB,BA,plc 39 de 2017,17.mai.2017
+,46,Lindbergh Farias,Não,,PT,RJ,plc 39 de 2017,17.mai.2017
+,47,Lúcia Vânia,Sim,,PSB,GO,plc 39 de 2017,17.mai.2017
+,48,Magno Malta,Sim,,PR,ES,plc 39 de 2017,17.mai.2017
+,49,Maria do Carmo Alves,P,NRV,DEM,SE,plc 39 de 2017,17.mai.2017
+,50,Marta Suplicy,Sim,,PMDB,SP,plc 39 de 2017,17.mai.2017
+,51,Omar Aziz,Sim,,PSD,AM,plc 39 de 2017,17.mai.2017
+,52,Otto Alencar,Sim,,PSD,BA,plc 39 de 2017,17.mai.2017
+,53,Paulo Bauer,Sim,,PSDB,SC,plc 39 de 2017,17.mai.2017
+,54,Paulo Paim,Sim,,PT,RS,plc 39 de 2017,17.mai.2017
+,55,Paulo Rocha,Não,,PT,PA,plc 39 de 2017,17.mai.2017
+,56,Pedro Chaves,NCom,,PSC,MS,plc 39 de 2017,17.mai.2017
+,57,Raimundo Lira,P,NRV,PMDB,PB,plc 39 de 2017,17.mai.2017
+,58,Randolfe Rodrigues,Não,,REDE,AP,plc 39 de 2017,17.mai.2017
+,59,Regina Sousa,Não,,PT,PI,plc 39 de 2017,17.mai.2017
+,60,Reguffe,Não,,S/SIGLA,DF,plc 39 de 2017,17.mai.2017
+,61,Renan Calheiros,Sim,,PMDB,AL,plc 39 de 2017,17.mai.2017
+,62,Ricardo Ferraço,Sim,,PSDB,ES,plc 39 de 2017,17.mai.2017
+,63,Roberto Muniz,Sim,,PP,BA,plc 39 de 2017,17.mai.2017
+,64,Roberto Requião,NCom,,PMDB,PR,plc 39 de 2017,17.mai.2017
+,65,Roberto Rocha,Sim,,PSB,MA,plc 39 de 2017,17.mai.2017
+,66,Romário,Sim,,PODEMOS,RJ,plc 39 de 2017,17.mai.2017
+,67,Romero Jucá,Sim,,PMDB,RR,plc 39 de 2017,17.mai.2017
+,68,Ronaldo Caiado,Sim,,DEM,GO,plc 39 de 2017,17.mai.2017
+,69,Rose de Freitas,Sim,,PMDB,ES,plc 39 de 2017,17.mai.2017
+,70,Sérgio Petecão,Sim,,PSD,AC,plc 39 de 2017,17.mai.2017
+,71,Simone Tebet,Sim,,PMDB,MS,plc 39 de 2017,17.mai.2017
+,72,Tasso Jereissati,Sim,,PSDB,CE,plc 39 de 2017,17.mai.2017
+,73,Telmário Mota,Sim,,PTB,RR,plc 39 de 2017,17.mai.2017
+,74,Valdir Raupp,Sim,,PMDB,RO,plc 39 de 2017,17.mai.2017
+,75,Vanessa Grazziotin,Não,,PCDOB,AM,plc 39 de 2017,17.mai.2017
+,76,Vicentinho Alves,Sim,,PR,TO,plc 39 de 2017,17.mai.2017
+,77,Waldemir Moka,Sim,,PMDB,MS,plc 39 de 2017,17.mai.2017
+,78,Wellington Fagundes,Sim,,PR,MT,plc 39 de 2017,17.mai.2017
+,79,Wilder Morais,P,NRV,PP,GO,plc 39 de 2017,17.mai.2017
+,80,Zeze Perrella,P,NRV,PMDB,MG,plc 39 de 2017,17.mai.2017
+,0,Acir Gurgacz,Sim,,PDT,RO,pec 10 de 2013 1t,26.abr.2017
+,1,Aécio Neves,Sim,,PSDB,MG,pec 10 de 2013 1t,26.abr.2017
+,2,Airton Sandoval,Sim,,PMDB,SP,pec 10 de 2013 1t,26.abr.2017
+,3,Alvaro Dias,Sim,,PODEMOS,PR,pec 10 de 2013 1t,26.abr.2017
+,4,Ana Amélia,Sim,,PP,RS,pec 10 de 2013 1t,26.abr.2017
+,5,Ângela Portela,Sim,,PDT,RR,pec 10 de 2013 1t,26.abr.2017
+,6,Antonio Anastasia,Sim,,PSDB,MG,pec 10 de 2013 1t,26.abr.2017
+,7,Antonio Carlos Valadares,Sim,,PSB,SE,pec 10 de 2013 1t,26.abr.2017
+,8,Armando Monteiro,Sim,,PTB,PE,pec 10 de 2013 1t,26.abr.2017
+,9,Ataídes Oliveira,Sim,,PSDB,TO,pec 10 de 2013 1t,26.abr.2017
+,10,Benedito de Lira,Sim,,PP,AL,pec 10 de 2013 1t,26.abr.2017
+,11,Cássio Cunha Lima,Sim,,PSDB,PB,pec 10 de 2013 1t,26.abr.2017
+,12,Cidinho Santos,Sim,,PR,MT,pec 10 de 2013 1t,26.abr.2017
+,13,Ciro Nogueira,Sim,,PP,PI,pec 10 de 2013 1t,26.abr.2017
+,14,Cristovam Buarque,Sim,,PPS,DF,pec 10 de 2013 1t,26.abr.2017
+,15,Dalirio Beber,Sim,,PSDB,SC,pec 10 de 2013 1t,26.abr.2017
+,16,Dário Berger,Sim,,PMDB,SC,pec 10 de 2013 1t,26.abr.2017
+,17,Davi Alcolumbre,NCom,,DEM,AP,pec 10 de 2013 1t,26.abr.2017
+,18,Edison Lobão,Sim,,PMDB,MA,pec 10 de 2013 1t,26.abr.2017
+,19,Eduardo Amorim,Sim,,PSDB,SE,pec 10 de 2013 1t,26.abr.2017
+,20,Eduardo Braga,Sim,,PMDB,AM,pec 10 de 2013 1t,26.abr.2017
+,21,Eduardo Lopes,Sim,,PRB,RJ,pec 10 de 2013 1t,26.abr.2017
+,22,Elmano Férrer,Sim,,PMDB,PI,pec 10 de 2013 1t,26.abr.2017
+,23,Eunício Oliveira,NCom,,PMDB,CE,pec 10 de 2013 1t,26.abr.2017
+,24,Fátima Bezerra,NCom,,PT ,RN,pec 10 de 2013 1t,26.abr.2017
+,25,Fernando Bezerra Coelho,Sim,,PSB,PE,pec 10 de 2013 1t,26.abr.2017
+,26,Fernando Collor,Sim,,PTC,AL,pec 10 de 2013 1t,26.abr.2017
+,27,Flexa Ribeiro,Sim,,PSDB,PA,pec 10 de 2013 1t,26.abr.2017
+,28,Garibaldi Alves Filho,Sim,,PMDB,RN,pec 10 de 2013 1t,26.abr.2017
+,29,Gladson Cameli,Sim,,PP,AC,pec 10 de 2013 1t,26.abr.2017
+,30,Gleisi Hoffmann,Sim,,PT,PR,pec 10 de 2013 1t,26.abr.2017
+,31,Hélio José,Sim,,PMDB,DF,pec 10 de 2013 1t,26.abr.2017
+,32,Humberto Costa,Sim,,PT,PE,pec 10 de 2013 1t,26.abr.2017
+,33,Ivo Cassol,Sim,,PP,RO,pec 10 de 2013 1t,26.abr.2017
+,34,Jader Barbalho,Sim,,PMDB,PA,pec 10 de 2013 1t,26.abr.2017
+,35,João Alberto Souza,Sim,,PMDB,MA,pec 10 de 2013 1t,26.abr.2017
+,36,João Capiberibe,Sim,,PSB,AP,pec 10 de 2013 1t,26.abr.2017
+,37,Jorge Viana,Sim,,PT,AC,pec 10 de 2013 1t,26.abr.2017
+,38,José Agripino,Sim,,DEM,RN,pec 10 de 2013 1t,26.abr.2017
+,39,José Maranhão,Sim,,PMDB,PB,pec 10 de 2013 1t,26.abr.2017
+,40,José Medeiros,Sim,,PSD ,MT,pec 10 de 2013 1t,26.abr.2017
+,41,José Pimentel,Sim,,PT,CE,pec 10 de 2013 1t,26.abr.2017
+,42,José Serra,Sim,,PSDB,SP,pec 10 de 2013 1t,26.abr.2017
+,43,Kátia Abreu,AP,,PMDB,TO,pec 10 de 2013 1t,26.abr.2017
+,44,Lasier Martins,Sim,,PSD,RS,pec 10 de 2013 1t,26.abr.2017
+,45,Lídice da Mata,Sim,,PSB,BA,pec 10 de 2013 1t,26.abr.2017
+,46,Lindbergh Farias,Sim,,PT,RJ,pec 10 de 2013 1t,26.abr.2017
+,47,Lúcia Vânia,Sim,,PSB,GO,pec 10 de 2013 1t,26.abr.2017
+,48,Magno Malta,Sim,,PR,ES,pec 10 de 2013 1t,26.abr.2017
+,49,Maria do Carmo Alves,P,NRV,DEM,SE,pec 10 de 2013 1t,26.abr.2017
+,50,Marta Suplicy,Sim,,PMDB,SP,pec 10 de 2013 1t,26.abr.2017
+,51,Omar Aziz,Sim,,PSD,AM,pec 10 de 2013 1t,26.abr.2017
+,52,Otto Alencar,Sim,,PSD,BA,pec 10 de 2013 1t,26.abr.2017
+,53,Paulo Bauer,Sim,,PSDB,SC,pec 10 de 2013 1t,26.abr.2017
+,54,Paulo Paim,Sim,,PT,RS,pec 10 de 2013 1t,26.abr.2017
+,55,Paulo Rocha,Sim,,PT,PA,pec 10 de 2013 1t,26.abr.2017
+,56,Pedro Chaves,Sim,,PSC,MS,pec 10 de 2013 1t,26.abr.2017
+,57,Raimundo Lira,Sim,,PMDB,PB,pec 10 de 2013 1t,26.abr.2017
+,58,Randolfe Rodrigues,Sim,,REDE,AP,pec 10 de 2013 1t,26.abr.2017
+,59,Regina Sousa,Sim,,PT,PI,pec 10 de 2013 1t,26.abr.2017
+,60,Reguffe,Sim,,S/SIGLA,DF,pec 10 de 2013 1t,26.abr.2017
+,61,Renan Calheiros,Sim,,PMDB,AL,pec 10 de 2013 1t,26.abr.2017
+,62,Ricardo Ferraço,Sim,,PSDB,ES,pec 10 de 2013 1t,26.abr.2017
+,63,Roberto Muniz,Sim,,PP,BA,pec 10 de 2013 1t,26.abr.2017
+,64,Roberto Requião,P,NRV,PMDB,PR,pec 10 de 2013 1t,26.abr.2017
+,65,Roberto Rocha,Sim,,PSB,MA,pec 10 de 2013 1t,26.abr.2017
+,66,Romário,Sim,,PODEMOS,RJ,pec 10 de 2013 1t,26.abr.2017
+,67,Romero Jucá,Sim,,PMDB,RR,pec 10 de 2013 1t,26.abr.2017
+,68,Ronaldo Caiado,Sim,,DEM,GO,pec 10 de 2013 1t,26.abr.2017
+,69,Rose de Freitas,Sim,,PMDB,ES,pec 10 de 2013 1t,26.abr.2017
+,70,Sérgio Petecão,Sim,,PSD,AC,pec 10 de 2013 1t,26.abr.2017
+,71,Simone Tebet,Sim,,PMDB,MS,pec 10 de 2013 1t,26.abr.2017
+,72,Tasso Jereissati,Sim,,PSDB,CE,pec 10 de 2013 1t,26.abr.2017
+,73,Telmário Mota,Sim,,PTB,RR,pec 10 de 2013 1t,26.abr.2017
+,74,Valdir Raupp,Sim,,PMDB,RO,pec 10 de 2013 1t,26.abr.2017
+,75,Vanessa Grazziotin,Sim,,PCDOB,AM,pec 10 de 2013 1t,26.abr.2017
+,76,Vicentinho Alves,Sim,,PR,TO,pec 10 de 2013 1t,26.abr.2017
+,77,Waldemir Moka,Sim,,PMDB,MS,pec 10 de 2013 1t,26.abr.2017
+,78,Wellington Fagundes,Sim,,PR,MT,pec 10 de 2013 1t,26.abr.2017
+,79,Wilder Morais,Sim,,PP,GO,pec 10 de 2013 1t,26.abr.2017
+,80,Zeze Perrella,Sim,,PMDB,MG,pec 10 de 2013 1t,26.abr.2017
+,0,Acir Gurgacz,Sim,,PDT,RO,pls 85 de 2017,26.abr.2017
+,1,Aécio Neves,Sim,,PSDB,MG,pls 85 de 2017,26.abr.2017
+,2,Airton Sandoval,Sim,,PMDB,SP,pls 85 de 2017,26.abr.2017
+,3,Alvaro Dias,Não,,PODEMOS,PR,pls 85 de 2017,26.abr.2017
+,4,Ana Amélia,Não,,PP,RS,pls 85 de 2017,26.abr.2017
+,5,Ângela Portela,Não,,PDT,RR,pls 85 de 2017,26.abr.2017
+,6,Antonio Anastasia,Sim,,PSDB,MG,pls 85 de 2017,26.abr.2017
+,7,Antonio Carlos Valadares,Sim,,PSB,SE,pls 85 de 2017,26.abr.2017
+,8,Armando Monteiro,Sim,,PTB,PE,pls 85 de 2017,26.abr.2017
+,9,Ataídes Oliveira,Não,,PSDB,TO,pls 85 de 2017,26.abr.2017
+,10,Benedito de Lira,Sim,,PP,AL,pls 85 de 2017,26.abr.2017
+,11,Cássio Cunha Lima,Sim,,PSDB,PB,pls 85 de 2017,26.abr.2017
+,12,Cidinho Santos,Sim,,PR,MT,pls 85 de 2017,26.abr.2017
+,13,Ciro Nogueira,Sim,,PP,PI,pls 85 de 2017,26.abr.2017
+,14,Cristovam Buarque,Não,,PPS,DF,pls 85 de 2017,26.abr.2017
+,15,Dalirio Beber,Sim,,PSDB,SC,pls 85 de 2017,26.abr.2017
+,16,Dário Berger,Sim,,PMDB,SC,pls 85 de 2017,26.abr.2017
+,17,Davi Alcolumbre,NCom,,DEM,AP,pls 85 de 2017,26.abr.2017
+,18,Edison Lobão,Sim,,PMDB,MA,pls 85 de 2017,26.abr.2017
+,19,Eduardo Amorim,Não,,PSDB,SE,pls 85 de 2017,26.abr.2017
+,20,Eduardo Braga,Sim,,PMDB,AM,pls 85 de 2017,26.abr.2017
+,21,Eduardo Lopes,Sim,,PRB,RJ,pls 85 de 2017,26.abr.2017
+,22,Elmano Férrer,Sim,,PMDB,PI,pls 85 de 2017,26.abr.2017
+,23,Eunício Oliveira,Presidente (art,,PMDB,CE,pls 85 de 2017,26.abr.2017
+,24,Fátima Bezerra,NCom,,PT ,RN,pls 85 de 2017,26.abr.2017
+,25,Fernando Bezerra Coelho,Sim,,PSB,PE,pls 85 de 2017,26.abr.2017
+,26,Fernando Collor,Sim,,PTC,AL,pls 85 de 2017,26.abr.2017
+,27,Flexa Ribeiro,Sim,,PSDB,PA,pls 85 de 2017,26.abr.2017
+,28,Garibaldi Alves Filho,Sim,,PMDB,RN,pls 85 de 2017,26.abr.2017
+,29,Gladson Cameli,Não,,PP,AC,pls 85 de 2017,26.abr.2017
+,30,Gleisi Hoffmann,Sim,,PT,PR,pls 85 de 2017,26.abr.2017
+,31,Hélio José,Sim,,PMDB,DF,pls 85 de 2017,26.abr.2017
+,32,Humberto Costa,Sim,,PT,PE,pls 85 de 2017,26.abr.2017
+,33,Ivo Cassol,Sim,,PP,RO,pls 85 de 2017,26.abr.2017
+,34,Jader Barbalho,Sim,,PMDB,PA,pls 85 de 2017,26.abr.2017
+,35,João Alberto Souza,Sim,,PMDB,MA,pls 85 de 2017,26.abr.2017
+,36,João Capiberibe,Não,,PSB,AP,pls 85 de 2017,26.abr.2017
+,37,Jorge Viana,Sim,,PT,AC,pls 85 de 2017,26.abr.2017
+,38,José Agripino,Sim,,DEM,RN,pls 85 de 2017,26.abr.2017
+,39,José Maranhão,Sim,,PMDB,PB,pls 85 de 2017,26.abr.2017
+,40,José Medeiros,P,NRV,PSD ,MT,pls 85 de 2017,26.abr.2017
+,41,José Pimentel,Sim,,PT,CE,pls 85 de 2017,26.abr.2017
+,42,José Serra,Sim,,PSDB,SP,pls 85 de 2017,26.abr.2017
+,43,Kátia Abreu,AP,,PMDB,TO,pls 85 de 2017,26.abr.2017
+,44,Lasier Martins,Não,,PSD,RS,pls 85 de 2017,26.abr.2017
+,45,Lídice da Mata,Sim,,PSB,BA,pls 85 de 2017,26.abr.2017
+,46,Lindbergh Farias,Sim,,PT,RJ,pls 85 de 2017,26.abr.2017
+,47,Lúcia Vânia,Sim,,PSB,GO,pls 85 de 2017,26.abr.2017
+,48,Magno Malta,Não,,PR,ES,pls 85 de 2017,26.abr.2017
+,49,Maria do Carmo Alves,Sim,,DEM,SE,pls 85 de 2017,26.abr.2017
+,50,Marta Suplicy,Sim,,PMDB,SP,pls 85 de 2017,26.abr.2017
+,51,Omar Aziz,Sim,,PSD,AM,pls 85 de 2017,26.abr.2017
+,52,Otto Alencar,Sim,,PSD,BA,pls 85 de 2017,26.abr.2017
+,53,Paulo Bauer,Sim,,PSDB,SC,pls 85 de 2017,26.abr.2017
+,54,Paulo Paim,Não,,PT,RS,pls 85 de 2017,26.abr.2017
+,55,Paulo Rocha,Sim,,PT,PA,pls 85 de 2017,26.abr.2017
+,56,Pedro Chaves,Não,,PSC,MS,pls 85 de 2017,26.abr.2017
+,57,Raimundo Lira,Sim,,PMDB,PB,pls 85 de 2017,26.abr.2017
+,58,Randolfe Rodrigues,Não,,REDE,AP,pls 85 de 2017,26.abr.2017
+,59,Regina Sousa,Sim,,PT,PI,pls 85 de 2017,26.abr.2017
+,60,Reguffe,Não,,S/SIGLA,DF,pls 85 de 2017,26.abr.2017
+,61,Renan Calheiros,Sim,,PMDB,AL,pls 85 de 2017,26.abr.2017
+,62,Ricardo Ferraço,Não,,PSDB,ES,pls 85 de 2017,26.abr.2017
+,63,Roberto Muniz,Sim,,PP,BA,pls 85 de 2017,26.abr.2017
+,64,Roberto Requião,Sim,,PMDB,PR,pls 85 de 2017,26.abr.2017
+,65,Roberto Rocha,Sim,,PSB,MA,pls 85 de 2017,26.abr.2017
+,66,Romário,Não,,PODEMOS,RJ,pls 85 de 2017,26.abr.2017
+,67,Romero Jucá,Sim,,PMDB,RR,pls 85 de 2017,26.abr.2017
+,68,Ronaldo Caiado,Sim,,DEM,GO,pls 85 de 2017,26.abr.2017
+,69,Rose de Freitas,Sim,,PMDB,ES,pls 85 de 2017,26.abr.2017
+,70,Sérgio Petecão,P,NRV,PSD,AC,pls 85 de 2017,26.abr.2017
+,71,Simone Tebet,Não,,PMDB,MS,pls 85 de 2017,26.abr.2017
+,72,Tasso Jereissati,Sim,,PSDB,CE,pls 85 de 2017,26.abr.2017
+,73,Telmário Mota,Não,,PTB,RR,pls 85 de 2017,26.abr.2017
+,74,Valdir Raupp,Sim,,PMDB,RO,pls 85 de 2017,26.abr.2017
+,75,Vanessa Grazziotin,Sim,,PCDOB,AM,pls 85 de 2017,26.abr.2017
+,76,Vicentinho Alves,Sim,,PR,TO,pls 85 de 2017,26.abr.2017
+,77,Waldemir Moka,Não,,PMDB,MS,pls 85 de 2017,26.abr.2017
+,78,Wellington Fagundes,P,NRV,PR,MT,pls 85 de 2017,26.abr.2017
+,79,Wilder Morais,P,NRV,PP,GO,pls 85 de 2017,26.abr.2017
+,80,Zeze Perrella,Sim,,PMDB,MG,pls 85 de 2017,26.abr.2017
+,0,Acir Gurgacz,LS,,PDT,RO,pec 50 de 2016 1t,14.fev.2017
+,1,Aécio Neves,Sim,,PSDB,MG,pec 50 de 2016 1t,14.fev.2017
+,2,Aloysio Nunes Ferreira,Sim,,PSDB,SP,pec 50 de 2016 1t,14.fev.2017
+,3,Alvaro Dias,Abstenção,,PODEMOS,PR,pec 50 de 2016 1t,14.fev.2017
+,4,Ana Amélia,Sim,,PP,RS,pec 50 de 2016 1t,14.fev.2017
+,5,Ângela Portela,Sim,,PDT,RR,pec 50 de 2016 1t,14.fev.2017
+,6,Antonio Anastasia,Não,,PSDB,MG,pec 50 de 2016 1t,14.fev.2017
+,7,Antonio Carlos Valadares,Sim,,PSB,SE,pec 50 de 2016 1t,14.fev.2017
+,8,Armando Monteiro,Sim,,PTB,PE,pec 50 de 2016 1t,14.fev.2017
+,9,Ataídes Oliveira,Sim,,PSDB,TO,pec 50 de 2016 1t,14.fev.2017
+,10,Benedito de Lira,Sim,,PP,AL,pec 50 de 2016 1t,14.fev.2017
+,11,Cássio Cunha Lima,Sim,,PSDB,PB,pec 50 de 2016 1t,14.fev.2017
+,12,Cidinho Santos,Sim,,PR,MT,pec 50 de 2016 1t,14.fev.2017
+,13,Ciro Nogueira,MIS,,PP,PI,pec 50 de 2016 1t,14.fev.2017
+,14,Cristovam Buarque,NCom,,PPS,DF,pec 50 de 2016 1t,14.fev.2017
+,15,Dalirio Beber,Sim,,PSDB,SC,pec 50 de 2016 1t,14.fev.2017
+,16,Dário Berger,Sim,,PMDB,SC,pec 50 de 2016 1t,14.fev.2017
+,17,Davi Alcolumbre,P,NRV,DEM,AP,pec 50 de 2016 1t,14.fev.2017
+,18,Edison Lobão,LS,,PMDB,MA,pec 50 de 2016 1t,14.fev.2017
+,19,Eduardo Amorim,Sim,,PSDB,SE,pec 50 de 2016 1t,14.fev.2017
+,20,Eduardo Braga,Sim,,PMDB,AM,pec 50 de 2016 1t,14.fev.2017
+,21,Eduardo Lopes,Não,,PRB,RJ,pec 50 de 2016 1t,14.fev.2017
+,22,Elmano Férrer,Sim,,PMDB,PI,pec 50 de 2016 1t,14.fev.2017
+,23,Eunício Oliveira,Presidente (art,,PMDB,CE,pec 50 de 2016 1t,14.fev.2017
+,24,Fátima Bezerra,AP,,PT ,RN,pec 50 de 2016 1t,14.fev.2017
+,25,Fernando Bezerra Coelho,Sim,,PSB,PE,pec 50 de 2016 1t,14.fev.2017
+,26,Fernando Collor,Sim,,PTC,AL,pec 50 de 2016 1t,14.fev.2017
+,27,Flexa Ribeiro,Sim,,PSDB,PA,pec 50 de 2016 1t,14.fev.2017
+,28,Garibaldi Alves Filho,Sim,,PMDB,RN,pec 50 de 2016 1t,14.fev.2017
+,29,Gladson Cameli,MIS,,PP,AC,pec 50 de 2016 1t,14.fev.2017
+,30,Gleisi Hoffmann,Não,,PT,PR,pec 50 de 2016 1t,14.fev.2017
+,31,Hélio José,Sim,,PMDB,DF,pec 50 de 2016 1t,14.fev.2017
+,32,Humberto Costa,Sim,,PT,PE,pec 50 de 2016 1t,14.fev.2017
+,33,Ivo Cassol,Sim,,PP,RO,pec 50 de 2016 1t,14.fev.2017
+,34,Jader Barbalho,NCom,,PMDB,PA,pec 50 de 2016 1t,14.fev.2017
+,35,João Alberto Souza,Sim,,PMDB,MA,pec 50 de 2016 1t,14.fev.2017
+,36,João Capiberibe,Sim,,PSB,AP,pec 50 de 2016 1t,14.fev.2017
+,37,Jorge Viana,Sim,,PT,AC,pec 50 de 2016 1t,14.fev.2017
+,38,José Agripino,Sim,,DEM,RN,pec 50 de 2016 1t,14.fev.2017
+,39,José Aníbal,Abstenção,,PSDB,SP,pec 50 de 2016 1t,14.fev.2017
+,40,José Maranhão,LS,,PMDB,PB,pec 50 de 2016 1t,14.fev.2017
+,41,José Medeiros,MIS,,PSD ,MT,pec 50 de 2016 1t,14.fev.2017
+,42,José Pimentel,Sim,,PT,CE,pec 50 de 2016 1t,14.fev.2017
+,43,Kátia Abreu,Sim,,PMDB,TO,pec 50 de 2016 1t,14.fev.2017
+,44,Lasier Martins,Sim,,PSD,RS,pec 50 de 2016 1t,14.fev.2017
+,45,Lídice da Mata,Sim,,PSB,BA,pec 50 de 2016 1t,14.fev.2017
+,46,Lindbergh Farias,Não,,PT,RJ,pec 50 de 2016 1t,14.fev.2017
+,47,Lúcia Vânia,Sim,,PSB,GO,pec 50 de 2016 1t,14.fev.2017
+,48,Magno Malta,AP,,PR,ES,pec 50 de 2016 1t,14.fev.2017
+,49,Maria do Carmo Alves,Sim,,DEM,SE,pec 50 de 2016 1t,14.fev.2017
+,50,Marta Suplicy,Não,,PMDB,SP,pec 50 de 2016 1t,14.fev.2017
+,51,Omar Aziz,Sim,,PSD,AM,pec 50 de 2016 1t,14.fev.2017
+,52,Otto Alencar,Sim,,PSD,BA,pec 50 de 2016 1t,14.fev.2017
+,53,Paulo Bauer,Sim,,PSDB,SC,pec 50 de 2016 1t,14.fev.2017
+,54,Paulo Paim,Sim,,PT,RS,pec 50 de 2016 1t,14.fev.2017
+,55,Paulo Rocha,Sim,,PT,PA,pec 50 de 2016 1t,14.fev.2017
+,56,Pedro Chaves,Sim,,PSC,MS,pec 50 de 2016 1t,14.fev.2017
+,57,Raimundo Lira,Sim,,PMDB,PB,pec 50 de 2016 1t,14.fev.2017
+,58,Randolfe Rodrigues,Não,,REDE,AP,pec 50 de 2016 1t,14.fev.2017
+,59,Regina Sousa,Abstenção,,PT,PI,pec 50 de 2016 1t,14.fev.2017
+,60,Reguffe,Não,,S/SIGLA,DF,pec 50 de 2016 1t,14.fev.2017
+,61,Renan Calheiros,Sim,,PMDB,AL,pec 50 de 2016 1t,14.fev.2017
+,62,Ricardo Ferraço,P,NRV,PSDB,ES,pec 50 de 2016 1t,14.fev.2017
+,63,Roberto Muniz,Sim,,PP,BA,pec 50 de 2016 1t,14.fev.2017
+,64,Roberto Requião,P,NRV,PMDB,PR,pec 50 de 2016 1t,14.fev.2017
+,65,Roberto Rocha,Sim,,PSB,MA,pec 50 de 2016 1t,14.fev.2017
+,66,Romário,Não,,PODEMOS,RJ,pec 50 de 2016 1t,14.fev.2017
+,67,Romero Jucá,Sim,,PMDB,RR,pec 50 de 2016 1t,14.fev.2017
+,68,Ronaldo Caiado,LS,,DEM,GO,pec 50 de 2016 1t,14.fev.2017
+,69,Rose de Freitas,Sim,,PMDB,ES,pec 50 de 2016 1t,14.fev.2017
+,70,Sérgio Petecão,Sim,,PSD,AC,pec 50 de 2016 1t,14.fev.2017
+,71,Simone Tebet,Sim,,PMDB,MS,pec 50 de 2016 1t,14.fev.2017
+,72,Tasso Jereissati,Sim,,PSDB,CE,pec 50 de 2016 1t,14.fev.2017
+,73,Thieres Pinto,Sim,,PTB,RR,pec 50 de 2016 1t,14.fev.2017
+,74,Valdir Raupp,Sim,,PMDB,RO,pec 50 de 2016 1t,14.fev.2017
+,75,Vanessa Grazziotin,Sim,,PCDOB,AM,pec 50 de 2016 1t,14.fev.2017
+,76,Vicentinho Alves,Sim,,PR,TO,pec 50 de 2016 1t,14.fev.2017
+,77,Waldemir Moka,Sim,,PMDB,MS,pec 50 de 2016 1t,14.fev.2017
+,78,Wellington Fagundes,Sim,,PR,MT,pec 50 de 2016 1t,14.fev.2017
+,79,Wilder Morais,Sim,,PP,GO,pec 50 de 2016 1t,14.fev.2017
+,80,Zeze Perrella,Sim,,PMDB,MG,pec 50 de 2016 1t,14.fev.2017
+,0,Acir Gurgacz,LS,,PDT,RO,pec 50 de 2016 2t,14.fev.2017
+,1,Aécio Neves,P,NRV,PSDB,MG,pec 50 de 2016 2t,14.fev.2017
+,2,Aloysio Nunes Ferreira,Sim,,PSDB,SP,pec 50 de 2016 2t,14.fev.2017
+,3,Alvaro Dias,Abstenção,,PODEMOS,PR,pec 50 de 2016 2t,14.fev.2017
+,4,Ana Amélia,Sim,,PP,RS,pec 50 de 2016 2t,14.fev.2017
+,5,Ângela Portela,Sim,,PDT,RR,pec 50 de 2016 2t,14.fev.2017
+,6,Antonio Anastasia,Não,,PSDB,MG,pec 50 de 2016 2t,14.fev.2017
+,7,Antonio Carlos Valadares,Sim,,PSB,SE,pec 50 de 2016 2t,14.fev.2017
+,8,Armando Monteiro,Sim,,PTB,PE,pec 50 de 2016 2t,14.fev.2017
+,9,Ataídes Oliveira,P,NRV,PSDB,TO,pec 50 de 2016 2t,14.fev.2017
+,10,Benedito de Lira,Sim,,PP,AL,pec 50 de 2016 2t,14.fev.2017
+,11,Cássio Cunha Lima,Sim,,PSDB,PB,pec 50 de 2016 2t,14.fev.2017
+,12,Cidinho Santos,Sim,,PR,MT,pec 50 de 2016 2t,14.fev.2017
+,13,Ciro Nogueira,MIS,,PP,PI,pec 50 de 2016 2t,14.fev.2017
+,14,Cristovam Buarque,NCom,,PPS,DF,pec 50 de 2016 2t,14.fev.2017
+,15,Dalirio Beber,Sim,,PSDB,SC,pec 50 de 2016 2t,14.fev.2017
+,16,Dário Berger,Sim,,PMDB,SC,pec 50 de 2016 2t,14.fev.2017
+,17,Davi Alcolumbre,Sim,,DEM,AP,pec 50 de 2016 2t,14.fev.2017
+,18,Edison Lobão,LS,,PMDB,MA,pec 50 de 2016 2t,14.fev.2017
+,19,Eduardo Amorim,Sim,,PSDB,SE,pec 50 de 2016 2t,14.fev.2017
+,20,Eduardo Braga,P,NRV,PMDB,AM,pec 50 de 2016 2t,14.fev.2017
+,21,Eduardo Lopes,Não,,PRB,RJ,pec 50 de 2016 2t,14.fev.2017
+,22,Elmano Férrer,Sim,,PMDB,PI,pec 50 de 2016 2t,14.fev.2017
+,23,Eunício Oliveira,Presidente (art,,PMDB,CE,pec 50 de 2016 2t,14.fev.2017
+,24,Fátima Bezerra,AP,,PT ,RN,pec 50 de 2016 2t,14.fev.2017
+,25,Fernando Bezerra Coelho,Sim,,PSB,PE,pec 50 de 2016 2t,14.fev.2017
+,26,Fernando Collor,Sim,,PTC,AL,pec 50 de 2016 2t,14.fev.2017
+,27,Flexa Ribeiro,Sim,,PSDB,PA,pec 50 de 2016 2t,14.fev.2017
+,28,Garibaldi Alves Filho,Sim,,PMDB,RN,pec 50 de 2016 2t,14.fev.2017
+,29,Gladson Cameli,MIS,,PP,AC,pec 50 de 2016 2t,14.fev.2017
+,30,Gleisi Hoffmann,Não,,PT,PR,pec 50 de 2016 2t,14.fev.2017
+,31,Hélio José,Sim,,PMDB,DF,pec 50 de 2016 2t,14.fev.2017
+,32,Humberto Costa,Sim,,PT,PE,pec 50 de 2016 2t,14.fev.2017
+,33,Ivo Cassol,Sim,,PP,RO,pec 50 de 2016 2t,14.fev.2017
+,34,Jader Barbalho,NCom,,PMDB,PA,pec 50 de 2016 2t,14.fev.2017
+,35,João Alberto Souza,Sim,,PMDB,MA,pec 50 de 2016 2t,14.fev.2017
+,36,João Capiberibe,Sim,,PSB,AP,pec 50 de 2016 2t,14.fev.2017
+,37,Jorge Viana,Sim,,PT,AC,pec 50 de 2016 2t,14.fev.2017
+,38,José Agripino,Sim,,DEM,RN,pec 50 de 2016 2t,14.fev.2017
+,39,José Aníbal,P,NRV,PSDB,SP,pec 50 de 2016 2t,14.fev.2017
+,40,José Maranhão,LS,,PMDB,PB,pec 50 de 2016 2t,14.fev.2017
+,41,José Medeiros,MIS,,PSD ,MT,pec 50 de 2016 2t,14.fev.2017
+,42,José Pimentel,Sim,,PT,CE,pec 50 de 2016 2t,14.fev.2017
+,43,Kátia Abreu,Sim,,PMDB,TO,pec 50 de 2016 2t,14.fev.2017
+,44,Lasier Martins,Sim,,PSD,RS,pec 50 de 2016 2t,14.fev.2017
+,45,Lídice da Mata,Sim,,PSB,BA,pec 50 de 2016 2t,14.fev.2017
+,46,Lindbergh Farias,Não,,PT,RJ,pec 50 de 2016 2t,14.fev.2017
+,47,Lúcia Vânia,Sim,,PSB,GO,pec 50 de 2016 2t,14.fev.2017
+,48,Magno Malta,AP,,PR,ES,pec 50 de 2016 2t,14.fev.2017
+,49,Maria do Carmo Alves,Sim,,DEM,SE,pec 50 de 2016 2t,14.fev.2017
+,50,Marta Suplicy,Não,,PMDB,SP,pec 50 de 2016 2t,14.fev.2017
+,51,Omar Aziz,Sim,,PSD,AM,pec 50 de 2016 2t,14.fev.2017
+,52,Otto Alencar,Sim,,PSD,BA,pec 50 de 2016 2t,14.fev.2017
+,53,Paulo Bauer,Sim,,PSDB,SC,pec 50 de 2016 2t,14.fev.2017
+,54,Paulo Paim,Sim,,PT,RS,pec 50 de 2016 2t,14.fev.2017
+,55,Paulo Rocha,Sim,,PT,PA,pec 50 de 2016 2t,14.fev.2017
+,56,Pedro Chaves,Sim,,PSC,MS,pec 50 de 2016 2t,14.fev.2017
+,57,Raimundo Lira,Sim,,PMDB,PB,pec 50 de 2016 2t,14.fev.2017
+,58,Randolfe Rodrigues,Não,,REDE,AP,pec 50 de 2016 2t,14.fev.2017
+,59,Regina Sousa,Abstenção,,PT,PI,pec 50 de 2016 2t,14.fev.2017
+,60,Reguffe,Não,,S/SIGLA,DF,pec 50 de 2016 2t,14.fev.2017
+,61,Renan Calheiros,Sim,,PMDB,AL,pec 50 de 2016 2t,14.fev.2017
+,62,Ricardo Ferraço,Sim,,PSDB,ES,pec 50 de 2016 2t,14.fev.2017
+,63,Roberto Muniz,Sim,,PP,BA,pec 50 de 2016 2t,14.fev.2017
+,64,Roberto Requião,Não,,PMDB,PR,pec 50 de 2016 2t,14.fev.2017
+,65,Roberto Rocha,Sim,,PSB,MA,pec 50 de 2016 2t,14.fev.2017
+,66,Romário,Não,,PODEMOS,RJ,pec 50 de 2016 2t,14.fev.2017
+,67,Romero Jucá,Sim,,PMDB,RR,pec 50 de 2016 2t,14.fev.2017
+,68,Ronaldo Caiado,LS,,DEM,GO,pec 50 de 2016 2t,14.fev.2017
+,69,Rose de Freitas,Sim,,PMDB,ES,pec 50 de 2016 2t,14.fev.2017
+,70,Sérgio Petecão,Sim,,PSD,AC,pec 50 de 2016 2t,14.fev.2017
+,71,Simone Tebet,Sim,,PMDB,MS,pec 50 de 2016 2t,14.fev.2017
+,72,Tasso Jereissati,Sim,,PSDB,CE,pec 50 de 2016 2t,14.fev.2017
+,73,Thieres Pinto,Sim,,PTB,RR,pec 50 de 2016 2t,14.fev.2017
+,74,Valdir Raupp,P,NRV,PMDB,RO,pec 50 de 2016 2t,14.fev.2017
+,75,Vanessa Grazziotin,Sim,,PCDOB,AM,pec 50 de 2016 2t,14.fev.2017
+,76,Vicentinho Alves,Sim,,PR,TO,pec 50 de 2016 2t,14.fev.2017
+,77,Waldemir Moka,Sim,,PMDB,MS,pec 50 de 2016 2t,14.fev.2017
+,78,Wellington Fagundes,Sim,,PR,MT,pec 50 de 2016 2t,14.fev.2017
+,79,Wilder Morais,Sim,,PP,GO,pec 50 de 2016 2t,14.fev.2017
+,80,Zeze Perrella,P,NRV,PMDB,MG,pec 50 de 2016 2t,14.fev.2017
+,0,Acir Gurgacz,LS,,PDT,RO,mpv 746 de 2016 plen,8.fev.2017
+,1,Aécio Neves,Sim,,PSDB,MG,mpv 746 de 2016 plen,8.fev.2017
+,2,Aloysio Nunes Ferreira,Sim,,PSDB,SP,mpv 746 de 2016 plen,8.fev.2017
+,3,Alvaro Dias,P,NRV,PODEMOS,PR,mpv 746 de 2016 plen,8.fev.2017
+,4,Ana Amélia,Sim,,PP,RS,mpv 746 de 2016 plen,8.fev.2017
+,5,Ângela Portela,Não,,PDT,RR,mpv 746 de 2016 plen,8.fev.2017
+,6,Antonio Anastasia,Sim,,PSDB,MG,mpv 746 de 2016 plen,8.fev.2017
+,7,Antonio Carlos Valadares,P,NRV,PSB,SE,mpv 746 de 2016 plen,8.fev.2017
+,8,Armando Monteiro,Sim,,PTB,PE,mpv 746 de 2016 plen,8.fev.2017
+,9,Ataídes Oliveira,Sim,,PSDB,TO,mpv 746 de 2016 plen,8.fev.2017
+,10,Benedito de Lira,Sim,,PP,AL,mpv 746 de 2016 plen,8.fev.2017
+,11,Cássio Cunha Lima,Sim,,PSDB,PB,mpv 746 de 2016 plen,8.fev.2017
+,12,Cidinho Santos,Sim,,PR,MT,mpv 746 de 2016 plen,8.fev.2017
+,13,Ciro Nogueira,P,NRV,PP,PI,mpv 746 de 2016 plen,8.fev.2017
+,14,Cristovam Buarque,Sim,,PPS,DF,mpv 746 de 2016 plen,8.fev.2017
+,15,Dalirio Beber,Sim,,PSDB,SC,mpv 746 de 2016 plen,8.fev.2017
+,16,Dário Berger,LS,,PMDB,SC,mpv 746 de 2016 plen,8.fev.2017
+,17,Davi Alcolumbre,Sim,,DEM,AP,mpv 746 de 2016 plen,8.fev.2017
+,18,Edison Lobão,Sim,,PMDB,MA,mpv 746 de 2016 plen,8.fev.2017
+,19,Eduardo Amorim,Sim,,PSDB,SE,mpv 746 de 2016 plen,8.fev.2017
+,20,Eduardo Braga,Sim,,PMDB,AM,mpv 746 de 2016 plen,8.fev.2017
+,21,Eduardo Lopes,Sim,,PRB,RJ,mpv 746 de 2016 plen,8.fev.2017
+,22,Elmano Férrer,Sim,,PMDB,PI,mpv 746 de 2016 plen,8.fev.2017
+,23,Eunício Oliveira,P,NRV,PMDB,CE,mpv 746 de 2016 plen,8.fev.2017
+,24,Fátima Bezerra,Não,,PT ,RN,mpv 746 de 2016 plen,8.fev.2017
+,25,Fernando Bezerra Coelho,P,NRV,PSB,PE,mpv 746 de 2016 plen,8.fev.2017
+,26,Fernando Collor,Sim,,PTC,AL,mpv 746 de 2016 plen,8.fev.2017
+,27,Flexa Ribeiro,Sim,,PSDB,PA,mpv 746 de 2016 plen,8.fev.2017
+,28,Garibaldi Alves Filho,Sim,,PMDB,RN,mpv 746 de 2016 plen,8.fev.2017
+,29,Gladson Cameli,NCom,,PP,AC,mpv 746 de 2016 plen,8.fev.2017
+,30,Gleisi Hoffmann,Não,,PT,PR,mpv 746 de 2016 plen,8.fev.2017
+,31,Hélio José,Sim,,PMDB,DF,mpv 746 de 2016 plen,8.fev.2017
+,32,Humberto Costa,Não,,PT,PE,mpv 746 de 2016 plen,8.fev.2017
+,33,Ivo Cassol,P,NRV,PP,RO,mpv 746 de 2016 plen,8.fev.2017
+,34,Jader Barbalho,Sim,,PMDB,PA,mpv 746 de 2016 plen,8.fev.2017
+,35,João Alberto Souza,P,NRV,PMDB,MA,mpv 746 de 2016 plen,8.fev.2017
+,36,João Capiberibe,Não,,PSB,AP,mpv 746 de 2016 plen,8.fev.2017
+,37,Jorge Viana,P,NRV,PT,AC,mpv 746 de 2016 plen,8.fev.2017
+,38,José Agripino,Sim,,DEM,RN,mpv 746 de 2016 plen,8.fev.2017
+,39,José Aníbal,Sim,,PSDB,SP,mpv 746 de 2016 plen,8.fev.2017
+,40,José Maranhão,Sim,,PMDB,PB,mpv 746 de 2016 plen,8.fev.2017
+,41,José Medeiros,Sim,,PSD ,MT,mpv 746 de 2016 plen,8.fev.2017
+,42,José Pimentel,Não,,PT,CE,mpv 746 de 2016 plen,8.fev.2017
+,43,Kátia Abreu,AP,,PMDB,TO,mpv 746 de 2016 plen,8.fev.2017
+,44,Lasier Martins,Sim,,PSD,RS,mpv 746 de 2016 plen,8.fev.2017
+,45,Lídice da Mata,Não,,PSB,BA,mpv 746 de 2016 plen,8.fev.2017
+,46,Lindbergh Farias,Não,,PT,RJ,mpv 746 de 2016 plen,8.fev.2017
+,47,Lúcia Vânia,NCom,,PSB,GO,mpv 746 de 2016 plen,8.fev.2017
+,48,Magno Malta,Sim,,PR,ES,mpv 746 de 2016 plen,8.fev.2017
+,49,Maria do Carmo Alves,NCom,,DEM,SE,mpv 746 de 2016 plen,8.fev.2017
+,50,Marta Suplicy,Sim,,PMDB,SP,mpv 746 de 2016 plen,8.fev.2017
+,51,Omar Aziz,Sim,,PSD,AM,mpv 746 de 2016 plen,8.fev.2017
+,52,Otto Alencar,P,NRV,PSD,BA,mpv 746 de 2016 plen,8.fev.2017
+,53,Paulo Bauer,Sim,,PSDB,SC,mpv 746 de 2016 plen,8.fev.2017
+,54,Paulo Paim,Não,,PT,RS,mpv 746 de 2016 plen,8.fev.2017
+,55,Paulo Rocha,Não,,PT,PA,mpv 746 de 2016 plen,8.fev.2017
+,56,Pedro Chaves,Sim,,PSC,MS,mpv 746 de 2016 plen,8.fev.2017
+,57,Raimundo Lira,P,NRV,PMDB,PB,mpv 746 de 2016 plen,8.fev.2017
+,58,Randolfe Rodrigues,Não,,REDE,AP,mpv 746 de 2016 plen,8.fev.2017
+,59,Regina Sousa,Não,,PT,PI,mpv 746 de 2016 plen,8.fev.2017
+,60,Reguffe,Sim,,S/SIGLA,DF,mpv 746 de 2016 plen,8.fev.2017
+,61,Renan Calheiros,Sim,,PMDB,AL,mpv 746 de 2016 plen,8.fev.2017
+,62,Ricardo Ferraço,P,NRV,PSDB,ES,mpv 746 de 2016 plen,8.fev.2017
+,63,Roberto Muniz,P,NRV,PP,BA,mpv 746 de 2016 plen,8.fev.2017
+,64,Roberto Requião,P,NRV,PMDB,PR,mpv 746 de 2016 plen,8.fev.2017
+,65,Roberto Rocha,NCom,,PSB,MA,mpv 746 de 2016 plen,8.fev.2017
+,66,Romário,P,NRV,PODEMOS,RJ,mpv 746 de 2016 plen,8.fev.2017
+,67,Romero Jucá,Sim,,PMDB,RR,mpv 746 de 2016 plen,8.fev.2017
+,68,Ronaldo Caiado,Sim,,DEM,GO,mpv 746 de 2016 plen,8.fev.2017
+,69,Rose de Freitas,AP,,PMDB,ES,mpv 746 de 2016 plen,8.fev.2017
+,70,Sérgio Petecão,NCom,,PSD,AC,mpv 746 de 2016 plen,8.fev.2017
+,71,Simone Tebet,Sim,,PMDB,MS,mpv 746 de 2016 plen,8.fev.2017
+,72,Tasso Jereissati,Sim,,PSDB,CE,mpv 746 de 2016 plen,8.fev.2017
+,73,Thieres Pinto,Sim,,PTB,RR,mpv 746 de 2016 plen,8.fev.2017
+,74,Valdir Raupp,Sim,,PMDB,RO,mpv 746 de 2016 plen,8.fev.2017
+,75,Vanessa Grazziotin,Não,,PCDOB,AM,mpv 746 de 2016 plen,8.fev.2017
+,76,Vicentinho Alves,P,NRV,PR,TO,mpv 746 de 2016 plen,8.fev.2017
+,77,Waldemir Moka,Sim,,PMDB,MS,mpv 746 de 2016 plen,8.fev.2017
+,78,Wellington Fagundes,Sim,,PR,MT,mpv 746 de 2016 plen,8.fev.2017
+,79,Wilder Morais,Sim,,PP,GO,mpv 746 de 2016 plen,8.fev.2017
+,80,Zeze Perrella,P,NRV,PMDB,MG,mpv 746 de 2016 plen,8.fev.2017
+,0,Aécio Neves,Sim,,PSDB,MG,pec 55 de 2016 2t,13.dez.2016
+,1,Aloysio Nunes Ferreira,Sim,,PSDB,SP,pec 55 de 2016 2t,13.dez.2016
+,2,Alvaro Dias,Sim,,PODEMOS,PR,pec 55 de 2016 2t,13.dez.2016
+,3,Ana Amélia,Sim,,PP,RS,pec 55 de 2016 2t,13.dez.2016
+,4,Ângela Portela,Não,,PDT,RR,pec 55 de 2016 2t,13.dez.2016
+,5,Antonio Anastasia,Sim,,PSDB,MG,pec 55 de 2016 2t,13.dez.2016
+,6,Antonio Carlos Valadares,Sim,,PSB,SE,pec 55 de 2016 2t,13.dez.2016
+,7,Armando Monteiro,Sim,,PTB,PE,pec 55 de 2016 2t,13.dez.2016
+,8,Ataídes Oliveira,Sim,,PSDB,TO,pec 55 de 2016 2t,13.dez.2016
+,9,Benedito de Lira,Sim,,PP,AL,pec 55 de 2016 2t,13.dez.2016
+,10,Cidinho Santos,Sim,,PR,MT,pec 55 de 2016 2t,13.dez.2016
+,11,Ciro Nogueira,Sim,,PP,PI,pec 55 de 2016 2t,13.dez.2016
+,12,Cristovam Buarque,Sim,,PPS,DF,pec 55 de 2016 2t,13.dez.2016
+,13,Dalirio Beber,Sim,,PSDB,SC,pec 55 de 2016 2t,13.dez.2016
+,14,Dário Berger,Não,,PMDB,SC,pec 55 de 2016 2t,13.dez.2016
+,15,Davi Alcolumbre,P,NRV,DEM,AP,pec 55 de 2016 2t,13.dez.2016
+,16,Deca,Sim,,PSDB,PB,pec 55 de 2016 2t,13.dez.2016
+,17,Edison Lobão,Sim,,PMDB,MA,pec 55 de 2016 2t,13.dez.2016
+,18,Eduardo Amorim,Sim,,PSDB,SE,pec 55 de 2016 2t,13.dez.2016
+,19,Eduardo Braga,Sim,,PMDB,AM,pec 55 de 2016 2t,13.dez.2016
+,20,Elmano Férrer,Sim,,PMDB,PI,pec 55 de 2016 2t,13.dez.2016
+,21,Eunício Oliveira,Sim,,PMDB,CE,pec 55 de 2016 2t,13.dez.2016
+,22,Fátima Bezerra,Não,,PT ,RN,pec 55 de 2016 2t,13.dez.2016
+,23,Fernando Bezerra Coelho,Sim,,PSB,PE,pec 55 de 2016 2t,13.dez.2016
+,24,Fernando Collor,P,NRV,PTC,AL,pec 55 de 2016 2t,13.dez.2016
+,25,Flexa Ribeiro,Sim,,PSDB,PA,pec 55 de 2016 2t,13.dez.2016
+,26,Garibaldi Alves Filho,Sim,,PMDB,RN,pec 55 de 2016 2t,13.dez.2016
+,27,Gladson Cameli,Sim,,PP,AC,pec 55 de 2016 2t,13.dez.2016
+,28,Gleisi Hoffmann,Não,,PT,PR,pec 55 de 2016 2t,13.dez.2016
+,29,Hélio José,Sim,,PMDB,DF,pec 55 de 2016 2t,13.dez.2016
+,30,Humberto Costa,Não,,PT,PE,pec 55 de 2016 2t,13.dez.2016
+,31,Ivo Cassol,Sim,,PP,RO,pec 55 de 2016 2t,13.dez.2016
+,32,Jader Barbalho,NCom,,PMDB,PA,pec 55 de 2016 2t,13.dez.2016
+,33,João Alberto Souza,P,NRV,PMDB,MA,pec 55 de 2016 2t,13.dez.2016
+,34,João Capiberibe,Não,,PSB,AP,pec 55 de 2016 2t,13.dez.2016
+,35,Jorge Viana,Não,,PT,AC,pec 55 de 2016 2t,13.dez.2016
+,36,José Agripino,Sim,,DEM,RN,pec 55 de 2016 2t,13.dez.2016
+,37,José Aníbal,Sim,,PSDB,SP,pec 55 de 2016 2t,13.dez.2016
+,38,José Maranhão,Sim,,PMDB,PB,pec 55 de 2016 2t,13.dez.2016
+,39,José Medeiros,Sim,,PSD ,MT,pec 55 de 2016 2t,13.dez.2016
+,40,José Pimentel,Não,,PT,CE,pec 55 de 2016 2t,13.dez.2016
+,41,Kátia Abreu,Não,,PMDB,TO,pec 55 de 2016 2t,13.dez.2016
+,42,Lasier Martins,Sim,,PSD,RS,pec 55 de 2016 2t,13.dez.2016
+,43,Lídice da Mata,Não,,PSB,BA,pec 55 de 2016 2t,13.dez.2016
+,44,Lindbergh Farias,Não,,PT,RJ,pec 55 de 2016 2t,13.dez.2016
+,45,Lúcia Vânia,Sim,,PSB,GO,pec 55 de 2016 2t,13.dez.2016
+,46,Magno Malta,Sim,,PR,ES,pec 55 de 2016 2t,13.dez.2016
+,47,Marcelo Crivella,P,NRV,PRB,RJ,pec 55 de 2016 2t,13.dez.2016
+,48,Marta Suplicy,Sim,,PMDB,SP,pec 55 de 2016 2t,13.dez.2016
+,49,Omar Aziz,Sim,,PSD,AM,pec 55 de 2016 2t,13.dez.2016
+,50,Otto Alencar,Sim,,PSD,BA,pec 55 de 2016 2t,13.dez.2016
+,51,Pastor Valadares,Sim,,PDT,RO,pec 55 de 2016 2t,13.dez.2016
+,52,Paulo Bauer,Sim,,PSDB,SC,pec 55 de 2016 2t,13.dez.2016
+,53,Paulo Paim,Não,,PT,RS,pec 55 de 2016 2t,13.dez.2016
+,54,Paulo Rocha,Não,,PT,PA,pec 55 de 2016 2t,13.dez.2016
+,55,Pedro Chaves,Sim,,PSC,MS,pec 55 de 2016 2t,13.dez.2016
+,56,Pinto Itamaraty,Sim,,PSDB,MA,pec 55 de 2016 2t,13.dez.2016
+,57,Raimundo Lira,Sim,,PMDB,PB,pec 55 de 2016 2t,13.dez.2016
+,58,Randolfe Rodrigues,P,NRV,REDE,AP,pec 55 de 2016 2t,13.dez.2016
+,59,Regina Sousa,Não,,PT,PI,pec 55 de 2016 2t,13.dez.2016
+,60,Reguffe,Sim,,S/SIGLA,DF,pec 55 de 2016 2t,13.dez.2016
+,61,Renan Calheiros,Presidente (art. 51 RISF),,PMDB,AL,pec 55 de 2016 2t,13.dez.2016
+,62,Ricardo Ferraço,Sim,,PSDB,ES,pec 55 de 2016 2t,13.dez.2016
+,63,Roberto Muniz,Sim,,PP,BA,pec 55 de 2016 2t,13.dez.2016
+,64,Roberto Requião,Não,,PMDB,PR,pec 55 de 2016 2t,13.dez.2016
+,65,Romário,LS,,PODEMOS,RJ,pec 55 de 2016 2t,13.dez.2016
+,66,Romero Jucá,Sim,,PMDB,RR,pec 55 de 2016 2t,13.dez.2016
+,67,Ronaldo Caiado,Sim,,DEM,GO,pec 55 de 2016 2t,13.dez.2016
+,68,Rose de Freitas,P,NRV,PMDB,ES,pec 55 de 2016 2t,13.dez.2016
+,69,Sérgio Petecão,Sim,,PSD,AC,pec 55 de 2016 2t,13.dez.2016
+,70,Simone Tebet,Sim,,PMDB,MS,pec 55 de 2016 2t,13.dez.2016
+,71,Tasso Jereissati,Sim,,PSDB,CE,pec 55 de 2016 2t,13.dez.2016
+,72,Telmário Mota,Sim,,PTB,RR,pec 55 de 2016 2t,13.dez.2016
+,73,Valdir Raupp,Sim,,PMDB,RO,pec 55 de 2016 2t,13.dez.2016
+,74,Vanessa Grazziotin,Não,,PCDOB,AM,pec 55 de 2016 2t,13.dez.2016
+,75,Vicentinho Alves,Sim,,PR,TO,pec 55 de 2016 2t,13.dez.2016
+,76,Virginio de Carvalho,LP,,PSC,SE,pec 55 de 2016 2t,13.dez.2016
+,77,Waldemir Moka,Sim,,PMDB,MS,pec 55 de 2016 2t,13.dez.2016
+,78,Wellington Fagundes,Sim,,PR,MT,pec 55 de 2016 2t,13.dez.2016
+,79,Wilder Morais,P,NRV,PP,GO,pec 55 de 2016 2t,13.dez.2016
+,80,Zeze Perrella,P,NRV,PMDB,MG,pec 55 de 2016 2t,13.dez.2016
+,0,Aécio Neves,Sim,,PSDB,MG,pec 55 de 2016 1t,29.nov.2016
+,1,Aloysio Nunes Ferreira,Sim,,PSDB,SP,pec 55 de 2016 1t,29.nov.2016
+,2,Alvaro Dias,Sim,,PODEMOS,PR,pec 55 de 2016 1t,29.nov.2016
+,3,Ana Amélia,Sim,,PP,RS,pec 55 de 2016 1t,29.nov.2016
+,4,Ângela Portela,Não,,PDT,RR,pec 55 de 2016 1t,29.nov.2016
+,5,Antonio Anastasia,Sim,,PSDB,MG,pec 55 de 2016 1t,29.nov.2016
+,6,Antonio Carlos Valadares,Sim,,PSB,SE,pec 55 de 2016 1t,29.nov.2016
+,7,Armando Monteiro,Sim,,PTB,PE,pec 55 de 2016 1t,29.nov.2016
+,8,Ataídes Oliveira,Sim,,PSDB,TO,pec 55 de 2016 1t,29.nov.2016
+,9,Benedito de Lira,Sim,,PP,AL,pec 55 de 2016 1t,29.nov.2016
+,10,Cidinho Santos,Sim,,PR,MT,pec 55 de 2016 1t,29.nov.2016
+,11,Ciro Nogueira,Sim,,PP,PI,pec 55 de 2016 1t,29.nov.2016
+,12,Cristovam Buarque,Sim,,PPS,DF,pec 55 de 2016 1t,29.nov.2016
+,13,Dalirio Beber,Sim,,PSDB,SC,pec 55 de 2016 1t,29.nov.2016
+,14,Dário Berger,Sim,,PMDB,SC,pec 55 de 2016 1t,29.nov.2016
+,15,Davi Alcolumbre,Sim,,DEM,AP,pec 55 de 2016 1t,29.nov.2016
+,16,Deca,Sim,,PSDB,PB,pec 55 de 2016 1t,29.nov.2016
+,17,Edison Lobão,Sim,,PMDB,MA,pec 55 de 2016 1t,29.nov.2016
+,18,Eduardo Amorim,Sim,,PSDB,SE,pec 55 de 2016 1t,29.nov.2016
+,19,Eduardo Braga,Sim,,PMDB,AM,pec 55 de 2016 1t,29.nov.2016
+,20,Elmano Férrer,Sim,,PMDB,PI,pec 55 de 2016 1t,29.nov.2016
+,21,Eunício Oliveira,Sim,,PMDB,CE,pec 55 de 2016 1t,29.nov.2016
+,22,Fátima Bezerra,Não,,PT ,RN,pec 55 de 2016 1t,29.nov.2016
+,23,Fernando Bezerra Coelho,Sim,,PSB,PE,pec 55 de 2016 1t,29.nov.2016
+,24,Fernando Collor,Sim,,PTC,AL,pec 55 de 2016 1t,29.nov.2016
+,25,Flexa Ribeiro,Sim,,PSDB,PA,pec 55 de 2016 1t,29.nov.2016
+,26,Garibaldi Alves Filho,Sim,,PMDB,RN,pec 55 de 2016 1t,29.nov.2016
+,27,Gladson Cameli,Sim,,PP,AC,pec 55 de 2016 1t,29.nov.2016
+,28,Gleisi Hoffmann,Não,,PT,PR,pec 55 de 2016 1t,29.nov.2016
+,29,Hélio José,Sim,,PMDB,DF,pec 55 de 2016 1t,29.nov.2016
+,30,Humberto Costa,Não,,PT,PE,pec 55 de 2016 1t,29.nov.2016
+,31,Ivo Cassol,Sim,,PP,RO,pec 55 de 2016 1t,29.nov.2016
+,32,Jader Barbalho,Sim,,PMDB,PA,pec 55 de 2016 1t,29.nov.2016
+,33,João Alberto Souza,Sim,,PMDB,MA,pec 55 de 2016 1t,29.nov.2016
+,34,João Capiberibe,Não,,PSB,AP,pec 55 de 2016 1t,29.nov.2016
+,35,Jorge Viana,P,NRV,PT,AC,pec 55 de 2016 1t,29.nov.2016
+,36,José Agripino,Sim,,DEM,RN,pec 55 de 2016 1t,29.nov.2016
+,37,José Aníbal,Sim,,PSDB,SP,pec 55 de 2016 1t,29.nov.2016
+,38,José Maranhão,Sim,,PMDB,PB,pec 55 de 2016 1t,29.nov.2016
+,39,José Medeiros,Sim,,PSD ,MT,pec 55 de 2016 1t,29.nov.2016
+,40,José Pimentel,Não,,PT,CE,pec 55 de 2016 1t,29.nov.2016
+,41,Kátia Abreu,Não,,PMDB,TO,pec 55 de 2016 1t,29.nov.2016
+,42,Lasier Martins,Sim,,PSD,RS,pec 55 de 2016 1t,29.nov.2016
+,43,Lídice da Mata,Não,,PSB,BA,pec 55 de 2016 1t,29.nov.2016
+,44,Lindbergh Farias,Não,,PT,RJ,pec 55 de 2016 1t,29.nov.2016
+,45,Lúcia Vânia,Sim,,PSB,GO,pec 55 de 2016 1t,29.nov.2016
+,46,Magno Malta,Sim,,PR,ES,pec 55 de 2016 1t,29.nov.2016
+,47,Marcelo Crivella,Sim,,PRB,RJ,pec 55 de 2016 1t,29.nov.2016
+,48,Marta Suplicy,Sim,,PMDB,SP,pec 55 de 2016 1t,29.nov.2016
+,49,Omar Aziz,Sim,,PSD,AM,pec 55 de 2016 1t,29.nov.2016
+,50,Otto Alencar,Sim,,PSD,BA,pec 55 de 2016 1t,29.nov.2016
+,51,Pastor Valadares,Sim,,PDT,RO,pec 55 de 2016 1t,29.nov.2016
+,52,Paulo Bauer,Sim,,PSDB,SC,pec 55 de 2016 1t,29.nov.2016
+,53,Paulo Paim,Não,,PT,RS,pec 55 de 2016 1t,29.nov.2016
+,54,Paulo Rocha,Não,,PT,PA,pec 55 de 2016 1t,29.nov.2016
+,55,Pedro Chaves,Sim,,PSC,MS,pec 55 de 2016 1t,29.nov.2016
+,56,Pinto Itamaraty,Sim,,PSDB,MA,pec 55 de 2016 1t,29.nov.2016
+,57,Raimundo Lira,Sim,,PMDB,PB,pec 55 de 2016 1t,29.nov.2016
+,58,Randolfe Rodrigues,Não,,REDE,AP,pec 55 de 2016 1t,29.nov.2016
+,59,Regina Sousa,Não,,PT,PI,pec 55 de 2016 1t,29.nov.2016
+,60,Reguffe,Sim,,S/SIGLA,DF,pec 55 de 2016 1t,29.nov.2016
+,61,Renan Calheiros,Presidente (art. 51 RISF),,PMDB,AL,pec 55 de 2016 1t,29.nov.2016
+,62,Ricardo Ferraço,Sim,,PSDB,ES,pec 55 de 2016 1t,29.nov.2016
+,63,Roberto Muniz,Sim,,PP,BA,pec 55 de 2016 1t,29.nov.2016
+,64,Roberto Requião,P,NRV,PMDB,PR,pec 55 de 2016 1t,29.nov.2016
+,65,Romário,LS,,PODEMOS,RJ,pec 55 de 2016 1t,29.nov.2016
+,66,Romero Jucá,Sim,,PMDB,RR,pec 55 de 2016 1t,29.nov.2016
+,67,Ronaldo Caiado,Sim,,DEM,GO,pec 55 de 2016 1t,29.nov.2016
+,68,Rose de Freitas,Sim,,PMDB,ES,pec 55 de 2016 1t,29.nov.2016
+,69,Sérgio Petecão,Sim,,PSD,AC,pec 55 de 2016 1t,29.nov.2016
+,70,Simone Tebet,Sim,,PMDB,MS,pec 55 de 2016 1t,29.nov.2016
+,71,Tasso Jereissati,Sim,,PSDB,CE,pec 55 de 2016 1t,29.nov.2016
+,72,Telmário Mota,P,NRV,PTB,RR,pec 55 de 2016 1t,29.nov.2016
+,73,Valdir Raupp,Sim,,PMDB,RO,pec 55 de 2016 1t,29.nov.2016
+,74,Vanessa Grazziotin,Não,,PCDOB,AM,pec 55 de 2016 1t,29.nov.2016
+,75,Vicentinho Alves,Sim,,PR,TO,pec 55 de 2016 1t,29.nov.2016
+,76,Virginio de Carvalho,AP,,PSC,SE,pec 55 de 2016 1t,29.nov.2016
+,77,Waldemir Moka,Sim,,PMDB,MS,pec 55 de 2016 1t,29.nov.2016
+,78,Wellington Fagundes,Sim,,PR,MT,pec 55 de 2016 1t,29.nov.2016
+,79,Wilder Morais,Sim,,PP,GO,pec 55 de 2016 1t,29.nov.2016
+,80,Zeze Perrella,Sim,,PMDB,MG,pec 55 de 2016 1t,29.nov.2016
+,0,Acir Gurgacz,Sim,,PDT,RO,impeachment,31.ago.2016
+,1,Aécio Neves,Sim,,PSDB,MG,impeachment,31.ago.2016
+,2,Aloysio Nunes Ferreira,Sim,,PSDB,SP,impeachment,31.ago.2016
+,3,Alvaro Dias,Sim,,PODEMOS,PR,impeachment,31.ago.2016
+,4,Ana Amélia,Sim,,PP,RS,impeachment,31.ago.2016
+,5,Ângela Portela,Não,,PDT,RR,impeachment,31.ago.2016
+,6,Antonio Anastasia,Sim,,PSDB,MG,impeachment,31.ago.2016
+,7,Antonio Carlos Valadares,Sim,,PSB,SE,impeachment,31.ago.2016
+,8,Armando Monteiro,Não,,PTB,PE,impeachment,31.ago.2016
+,9,Ataídes Oliveira,Sim,,PSDB,TO,impeachment,31.ago.2016
+,10,Benedito de Lira,Sim,,PP,AL,impeachment,31.ago.2016
+,11,Cássio Cunha Lima,Sim,,PSDB,PB,impeachment,31.ago.2016
+,12,Cidinho Santos,Sim,,PR,MT,impeachment,31.ago.2016
+,13,Ciro Nogueira,Sim,,PP,PI,impeachment,31.ago.2016
+,14,Cristovam Buarque,Sim,,PPS,DF,impeachment,31.ago.2016
+,15,Dalirio Beber,Sim,,PSDB,SC,impeachment,31.ago.2016
+,16,Dário Berger,Sim,,PMDB,SC,impeachment,31.ago.2016
+,17,Davi Alcolumbre,Sim,,DEM,AP,impeachment,31.ago.2016
+,18,Edison Lobão,Sim,,PMDB,MA,impeachment,31.ago.2016
+,19,Eduardo Amorim,Sim,,PSDB,SE,impeachment,31.ago.2016
+,20,Eduardo Braga,Sim,,PMDB,AM,impeachment,31.ago.2016
+,21,Eduardo Lopes,Sim,,PRB,RJ,impeachment,31.ago.2016
+,22,Elmano Férrer,Não,,PMDB,PI,impeachment,31.ago.2016
+,23,Eunício Oliveira,Sim,,PMDB,CE,impeachment,31.ago.2016
+,24,Fátima Bezerra,Não,,PT ,RN,impeachment,31.ago.2016
+,25,Fernando Bezerra Coelho,Sim,,PSB,PE,impeachment,31.ago.2016
+,26,Fernando Collor,Sim,,PTC,AL,impeachment,31.ago.2016
+,27,Flexa Ribeiro,Sim,,PSDB,PA,impeachment,31.ago.2016
+,28,Garibaldi Alves Filho,Sim,,PMDB,RN,impeachment,31.ago.2016
+,29,Gladson Cameli,Sim,,PP,AC,impeachment,31.ago.2016
+,30,Gleisi Hoffmann,Não,,PT,PR,impeachment,31.ago.2016
+,31,Hélio José,Sim,,PMDB,DF,impeachment,31.ago.2016
+,32,Humberto Costa,Não,,PT,PE,impeachment,31.ago.2016
+,33,Ivo Cassol,Sim,,PP,RO,impeachment,31.ago.2016
+,34,Jader Barbalho,Sim,,PMDB,PA,impeachment,31.ago.2016
+,35,João Alberto Souza,Sim,,PMDB,MA,impeachment,31.ago.2016
+,36,João Capiberibe,Não,,PSB,AP,impeachment,31.ago.2016
+,37,Jorge Viana,Não,,PT,AC,impeachment,31.ago.2016
+,38,José Agripino,Sim,,DEM,RN,impeachment,31.ago.2016
+,39,José Aníbal,Sim,,PSDB,SP,impeachment,31.ago.2016
+,40,José Maranhão,Sim,,PMDB,PB,impeachment,31.ago.2016
+,41,José Medeiros,Sim,,PSD ,MT,impeachment,31.ago.2016
+,42,José Pimentel,Não,,PT,CE,impeachment,31.ago.2016
+,43,Kátia Abreu,Não,,PMDB,TO,impeachment,31.ago.2016
+,44,Lasier Martins,Sim,,PSD,RS,impeachment,31.ago.2016
+,45,Lídice da Mata,Não,,PSB,BA,impeachment,31.ago.2016
+,46,Lindbergh Farias,Não,,PT,RJ,impeachment,31.ago.2016
+,47,Lúcia Vânia,Sim,,PSB,GO,impeachment,31.ago.2016
+,48,Magno Malta,Sim,,PR,ES,impeachment,31.ago.2016
+,49,Maria do Carmo Alves,Sim,,DEM,SE,impeachment,31.ago.2016
+,50,Marta Suplicy,Sim,,PMDB,SP,impeachment,31.ago.2016
+,51,Omar Aziz,Sim,,PSD,AM,impeachment,31.ago.2016
+,52,Otto Alencar,Não,,PSD,BA,impeachment,31.ago.2016
+,53,Paulo Bauer,Sim,,PSDB,SC,impeachment,31.ago.2016
+,54,Paulo Paim,Não,,PT,RS,impeachment,31.ago.2016
+,55,Paulo Rocha,Não,,PT,PA,impeachment,31.ago.2016
+,56,Pedro Chaves,Sim,,PSC,MS,impeachment,31.ago.2016
+,57,Raimundo Lira,Sim,,PMDB,PB,impeachment,31.ago.2016
+,58,Randolfe Rodrigues,Não,,REDE,AP,impeachment,31.ago.2016
+,59,Regina Sousa,Não,,PT,PI,impeachment,31.ago.2016
+,60,Reguffe,Sim,,S/SIGLA,DF,impeachment,31.ago.2016
+,61,Renan Calheiros,Sim,,PMDB,AL,impeachment,31.ago.2016
+,62,Ricardo Ferraço,Sim,,PSDB,ES,impeachment,31.ago.2016
+,63,Roberto Muniz,Não,,PP,BA,impeachment,31.ago.2016
+,64,Roberto Requião,Não,,PMDB,PR,impeachment,31.ago.2016
+,65,Roberto Rocha,Sim,,PSB,MA,impeachment,31.ago.2016
+,66,Romário,Sim,,PODEMOS,RJ,impeachment,31.ago.2016
+,67,Romero Jucá,Sim,,PMDB,RR,impeachment,31.ago.2016
+,68,Ronaldo Caiado,Sim,,DEM,GO,impeachment,31.ago.2016
+,69,Rose de Freitas,Sim,,PMDB,ES,impeachment,31.ago.2016
+,70,Sérgio Petecão,Sim,,PSD,AC,impeachment,31.ago.2016
+,71,Simone Tebet,Sim,,PMDB,MS,impeachment,31.ago.2016
+,72,Tasso Jereissati,Sim,,PSDB,CE,impeachment,31.ago.2016
+,73,Telmário Mota,Sim,,PTB,RR,impeachment,31.ago.2016
+,74,Valdir Raupp,Sim,,PMDB,RO,impeachment,31.ago.2016
+,75,Vanessa Grazziotin,Não,,PCDOB,AM,impeachment,31.ago.2016
+,76,Vicentinho Alves,Sim,,PR,TO,impeachment,31.ago.2016
+,77,Waldemir Moka,Sim,,PMDB,MS,impeachment,31.ago.2016
+,78,Wellington Fagundes,Sim,,PR,MT,impeachment,31.ago.2016
+,79,Wilder Morais,Sim,,PP,GO,impeachment,31.ago.2016
+,80,Zeze Perrella,Sim,,PMDB,MG,impeachment,31.ago.2016
+,0,Acir Gurgacz,Não,,PDT,RO,impeachment dest,31.ago.2016
+,1,Aécio Neves,Sim,,PSDB,MG,impeachment dest,31.ago.2016
+,2,Aloysio Nunes Ferreira,Sim,,PSDB,SP,impeachment dest,31.ago.2016
+,3,Alvaro Dias,Sim,,PODEMOS,PR,impeachment dest,31.ago.2016
+,4,Ana Amélia,Sim,,PP,RS,impeachment dest,31.ago.2016
+,5,Ângela Portela,Não,,PDT,RR,impeachment dest,31.ago.2016
+,6,Antonio Anastasia,Sim,,PSDB,MG,impeachment dest,31.ago.2016
+,7,Antonio Carlos Valadares,Não,,PSB,SE,impeachment dest,31.ago.2016
+,8,Armando Monteiro,Não,,PTB,PE,impeachment dest,31.ago.2016
+,9,Ataídes Oliveira,Sim,,PSDB,TO,impeachment dest,31.ago.2016
+,10,Benedito de Lira,Sim,,PP,AL,impeachment dest,31.ago.2016
+,11,Cássio Cunha Lima,Sim,,PSDB,PB,impeachment dest,31.ago.2016
+,12,Cidinho Santos,Não,,PR,MT,impeachment dest,31.ago.2016
+,13,Ciro Nogueira,Sim,,PP,PI,impeachment dest,31.ago.2016
+,14,Cristovam Buarque,Não,,PPS,DF,impeachment dest,31.ago.2016
+,15,Dalirio Beber,Sim,,PSDB,SC,impeachment dest,31.ago.2016
+,16,Dário Berger,Sim,,PMDB,SC,impeachment dest,31.ago.2016
+,17,Davi Alcolumbre,Sim,,DEM,AP,impeachment dest,31.ago.2016
+,18,Edison Lobão,Não,,PMDB,MA,impeachment dest,31.ago.2016
+,19,Eduardo Amorim,Sim,,PSDB,SE,impeachment dest,31.ago.2016
+,20,Eduardo Braga,Não,,PMDB,AM,impeachment dest,31.ago.2016
+,21,Eduardo Lopes,Sim,,PRB,RJ,impeachment dest,31.ago.2016
+,22,Elmano Férrer,Não,,PMDB,PI,impeachment dest,31.ago.2016
+,23,Eunício Oliveira,Abstenção,,PMDB,CE,impeachment dest,31.ago.2016
+,24,Fátima Bezerra,Não,,PT ,RN,impeachment dest,31.ago.2016
+,25,Fernando Bezerra Coelho,Sim,,PSB,PE,impeachment dest,31.ago.2016
+,26,Fernando Collor,Sim,,PTC,AL,impeachment dest,31.ago.2016
+,27,Flexa Ribeiro,Sim,,PSDB,PA,impeachment dest,31.ago.2016
+,28,Garibaldi Alves Filho,Sim,,PMDB,RN,impeachment dest,31.ago.2016
+,29,Gladson Cameli,Sim,,PP,AC,impeachment dest,31.ago.2016
+,30,Gleisi Hoffmann,Não,,PT,PR,impeachment dest,31.ago.2016
+,31,Hélio José,Não,,PMDB,DF,impeachment dest,31.ago.2016
+,32,Humberto Costa,Não,,PT,PE,impeachment dest,31.ago.2016
+,33,Ivo Cassol,Sim,,PP,RO,impeachment dest,31.ago.2016
+,34,Jader Barbalho,Não,,PMDB,PA,impeachment dest,31.ago.2016
+,35,João Alberto Souza,Não,,PMDB,MA,impeachment dest,31.ago.2016
+,36,João Capiberibe,Não,,PSB,AP,impeachment dest,31.ago.2016
+,37,Jorge Viana,Não,,PT,AC,impeachment dest,31.ago.2016
+,38,José Agripino,Sim,,DEM,RN,impeachment dest,31.ago.2016
+,39,José Aníbal,Sim,,PSDB,SP,impeachment dest,31.ago.2016
+,40,José Maranhão,Sim,,PMDB,PB,impeachment dest,31.ago.2016
+,41,José Medeiros,Sim,,PSD ,MT,impeachment dest,31.ago.2016
+,42,José Pimentel,Não,,PT,CE,impeachment dest,31.ago.2016
+,43,Kátia Abreu,Não,,PMDB,TO,impeachment dest,31.ago.2016
+,44,Lasier Martins,Sim,,PSD,RS,impeachment dest,31.ago.2016
+,45,Lídice da Mata,Não,,PSB,BA,impeachment dest,31.ago.2016
+,46,Lindbergh Farias,Não,,PT,RJ,impeachment dest,31.ago.2016
+,47,Lúcia Vânia,Sim,,PSB,GO,impeachment dest,31.ago.2016
+,48,Magno Malta,Sim,,PR,ES,impeachment dest,31.ago.2016
+,49,Maria do Carmo Alves,Abstenção,,DEM,SE,impeachment dest,31.ago.2016
+,50,Marta Suplicy,Sim,,PMDB,SP,impeachment dest,31.ago.2016
+,51,Omar Aziz,Sim,,PSD,AM,impeachment dest,31.ago.2016
+,52,Otto Alencar,Não,,PSD,BA,impeachment dest,31.ago.2016
+,53,Paulo Bauer,Sim,,PSDB,SC,impeachment dest,31.ago.2016
+,54,Paulo Paim,Não,,PT,RS,impeachment dest,31.ago.2016
+,55,Paulo Rocha,Não,,PT,PA,impeachment dest,31.ago.2016
+,56,Pedro Chaves,Sim,,PSC,MS,impeachment dest,31.ago.2016
+,57,Raimundo Lira,Não,,PMDB,PB,impeachment dest,31.ago.2016
+,58,Randolfe Rodrigues,Não,,REDE,AP,impeachment dest,31.ago.2016
+,59,Regina Sousa,Não,,PT,PI,impeachment dest,31.ago.2016
+,60,Reguffe,Sim,,S/SIGLA,DF,impeachment dest,31.ago.2016
+,61,Renan Calheiros,Não,,PMDB,AL,impeachment dest,31.ago.2016
+,62,Ricardo Ferraço,Sim,,PSDB,ES,impeachment dest,31.ago.2016
+,63,Roberto Muniz,Não,,PP,BA,impeachment dest,31.ago.2016
+,64,Roberto Requião,Não,,PMDB,PR,impeachment dest,31.ago.2016
+,65,Roberto Rocha,Não,,PSB,MA,impeachment dest,31.ago.2016
+,66,Romário,Sim,,PODEMOS,RJ,impeachment dest,31.ago.2016
+,67,Romero Jucá,Sim,,PMDB,RR,impeachment dest,31.ago.2016
+,68,Ronaldo Caiado,Sim,,DEM,GO,impeachment dest,31.ago.2016
+,69,Rose de Freitas,Não,,PMDB,ES,impeachment dest,31.ago.2016
+,70,Sérgio Petecão,Sim,,PSD,AC,impeachment dest,31.ago.2016
+,71,Simone Tebet,Sim,,PMDB,MS,impeachment dest,31.ago.2016
+,72,Tasso Jereissati,Sim,,PSDB,CE,impeachment dest,31.ago.2016
+,73,Telmário Mota,Não,,PTB,RR,impeachment dest,31.ago.2016
+,74,Valdir Raupp,Abstenção,,PMDB,RO,impeachment dest,31.ago.2016
+,75,Vanessa Grazziotin,Não,,PCDOB,AM,impeachment dest,31.ago.2016
+,76,Vicentinho Alves,Não,,PR,TO,impeachment dest,31.ago.2016
+,77,Waldemir Moka,Sim,,PMDB,MS,impeachment dest,31.ago.2016
+,78,Wellington Fagundes,Não,,PR,MT,impeachment dest,31.ago.2016
+,79,Wilder Morais,Sim,,PP,GO,impeachment dest,31.ago.2016
+,80,Zeze Perrella,Sim,,PMDB,MG,impeachment dest,31.ago.2016
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,"LS – Licença saúde; MIS – Senador em missão (art. 40 do RISF – considerá-lo presente); NCom – Não compareceu; P-NRV – Presente – Não registrou voto; AP – Atividade política/cultural (art. 13 do RISF, caput); e LP – Licença particular.",,,,,,,
