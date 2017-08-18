@@ -1,2 +1,5 @@
-__pycache__
-/tmp
+app/__pycache__/
+__pycache__/*
+tmp/
+
+*.pyc
