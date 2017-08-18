@@ -2,4 +2,9 @@ app/__pycache__/
 __pycache__/*
 tmp/
 
+# compiled source
 *.pyc
+
+# logs and databases
+*.db
+*.log
