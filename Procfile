@@ -1,1 +1,1 @@
-web: gunicorn --log-file=- projetoplenario:app
+web: gunicorn --log-file=- app:app
