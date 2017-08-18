@@ -1,0 +1,19 @@
+<html>
+  <head>
+    {% if title %}
+    <title>{{ title }} - Plenario</title>
+    {% else %}
+    <title>Welcome to projeto plenario</title>
+    {% endif %}
+  </head>
+  <body>
+    <div><a href="/index">Home</a></div>
+    <div><a href="/senators">Senadores</a></div>
+    <div><a href="/propositions">Proposições</a></div>
+    <div><a href="/about">Sobre</a></div>
+    <p>HEADER</p>
+    <hr>
+    {% block content %}{% endblock %}
+    <p>FOOTER</p>
+  </body>
+</html>

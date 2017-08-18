@@ -1,0 +1,6 @@
+{% extends "index.html" %}
+{% block content %}
+  {% for senator in senators %}
+  <div><p>{{ senator.senator.nickname }} party: <b>{{ senator.party }}</b></p></div>
+  {% endfor %}
+{% endblock %}
