@@ -104,7 +104,7 @@
 <!-- aqui começa a minha segunda dobra -->
 <section class="container">
 		<form id="filter" class="flex">
-			<select class="party">
+			<select class="party" aria-label="filtrar senadores por partido">
 				<option value="senadoresBox">todos os partidos</option>
 				<option value="DEM">DEM</option>
 				<option value="PCdoB">PCdoB</option>
@@ -126,7 +126,7 @@
 				<option value="sem-partido">sem partido</option>	
 			</select>
 
-			<select class="uf">
+			<select class="uf" aria-label="filtrar senadores por estado">
 				<option value="senadoresBox">todos os estados</option>
 				<option value="AC">AC</option>
 				<option value="AL">AL</option>
@@ -158,7 +158,9 @@
 			</select>
 		
 			<div id="searchBar">
-				<input type="text" class="searchName" placeholder="pesquisar">
+				<input type="text" class="searchName" 
+					aria-label="buscar senadores por nome, partido e/ou estado" 
+					placeholder="pesquisar">
 			</div>
 		</form>
 </section>
