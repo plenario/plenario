@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Site de monitoramento dos resultados das votações no Senado">
+    <meta name="keywords" content="legislativo, senador, senadores, Senado, Senado Federal, votação, PEC, PL, MP, medida provisória, política, Michel Temer, presidente, governo, eleição, reforma, open data, transparency, government, social participation, democracy, visualization, Congress, politics, Brasil, Brazil, Brasília, brazilian, election, Planalto, Câmara, Câmara dos Deputados, Renan Calheiros, Eunício Oliveira, Aécio Neves, PMDB, PSDB, PT, Rede, PSB, PSD, PPS, PCdoB, PDT, PTC, DEM, Lava Jato, Sérgio Moro">
+    <meta name="author" content="Gabriela Caesar">
+
+    <title>plenário</title>
+
+	<link rel="shortcut icon" type="image/ico" href="imagens/faviconGeneratorOrg.ico"/>
+
+    <link href="style.css" rel="stylesheet">
+
+ 
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+    <!-- my google analytics code -->	
+	<script>
+  	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ 	 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ 	 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ 	 })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ 	 ga('create', 'UA-98292962-2', 'auto');
+ 	 ga('send', 'pageview');
+	</script>
+	<!-- end of my google analytics code -->
+    
+</head>
+
+<body>
+	
+	
+
+<!-- aqui começa a minha primeira dobra -->
+<header>
+	<section class="container">
+		<button id="hamburgerMenu">
+				<span class="row"></span>
+				<span class="row"></span>
+				<span class="row"></span>
+		</button>
+
+	<nav id="hamburgerList" class="responsivList">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="senadores.html">Senadores</a></li>
+			<li><a href="proposicoes.html">Proposições</a></li>
+			<li><a href="sobre.html">Sobre</a></li>
+		</ul>
+	</nav>
+
+	<nav id="mainMenu" class="flex">
+		<nav id="leftMenu">
+			<ul class="flex">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="senadores.html">Senadores</a></li>
+				<li><a href="proposicoes.html">Proposições</a></li>
+				<li><a href="sobre.html">Sobre</a></li>
+			</ul>
+		</nav>
+
+		<nav id="socialMedia" class="visivel">
+			<div id="socialTop">
+				<a href="https://twitter.com/projetoPlenario" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+				<a href="https://www.facebook.com/projetoplenario/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+				<a href="https://github.com/plenario" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+				<a href="https://medium.com/@plenario" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a>
+				<a href="https://www.instagram.com/projetoplenario/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+			</div>
+		</nav>
+	</nav>
+	</section>
+</header>
+
+<!-- aqui começa o menu lateral, durante o scroll -->
+
+<aside>
+	<nav id="socialMediaScroll">
+			<div id="socialScroll">
+				<a href="https://twitter.com/projetoPlenario" target="_blank"><i class="fa colorBlack fa-twitter-square" aria-hidden="true"></i></a>
+				<a href="https://www.facebook.com/projetoplenario/" target="_blank"><i class="fa colorBlack fa-facebook-square" aria-hidden="true"></i></a>
+				<a href="https://github.com/plenario/" target="_blank"><i class="fa colorBlack fa-github" aria-hidden="true"></i></a>
+				<a href="https://medium.com/@plenario" target="_blank"><i class="fa colorBlack fa-medium" aria-hidden="true"></i></a>
+				<a href="https://www.instagram.com/projetoPlenario/" target="_blank"><i class="fa colorBlack fa-instagram" aria-hidden="true"></i></a>
+			</div>
+		</nav>
+</aside>
+
+
+
+	<section class="container">
+		<div class="senadoresIntro" alt="Foto: Marcos Oliveira/Agência Senado - 30.nov.2016">
+			<h1>senadores</h1>
+			<h2>saiba como votou cada senador</h2>
+		</div>
+	</section>
+
+
+<!-- aqui começa a minha segunda dobra -->
+<section class="container">
+		<form id="filter" class="flex">
+			<select class="party">
+				<option value="senadoresBox">todos os partidos</option>
+				<option value="DEM">DEM</option>
+				<option value="PCdoB">PCdoB</option>
+				<option value="PDT">PDT</option>
+				<option value="PMDB">PMDB</option>
+				<option value="Podemos">Podemos</option>
+				<option value="PP">PP</option>
+				<option value="PR">PR</option>
+				<option value="PRB">PRB</option>
+				<option value="PSB">PSB</option>
+				<option value="PSC">PSC</option>
+				<option value="PSD">PSD</option>
+				<option value="PSDB">PSDB</option>
+				<option value="PPS">PPS</option>
+				<option value="PT">PT</option>
+				<option value="PTB">PTB</option>
+				<option value="PTC">PTC</option>
+				<option value="Rede">Rede</option>
+				<option value="sem-partido">sem partido</option>	
+			</select>
+
+			<select class="uf">
+				<option value="senadoresBox">todos os estados</option>
+				<option value="AC">AC</option>
+				<option value="AL">AL</option>
+				<option value="AM">AM</option>
+				<option value="AP">AP</option>
+				<option value="BA">BA</option>
+				<option value="CE">CE</option>
+				<option value="DF">DF</option>
+				<option value="ES">ES</option>
+				<option value="GO">GO</option>
+				<option value="MA">MA</option>
+				<option value="MG">MG</option>
+				<option value="MS">MS</option>
+				<option value="MT">MT</option>
+				<option value="PA">PA</option>
+				<option value="PB">PB</option>
+				<option value="PE">PE</option>
+				<option value="PI">PI</option>
+				<option value="PR">PR</option>
+				<option value="RJ">RJ</option>
+				<option value="RN">RN</option>
+				<option value="RO">RO</option>
+				<option value="RR">RR</option>
+				<option value="RS">RS</option>
+				<option value="SC">SC</option>
+				<option value="SE">SE</option>
+				<option value="SP">SP</option>
+				<option value="TO">TO</option>	
+			</select>
+		
+			<div id="searchBar">
+				<input type="text" class="searchName" placeholder="pesquisar">
+			</div>
+		</form>
+</section>
+
+
+<!-- aqui começa a minha terceira dobra -->
+
+<div class="container">
+	<section id="senadores" class="flex">
+
+		<div class="senadoresBox PDT uFRO"> 
+			<a href="acir-gurgacz.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/acirgurgacz12ro.jpg">
+			<p class="senadoresName">Acir</br>Gurgacz</p>
+			<p class="senadoresParty">(PDT-RO)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PSDB uFMG">
+			<a href="aecio-neves.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/aecioneves45mg.jpg">
+			<p class="senadoresName">Aécio</br>Neves</p>
+			<p class="senadoresParty">(PSDB-MG)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PMDB uFSP">
+			<a href="airton-sandoval.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/airtonsandoval15sp.jpg">
+			<p class="senadoresName">Airton</br>Sandoval</p>
+			<p class="senadoresParty">(PMDB-SP)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox Podemos uFPR">
+			<a href="alvaro-dias.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/alvarodias19pr.jpg">
+			<p class="senadoresName">Alvaro</br>Dias</p>
+			<p class="senadoresParty">(Podemos-PR)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PP uFRS">
+			<a href="ana-amelia.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/anaamelia11rs.jpg">
+			<p class="senadoresName">Ana</br>Amélia</p>
+			<p class="senadoresParty">(PP-RS)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PDT uFRR">
+			<a href="angela-portela.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/angelaportela12rr.jpg">
+			<p class="senadoresName">Angela</br>Portela</p>
+			<p class="senadoresParty">(PDT-RR)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PSDB uFMG">
+			<a href="antonio-anastasia.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/antonioanastasia45mg.jpg">
+			<p class="senadoresName">Antonio</br>Anastasia</p>
+			<p class="senadoresParty">(PSDB-MG)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PSB uFSE">
+			<a href="antonio-carlos-valadares.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/antoniocarlosvaladares40se.jpg">
+			<p class="senadoresName">Antonio Carlos</br>Valadares</p>
+			<p class="senadoresParty">(PSB-SE)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PTB uFPE">
+			<a href="armando-monteiro.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/armandomonteiro14pe.jpg">
+			<p class="senadoresName">Armando</br>Monteiro</p>
+			<p class="senadoresParty">(PTB-PE)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PSDB uFTO">
+			<a href="ataides-oliveira.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/ataidesoliveira45to.jpg">
+			<p class="senadoresName">Ataídes</br>Oliveira</p>
+			<p class="senadoresParty">(PSDB-TO)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PP uFAL">
+			<a href="benedito-de-lira.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/beneditodelira11al.jpg">
+			<p class="senadoresName">Benedito</br>de Lira</p>
+			<p class="senadoresParty">(PP-AL)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PSDB uFPB">
+			<a href="cassio-cunha-lima.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/cassiocunhalima45pb.jpg">
+			<p class="senadoresName">Cássio</br>Cunha Lima</p>
+			<p class="senadoresParty">(PSDB-PB)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PR uFMT">
+			<a href="cidinho-santos.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/cidinhosantos22mt.jpg">
+			<p class="senadoresName">Cidinho</br>Santos</p>
+			<p class="senadoresParty">(PR-MT)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PP uFPI">
+			<a href="ciro-nogueira.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/cironogueira11pi.jpg">
+			<p class="senadoresName">Ciro</br>Nogueira</p>
+			<p class="senadoresParty">(PP-PI)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PPS uFDF">
+			<a href="cristovam-buarque.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/cristovambuarque23df.jpg">
+			<p class="senadoresName">Cristovam</br>Buarque</p>
+			<p class="senadoresParty">(PPS-DF)</p>
+			</a>
+		</div>
+	
+		<div class="senadoresBox PSDB uFSC">
+			<a href="dalirio-beber.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/daliriobeber45sc.jpg">
+			<p class="senadoresName">Dalirio</br>Beber</p>
+			<p class="senadoresParty">(PSDB-SC)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PMDB uFSC">
+			<a href="dario-berger.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/darioberger15sc.jpg">
+			<p class="senadoresName">Dario</br>Berger</p>
+			<p class="senadoresParty">(PMDB-SC)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox DEM uFAP">
+			<a href="davi-alcolumbre.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/davialcolumbre25ap.jpg">
+			<p class="senadoresName">Davi</br>Alcolumbre</p>
+			<p class="senadoresParty">(DEM-AP)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PMDB uFMA">
+			<a href="edison-lobao.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/edisonlobao15ma.jpg">
+			<p class="senadoresName">Edison</br>Lobão</p>
+			<p class="senadoresParty">(PMDB-MA)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PSDB uFSE">
+			<a href="eduardo-amorim.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/eduardoamorim45se.jpg">
+			<p class="senadoresName">Eduardo</br>Amorim</p>
+			<p class="senadoresParty">(PSDB-SE)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PMDB uFAM">
+			<a href="eduardo-braga.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/eduardobraga15am.jpg">
+			<p class="senadoresName">Eduardo</br>Braga</p>
+			<p class="senadoresParty">(PMDB-AM)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PRB uFRJ">
+			<a href="eduardo-lopes.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/eduardolopes10rj.jpg">
+			<p class="senadoresName">Eduardo</br>Lopes</p>
+			<p class="senadoresParty">(PRB-RJ)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PMDB uFPI">
+			<a href="elmano-ferrer.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/elmanoferrer15pi.jpg">
+			<p class="senadoresName">Elmano</br>Ferrer</p>
+			<p class="senadoresParty">(PMDB-PI)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PMDB uFCE">
+			<a href="eunicio-oliveira.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/euniciooliveira15ce.jpg">
+			<p class="senadoresName">Eunício</br>Oliveira</p>
+			<p class="senadoresParty">(PMDB-CE)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PT uFRN">
+			<a href="fatima-bezerra.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/fatimabezerra13rn.jpg">
+			<p class="senadoresName">Fatima</br>Bezerra</p>
+			<p class="senadoresParty">(PT-RN)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PMDB uFPE">
+			<a href="fernando-bezerra-coelho.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/fernandobezerracoelho15pe.jpg">
+			<p class="senadoresName">Fernando</br>Bezerra Coelho</p>
+			<p class="senadoresParty">(PMDB-PE)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PTC uFAL">
+			<a href="fernando-collor.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/fernandocollor36al.jpg">
+			<p class="senadoresName">Fernando</br>Collor</p>
+			<p class="senadoresParty">(PTC-AL)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PSDB uFPA">
+			<a href="flexa-ribeiro.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/flexaribeiro45pa.jpg">
+			<p class="senadoresName">Flexa</br>Ribeiro</p>
+			<p class="senadoresParty">(PSDB-PA)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PMDB uFRN">
+			<a href="garibaldi-alves-filho.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/garibaldialvesfilho15rn.jpg">
+			<p class="senadoresName">Garibaldi Alves</br>Filho</p>
+			<p class="senadoresParty">(PMDB-RN)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PP uFAC">
+			<a href="gladson-cameli.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/gladsoncameli11ac.jpg">
+			<p class="senadoresName">Gladson</br>Cameli</p>
+			<p class="senadoresParty">(PP-AC)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PT uFPR">
+			<a href="gleisi-hoffmann.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/gleisihoffmann13pr.jpg">
+			<p class="senadoresName">Gleisi</br>Hoffmann</p>
+			<p class="senadoresParty">(PT-PR)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PMDB uFDF">
+			<a href="helio-jose.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/heliojose15df.jpg">
+			<p class="senadoresName">Hélio</br>José</p>
+			<p class="senadoresParty">(PMDB-DF)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PT uFPE">
+			<a href="humberto-costa.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/humbertocosta13pe.jpg">
+			<p class="senadoresName">Humberto</br>Costa</p>
+			<p class="senadoresParty">(PT-PE)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PP uFRO">
+			<a href="ivo-cassol.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/ivocassol11ro.jpg">
+			<p class="senadoresName">Ivo</br>Cassol</p>
+			<p class="senadoresParty">(PP-RO)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PMDB uFPA">
+			<a href="jader-barbalho.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/jaderbarbalho15pa.jpg">
+			<p class="senadoresName">Jader</br>Barbalho</p>
+			<p class="senadoresParty">(PMDB-PA)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PMDB uFMA">
+			<a href="joao-alberto-souza.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/joaoalbertosouza15ma.jpg">
+			<p class="senadoresName">João Alberto</br>Souza</p>
+			<p class="senadoresParty">(PMDB-MA)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PSB uFAP">
+			<a href="joao-capiberibe.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/joaocapiberibe40ap.jpg">
+			<p class="senadoresName">João</br>Capiberibe</p>
+			<p class="senadoresParty">(PSB-AP)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PT uFAC">
+			<a href="jorge-viana.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/jorgeviana13ac.jpg">
+			<p class="senadoresName">Jorge</br>Viana</p>
+			<p class="senadoresParty">(PT-AC)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox DEM uFRN">
+			<a href="jose-agripino.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/joseagripino25rn.jpg">
+			<p class="senadoresName">José</br>Agripino</p>
+			<p class="senadoresParty">(DEM-RN)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PMDB uFPB">
+			<a href="jose-maranhao.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/josemaranhao15pb.jpg">
+			<p class="senadoresName">José</br>Maranhão</p>
+			<p class="senadoresParty">(PMDB-PB)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox Podemos uFMT">
+			<a href="jose-medeiros.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/josemedeiros19mt.jpg">
+			<p class="senadoresName">José</br>Medeiros</p>
+			<p class="senadoresParty">(Podemos-MT)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PT uFCE">
+			<a href="jose-pimentel.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/josepimentel13ce.jpg">
+			<p class="senadoresName">José</br>Pimentel</p>
+			<p class="senadoresParty">(PT-CE)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PSDB uFSP">
+			<a href="jose-serra.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/joseserra45sp.jpg">
+			<p class="senadoresName">José</br>Serra</p>
+			<p class="senadoresParty">(PSDB-SP)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PMDB uFTO">
+			<a href="katia-abreu.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/katiaabreu15to.jpg">
+			<p class="senadoresName">Kátia</br>Abreu</p>
+			<p class="senadoresParty">(PMDB-TO)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PSD uFRS">
+			<a href="lasier-martins.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/lasiermartins55rs.jpg">
+			<p class="senadoresName">Lasier</br>Martins</p>
+			<p class="senadoresParty">(PSD-RS)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PSB uFBA">
+			<a href="lidice-da-mata.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/lidicedamata40ba.jpg">
+			<p class="senadoresName">Lídice</br>da Mata</p>
+			<p class="senadoresParty">(PSB-BA)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PT uFRJ">
+			<a href="lindbergh-farias.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/lindberghfarias13rj.jpg">
+			<p class="senadoresName">Lindbergh</br>Farias</p>
+			<p class="senadoresParty">(PT-RJ)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PSB uFGO">
+			<a href="lucia-vania.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/luciavania40go.jpg">
+			<p class="senadoresName">Lucia</br>Vania</p>
+			<p class="senadoresParty">(PSB-GO)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PR uFES">
+			<a href="magno-malta.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/magnomalta22es.jpg">
+			<p class="senadoresName">Magno</br>Malta</p>
+			<p class="senadoresParty">(PR-ES)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox DEM uFSE">
+			<a href="maria-do-carmo-alves.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/mariadocarmoalves25se.jpg">
+			<p class="senadoresName">Maria do Carmo</br>Alves</p>
+			<p class="senadoresParty">(DEM-SE)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PMDB uFSP">
+			<a href="marta-suplicy.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/martasuplicy15sp.jpg">
+			<p class="senadoresName">Marta</br>Suplicy</p>
+			<p class="senadoresParty">(PMDB-SP)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PSD uFAM">
+			<a href="omar-aziz.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/omaraziz55am.jpg">
+			<p class="senadoresName">Omar</br>Aziz</p>
+			<p class="senadoresParty">(PSD-AM)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PSD uFBA">
+			<a href="otto-alencar.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/ottoalencar55ba.jpg">
+			<p class="senadoresName">Otto</br>Alencar</p>
+			<p class="senadoresParty">(PSD-BA)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PSDB uFSC">
+			<a href="paulo-bauer.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/paulobauer45sc.jpg">
+			<p class="senadoresName">Paulo</br>Bauer</p>
+			<p class="senadoresParty">(PSDB-SC)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PT uFRS">
+			<a href="paulo-paim.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/paulopaim13rs.jpg">
+			<p class="senadoresName">Paulo</br>Paim</p>
+			<p class="senadoresParty">(PT-RS)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PT uFPA">
+			<a href="paulo-rocha.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/paulorocha13pa.jpg">
+			<p class="senadoresName">Paulo</br>Rocha</p>
+			<p class="senadoresParty">(PT-PA)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PSC uFMS">
+			<a href="pedro-chaves.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/pedrochaves20ms.jpg">
+			<p class="senadoresName">Pedro</br>Chaves</p>
+			<p class="senadoresParty">(PSC-MS)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PMDB uFPB">
+			<a href="raimundo-lira.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/raimundolira15pb.jpg">
+			<p class="senadoresName">Raimundo</br>Lira</p>
+			<p class="senadoresParty">(PMDB-PB)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox Rede uFAP">
+			<a href="randolfe-rodrigues.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/randolferodrigues18ap.jpg">
+			<p class="senadoresName">Randolfe</br>Rodrigues</p>
+			<p class="senadoresParty">(Rede-AP)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PT uFPI">
+			<a href="regina-sousa.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/reginasousa13pi.jpg">
+			<p class="senadoresName">Regina</br>Sousa</p>
+			<p class="senadoresParty">(PT-PI)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox sem-partido uFDF">
+			<a href="reguffe.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/reguffenonedf.jpg">
+			<p class="senadoresName">Reguffe</br>#</p>
+			<p class="senadoresParty">(sem partido-DF)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PMDB uFAL">
+			<a href="renan-calheiros.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/renancalheiros15al.jpg">
+			<p class="senadoresName">Renan</br>Calheiros</p>
+			<p class="senadoresParty">(PMDB-AL)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PSDB uFES">
+			<a href="ricardo-ferraco.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/ricardoferraco45es.jpg">
+			<p class="senadoresName">Ricardo</br>Ferraço</p>
+			<p class="senadoresParty">(PSDB-ES)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PP uFBA">
+			<a href="roberto-muniz.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/robertomuniz11ba.jpg">
+			<p class="senadoresName">Roberto</br>Muniz</p>
+			<p class="senadoresParty">(PP-BA)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PMDB uFPR">
+			<a href="roberto-requiao.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/robertorequiao15pr.jpg">
+			<p class="senadoresName">Roberto</br>Requião</p>
+			<p class="senadoresParty">(PMDB-PR)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PSB uFMA">
+			<a href="roberto-rocha.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/robertorocha40ma.jpg">
+			<p class="senadoresName">Roberto</br>Rocha</p>
+			<p class="senadoresParty">(PSB-MA)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox Podemos uFRJ">
+			<a href="romario.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/romario19rj.jpg">
+			<p class="senadoresName">Romário</br>#</p>
+			<p class="senadoresParty">(Podemos-RJ)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PMDB uFRR">
+			<a href="romero-juca.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/romerojuca15rr.jpg">
+			<p class="senadoresName">Romero</br>Jucá</p>
+			<p class="senadoresParty">(PMDB-RR)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox DEM uFGO">
+			<a href="ronaldo-caiado.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/ronaldocaiado25go.jpg">
+			<p class="senadoresName">Ronaldo</br>Caiado</p>
+			<p class="senadoresParty">(DEM-GO)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PMDB uFES">
+			<a href="rose-de-freitas.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/rosedefreitas15es.jpg">
+			<p class="senadoresName">Rose</br>de Freitas</p>
+			<p class="senadoresParty">(PMDB-ES)</p>
+			</a>
+		</div>
+	
+		<div class="senadoresBox PSD uFAC">
+			<a href="sergio-petecao.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/sergiopetecao55ac.jpg">
+			<p class="senadoresName">Sergio</br>Petecão</p>
+			<p class="senadoresParty">(PSD-AC)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PMDB uFMS">
+			<a href="simone-tebet.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/simonetebet15ms.jpg">
+			<p class="senadoresName">Simone</br>Tebet</p>
+			<p class="senadoresParty">(PMDB-MS)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PSDB uFCE">
+			<a href="tasso-jereissati.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/tassojereissati45ce.jpg">
+			<p class="senadoresName">Tasso</br>Jereissati</p>
+			<p class="senadoresParty">(PSDB-CE)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PTB uFRR">
+			<a href="thieres-pinto.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/thierespinto14rr.jpg">
+			<p class="senadoresName">Thieres</br>Pinto</p>
+			<p class="senadoresParty">(PTB-RR)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PMDB uFRO">
+			<a href="valdir-raupp.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/valdirraupp15ro.jpg">
+			<p class="senadoresName">Valdir</br>Raupp</p>
+			<p class="senadoresParty">(PMDB-RO)</p>
+			</a>
+		</div>
+	
+		<div class="senadoresBox PCdoB uFAM">
+			<a href="vanessa-grazziotin.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/vanessagrazziotin65am.jpg">
+			<p class="senadoresName">Vanessa</br>Grazziotin</p>
+			<p class="senadoresParty">(PCdoB-AM)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PR uFTO">
+			<a href="vicentinho-alves.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/vicentinhoalves22to.jpg">
+			<p class="senadoresName">Vicentinho</br>Alves</p>
+			<p class="senadoresParty">(PR-TO)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PMDB uFMS">
+			<a href="waldemir-moka.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/waldemirmoka15ms.jpg">
+			<p class="senadoresName">Waldemir</br>Moka</p>
+			<p class="senadoresParty">(PMDB-MS)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PR uFMT">
+			<a href="wellington-fagundes.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/wellingtonfagundes22mt.jpg">
+			<p class="senadoresName">Wellington</br>Fagundes</p>
+			<p class="senadoresParty">(PR-MT)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PP uFGO">
+			<a href="wilder-morais.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/wildermorais11go.jpg">
+			<p class="senadoresName">Wilder</br>Morais</p>
+			<p class="senadoresParty">(PP-GO)</p>
+			</a>
+		</div>
+
+		<div class="senadoresBox PMDB uFMG">
+			<a href="zeze-perrella.html">
+			<img alt="Foto: Divulgação/Senado Federal" src="imagesSenadores/zezeperrella15mg.jpg">
+			<p class="senadoresName">Zezé</br>Perrella</span>
+			<p class="senadoresParty">(PMDB-MG)</p>
+			</a>
+		</div>
+
+	</section>	
+</div>
+
+	<section class="container">
+			<footer class="flex">
+				<p>Desenvolvido com <i class="fa fa-heart" aria-hidden="true"></i> por Gabriela Caesar</p>
+			</footer>
+	</section>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="script.js"></script>
+</body>
