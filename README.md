@@ -3,34 +3,34 @@
 
 [english]</br>
 plenario is an open source project which focuses on the results of the brazilian senate.
-it was coded during the four last days of the front-end bootcamp {reprograma}, in partnership with senai santa cecília, as final work. 
+it was coded during the four last days of the front-end bootcamp {reprograma}, in partnership with senai santa cecília, as final work.
 
 plenario was idealized and coded by @gabrielacaesar.
 @guisoares2011 has kindly helped with a pull request.
 and we also had some help of {reprograma}'s volunteers and three teachers who work for senai santa cecília, institution located in são paulo, brazil.
 
-the main idea is to offer a social control tool that stimulates the social participation and transparency. 
+the main idea is to offer a social control tool that stimulates the social participation and transparency.
 we believe accountability is important to consolidate democracies.
 
-and, of course, with internet and social media, it gets easier to reach the politicians. 
+and, of course, with internet and social media, it gets easier to reach the politicians.
 we should make use of this advantage.
 
 we elect senators every four years. all the 26 states and Distrito Federal are represented by three senators.
 in total, they are 81 senators. each one also have two substitutes, in case the senator dies, gets a license or resigns.
 
-when elected, the senator guarantee at least eight years in power. 
+when elected, the senator guarantee at least eight years in power.
 
-and, of course, a huge list of benefits, such as an apartment in Brasília, car, health assistance, employees (sometimes, more than 70 people) and more than R$ 30.000 available to spend per month with general spending. 
+and, of course, a huge list of benefits, such as an apartment in Brasília, car, health assistance, employees (sometimes, more than 70 people) and more than R$ 30.000 available to spend per month with general spending.
 
 why shouldn't we keep our eyes on them, even before the election?
 
 why shouldn't we get in touch with them to ask about their recent decisions?
 
 **methodology**</br>
-1 - the first version of plenario presents the results of 12 propositions voted by senators. 
+1 - the first version of plenario presents the results of 12 propositions voted by senators.
 all of them have been covered by the media and might be of society's interest.
 
-two of 12 propositions are about the impeachment of Dilma Rousseff, in august 2016. 
+two of 12 propositions are about the impeachment of Dilma Rousseff, in august 2016.
 they have been choosen due to the relevance.
 
 the more recent proposition, "reforma trabalhista", was voted in july 2017.
@@ -42,7 +42,7 @@ there is also vote by acclamation, when we can't know exactly how each senator v
 fortunately, due to the nominal votings, we do have the opened results of the most controversial and important issues.
 
 3 - the data was collected of the official website [www.senado.leg.br].
-we think that it's better to communicate with less variables as possible. 
+we think that it's better to communicate with less variables as possible.
 
 this explains why we've decided to unify these labels:
 <ul>
@@ -62,13 +62,13 @@ following this logic, we've decided to unify two others labels:
 
 on plenario, all these labels are called "não votou".
 
-4 - we are concerned not to get people confused. that's why we have considered the current party of the senator. 
+4 - we are concerned not to get people confused. that's why we have considered the current party of the senator.
 
 although Ângela Portela was affiliated with PT during the impeachment, her current party is PDT.
-pleario will always show Ângela Portela affiliated with PDT. 
+pleario will always show Ângela Portela affiliated with PDT.
 
-the same situation happens with Alvaro Dias and Romário, for example. 
-both have migrated to Podemos, former PTN. 
+the same situation happens with Alvaro Dias and Romário, for example.
+both have migrated to Podemos, former PTN.
 
 =====</br>
 [português]</br>
@@ -83,7 +83,7 @@ e, é claro, com internet e mídias sociais, ficou mais fácil alcançar os pol�
 
 elegemos senadores a cada quatro anos. todos os 26 estados e o Distrito Federal são representados por três senadores. no total, são 81 senadores. cada um tem dois suplentes, caso o senador morra, peça licença ou renuncie.
 
-quando eleitos, o senador garante, pelo menos, oito anos no poder. 
+quando eleitos, o senador garante, pelo menos, oito anos no poder.
 
 e, claro, uma lista imensa de benefícios, como apartamento em Brasília, carro, auxílio saúde, funcionários (algumas vezes, mais de 70 pessoas) e mais de R$ 30 mil mensais para gastos gerais.
 
@@ -93,7 +93,7 @@ por que nós não deveríamos contatá-los para perguntar sobre suas recentes de
 
 **metodologia**
 
-1 - a primeira versão do plenário apresenta o resultado de 12 proposições votadas pelos senadores. todas receberam destaque na imprensa e podem ser de interesse público. 
+1 - a primeira versão do plenário apresenta o resultado de 12 proposições votadas pelos senadores. todas receberam destaque na imprensa e podem ser de interesse público.
 
 duas das 12 proposições são sobre o impeachment de Dilma Rousseff, em agosto de 2016. elas foram escolhidas por conta da relevância nacional.
 
@@ -114,7 +114,7 @@ isso explica por que nós decidimos unificar os rótulos abaixo:
 <li>"licença particular", rótulo identificado pelo Senado por LP.</li>
 </ul>
 
-no plenario, todos esses rótulos foram chamados de "ausente". 
+no plenario, todos esses rótulos foram chamados de "ausente".
 
 seguindo a mesma lógica, decidimos unificar dois outros rótulos:
 
@@ -130,3 +130,4 @@ no plenario, todos esses rótulos foram chamados de "não votou".
 embora Ângela Portela estivesse filiada ao PT na época do  impeachment, o partido atual dela é o PDT. plenário mostrará sempre a senadora Ângela Portela filiada ao PDT.
 
 temos a mesma situação com Alvaro Dias and Romário, por exemplo. ambos migraram para o Podemos, ex-PTN.
+>>>>>>> b3c5a7044ce06adb1dae266c46a78575b812c70c
