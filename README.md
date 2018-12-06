@@ -1,5 +1,5 @@
 ![alt text](https://github.com/plenario/plenario/blob/master/imagens/headerSocialProjetoPlenario2facebook.jpg)
-<a href="https://github.com/plenario/plenario">github.com/plenario/plenario</a>
+<a href="https://plenario.github.io/plenario/">https://plenario.github.io/plenario/</a>
 
 [english]</br>
 plenario is an open source project which focuses on the results of the brazilian senate.
